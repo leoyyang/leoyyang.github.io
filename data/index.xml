@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Collected by Leo Y. YANG</title>
+    <link>http://www.leoyang.org/data/</link>
+    <description>Data collected by Leo Y. YANG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Leo Y. YANG</copyright>
+    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.leoyang.org/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sina Weibo User Information</title>
+      <link>http://www.leoyang.org/data/sina_weibo_user/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.leoyang.org/data/sina_weibo_user/</guid>
+      <description>Sina Weibo users’ profile data, scraped in 2017.</description>
+    </item>
+    
+  </channel>
+</rss>
