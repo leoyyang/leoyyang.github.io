@@ -14,7 +14,15 @@
       href=""
     /></url>
   <url>
-    <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2022-05-27T00:00:00+00:00</lastmod></url>
+    <loc>https://leoyang.org/publication-type/2/</loc><lastmod>2022-05-27T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/publication-type/2/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/publication-type/2/"
+    /></url>
   <url>
     <loc>https://leoyang.org/publication/media_factions/</loc><lastmod>2022-05-27T00:00:00+00:00</lastmod></url>
   <url>
@@ -63,6 +71,8 @@
       hreflang="en"
       href="https://leoyang.org/publication/"
     /></url>
+  <url>
+    <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication/mining_disaster/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
   <url>
