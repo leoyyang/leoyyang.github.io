@@ -5,12 +5,34 @@
     <link>https://leoyang.org/event/</link>
       <atom:link href="https://leoyang.org/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Leo Y. Yang</copyright><lastBuildDate>Sun, 16 Feb 2020 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Leo Y. Yang</copyright><lastBuildDate>Fri, 24 Feb 2023 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://leoyang.org/event/</link>
     </image>
+    
+    <item>
+      <title>Asian Perspective Seminar Series</title>
+      <link>https://leoyang.org/talk/asian-perspective-seminar-series/</link>
+      <pubDate>Fri, 24 Feb 2023 11:00:00 +0000</pubDate>
+      <guid>https://leoyang.org/talk/asian-perspective-seminar-series/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.  --&gt;
+</description>
+    </item>
     
     <item>
       <title>SDSI Data Science Lab</title>

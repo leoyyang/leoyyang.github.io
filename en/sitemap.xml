@@ -4,6 +4,28 @@
   
   
   <url>
+    <loc>https://leoyang.org/talk/asian-perspective-seminar-series/</loc><lastmod>2023-02-24T11:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/</loc><lastmod>2023-02-24T11:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/event/</loc><lastmod>2023-02-24T11:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/event/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/event/"
+    /></url>
+  <url>
     <loc></loc><lastmod>2023-01-07T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="zh"
@@ -17,16 +39,6 @@
     <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication/gaslighting/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/"
-    /></url>
   <url>
     <loc></loc><lastmod>2023-01-07T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
@@ -194,16 +206,6 @@
       rel="alternate"
       hreflang="en"
       href="https://leoyang.org/category/%E6%95%99%E7%A8%8B/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/event/</loc><lastmod>2020-02-16T13:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/event/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/event/"
     /></url>
   <url>
     <loc>https://leoyang.org/talk/sdsi-data-science-lab/</loc><lastmod>2020-02-16T13:00:00+00:00</lastmod><xhtml:link
