@@ -26,7 +26,7 @@
       href="https://leoyang.org/event/"
     /></url>
   <url>
-    <loc></loc><lastmod>2023-01-07T00:00:00+00:00</lastmod><xhtml:link
+    <loc></loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="zh"
       href=""
@@ -35,24 +35,62 @@
       hreflang="en"
       href=""
     /></url>
+  <url>
+    <loc>https://leoyang.org/categories/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/categories/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/category/data-think/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc></loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /></url>
+  <url>
+    <loc>https://leoyang.org/tag/movie-box/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/post/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/post/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/tags/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/tags/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/post/spring_festival_movie_box/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication/gaslighting/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2023-01-07T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
   <url>
     <loc>https://leoyang.org/publication_types/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
@@ -107,106 +145,6 @@
     <loc></loc><lastmod>2021-09-06T00:00:00+00:00</lastmod></url>
   <url>
     <loc></loc><lastmod>2021-09-06T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/tag/academic/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/tag/academic/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/tag/academic/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/categories/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/categories/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/category/demo/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/category/demo/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/category/demo/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
-  <url>
-    <loc>https://leoyang.org/post/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/post/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/tags/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/tags/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/post/getting-started/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/post/getting-started/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
-  <url>
-    <loc>https://leoyang.org/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/tag/%E5%BC%80%E6%BA%90/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/tag/%E5%BC%80%E6%BA%90/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/category/%E6%95%99%E7%A8%8B/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/category/%E6%95%99%E7%A8%8B/"
-    /></url>
   <url>
     <loc>https://leoyang.org/talk/sdsi-data-science-lab/</loc><lastmod>2020-02-16T13:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
@@ -294,6 +232,16 @@
       rel="alternate"
       hreflang="en"
       href="https://leoyang.org/admin/"
+    /></url>
+  <url>
+    <loc></loc><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
     /></url>
   <url>
     <loc></loc><xhtml:link

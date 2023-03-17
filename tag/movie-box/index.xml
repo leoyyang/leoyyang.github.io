@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Leo Y. Yang</title>
-    <link>https://leoyang.org/post/</link>
-      <atom:link href="https://leoyang.org/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>Movie Box | Leo Y. Yang</title>
+    <link>https://leoyang.org/tag/movie-box/</link>
+      <atom:link href="https://leoyang.org/tag/movie-box/index.xml" rel="self" type="application/rss+xml" />
+    <description>Movie Box</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Leo Y. Yang</copyright><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
-      <title>Posts</title>
-      <link>https://leoyang.org/post/</link>
+      <title>Movie Box</title>
+      <link>https://leoyang.org/tag/movie-box/</link>
     </image>
     
     <item>
