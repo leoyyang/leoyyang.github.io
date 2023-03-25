@@ -26,7 +26,7 @@
       href="https://leoyang.org/event/"
     /></url>
   <url>
-    <loc></loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
+    <loc></loc><lastmod>2023-02-10T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="zh"
       href=""
@@ -34,6 +34,44 @@
       rel="alternate"
       hreflang="en"
       href=""
+    /></url>
+  <url>
+    <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2023-02-10T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/publication/building_wall/</loc><lastmod>2023-02-10T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc></loc><lastmod>2023-02-10T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /></url>
+  <url>
+    <loc>https://leoyang.org/publication_types/</loc><lastmod>2023-02-10T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/publication_types/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/publication_types/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/publication/</loc><lastmod>2023-02-10T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/publication/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/publication/"
     /></url>
   <url>
     <loc>https://leoyang.org/categories/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
@@ -47,20 +85,6 @@
     /></url>
   <url>
     <loc>https://leoyang.org/category/data-think/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
   <url>
     <loc>https://leoyang.org/tag/movie-box/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
   <url>
@@ -88,29 +112,7 @@
   <url>
     <loc>https://leoyang.org/post/spring_festival_movie_box/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/publication/gaslighting/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/publication_types/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/publication_types/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/publication_types/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/publication/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/publication/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/publication/"
-    /></url>
+    <loc>https://leoyang.org/publication/gaslighting-copy/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod></url>
   <url>
     <loc></loc><lastmod>2023-01-07T00:00:00+00:00</lastmod></url>
   <url>
