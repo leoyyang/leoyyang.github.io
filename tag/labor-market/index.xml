@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labor Market | Leo Y. Yang</title>
+    <link>https://leoyang.org/tag/labor-market/</link>
+      <atom:link href="https://leoyang.org/tag/labor-market/index.xml" rel="self" type="application/rss+xml" />
+    <description>Labor Market</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Leo Y. Yang</copyright><lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
+      <title>Labor Market</title>
+      <link>https://leoyang.org/tag/labor-market/</link>
+    </image>
+    
+    <item>
+      <title>Unveiling the Impact of AI on the Job Market: Assessing the Potential Substitution of Occupations by Large Language Models in China</title>
+      <link>https://leoyang.org/post/online_job_3/</link>
+      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://leoyang.org/post/online_job_3/</guid>
+      <description>&lt;h2 id=&#34;gpt-is-here-will-i-be-replaced-by-it&#34;&gt;GPT is here, will I be replaced by it?&lt;/h2&gt;
+&lt;p&gt;Readers who have followed our previous two articles will find that the recruitment data we use is up to the end of 2022.&lt;/p&gt;
+&lt;p&gt;But in 2023, it seems to have entered a new era, the rapid launch of various generative AI has brought unprecedented shocks. The most representative of generative AI is OpenAI&amp;rsquo;s large language model - ChatGPT. Many people, through personal trials, feel a deep crisis while being shocked by technology, as if their work can be easily replaced by AI. This emotion was quickly captured by various media and marketing numbers, and was amplified to the point where everyone knows it through individual interviews and literary interpretations. However, so far, serious research on the impact of generative AI (or narrowly to large models) on the job market is still rare.&lt;/p&gt;
+&lt;p&gt;The most meaningful research at present is actually from OpenAI itself. OpenAI in their latest working paper &amp;ldquo;GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models&amp;rdquo;, discussed in depth the possible impact of AI on the labor market.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_3/fig_1_hu8eb245e76fae3d161b7943bc6e4eb517_296947_202339dba9a0f9b592ad29b5cd8ab7f1.webp 400w,
+               /post/online_job_3/fig_1_hu8eb245e76fae3d161b7943bc6e4eb517_296947_767fe614e7ff76955c9ab7b1a3fed0ac.webp 760w,
+               /post/online_job_3/fig_1_hu8eb245e76fae3d161b7943bc6e4eb517_296947_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_3/fig_1_hu8eb245e76fae3d161b7943bc6e4eb517_296947_202339dba9a0f9b592ad29b5cd8ab7f1.webp&#34;
+               width=&#34;693&#34;
+               height=&#34;618&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In this article, researchers found that under the impact of the increasingly popular large language model (LLM), at least 80% of the US workforce will be affected, and 10% of their work will be replaced by LLM. Among them, 19% of the US workforce has more than 50% of the work to be replaced.&lt;/p&gt;
+&lt;p&gt;Note that the above research is only limited to the US job market. So, what about China? This is a super-large but completely different labor market from the United States, and it is also facing population aging and various labor-capital contradictions; how many of the various positions in China will be replaced or even disappear due to the impact of large language models?&lt;/p&gt;
+&lt;p&gt;In this article, we will use the ideas of OpenAI&amp;rsquo;s working paper, use recruitment data from China, and use our independently designed methods to try to give a comprehensive data answer to this public concern that goes beyond emotional cognition and covers all occupations.&lt;/p&gt;
+&lt;h2 id=&#34;discussion-on-the-key-issue-of-ai-substitution-what-exactly-is-each-profession-doing&#34;&gt;Discussion on the key issue of AI substitution: What exactly is each profession doing?&lt;/h2&gt;
+&lt;p&gt;To analyze to what extent a position can be replaced by GPT or other derived AI models, the first thing to clarify is a key issue:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What exactly is each profession doing?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We often see in marketing numbers that AI will replace secretaries, AI will replace programmers, and so on. But this is a very vague expression. In essence, what AI replaces is not a vague professional name in public cognition, but the functions and work content contained in this profession.&lt;/p&gt;
+&lt;p&gt;So, what are the functions contained in the profession? On the recruitment website, we will see &amp;ldquo;job description&amp;rdquo;, for example, the job description of a typical human resources department employee may include the following content:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Recruitment of new employees, handling of employee entry procedures&lt;/li&gt;
+&lt;li&gt;Arrangement and implementation of new employee entry training&lt;/li&gt;
+&lt;li&gt;Attendance and salary performance calculation&lt;/li&gt;
+&lt;li&gt;Maintenance and expansion of the company&amp;rsquo;s recruitment channels, assistance in social recruitment and other recruitment activities&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Everyone can see that each of these is a function of the human resources department. And each function includes richer work content. For example, &amp;ldquo;arrange and carry out new employee entry training&amp;rdquo;, which includes the following specific work content - 1, writing, preparing training materials; 2, communication, communication and arrangement of schedule; 3, speech, training, improve employee skills&amp;hellip; and other specific work content.&lt;/p&gt;
+&lt;p&gt;When the work structure of the &amp;ldquo;human resources specialist&amp;rdquo; profession is broken down into several or even dozens of functions and work content, it is only possible to judge how likely it is that the content of &amp;ldquo;writing, preparing training materials&amp;rdquo; will be impacted by AI, so as to produce specific, quantifiable, and meaningful answers.&lt;/p&gt;
+&lt;p&gt;Well, then the question is, how can we get the function and work content information of each profession? In order to obtain the task decomposition information of various occupations, the Onet database is used in the OpenAI paper. Onet, the full name is Occupational Information Network, is a free online database based on standardized American occupations. This database has completed all (American) professional decompositions.&lt;/p&gt;
+&lt;p&gt;So does China have a database like Onet? Unfortunately, there is currently no, and because there is a certain difference between China and the United States in the definition of occupations, the occupations in the Onet database are difficult to form an accurate mapping relationship with the standard occupations in the Chinese Occupational Dictionary.&lt;/p&gt;
+&lt;p&gt;So we adopted an indirect matching method, using real recruitment data on the market as a medium, each piece of recruitment data, through the method in the previous article, simultaneously maps to the Chinese standard profession and the O*net standard profession, and then summarizes according to the Chinese standard profession, thus obtaining the work tasks and specific work content under each Chinese standard profession. After summarizing and abstracting and merging, we matched and produced a total of 1639 occupations, 19265 functions and 23534 work content.&lt;/p&gt;
+&lt;h2 id=&#34;who-will-judge-the-ai-substitution-unexpectedly-the-data-annotator&#34;&gt;Who will judge the AI substitution? Unexpectedly, the &amp;ldquo;data annotator&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;After obtaining the above data, that is, clarifying the specific work tasks and content of each occupation, according to the method of OpenAI, the next step is to label each work task and specific work content to specifically judge whether it will be replaced by AI. At this point, the data to be labeled is about tens of thousands, so how to complete this work?&lt;/p&gt;
+&lt;p&gt;In the past, we needed to hire a large number of human data annotators to label the 19,265 work tasks and 23,534 types of work content, let the annotators judge the possibility of each task being replaced by AI, whether it is 30% or 70%, and then merge these annotators&#39; work together to average, to get the possibility of each occupation being replaced by AI.&lt;/p&gt;
+&lt;p&gt;Data annotators are actually a very novel occupation. They first appeared in the 2022 edition of the &amp;ldquo;China Occupation Canon&amp;rdquo;. The occupation code is 4-04-05-05-01. Under the category of &amp;ldquo;Artificial Intelligence Trainers&amp;rdquo;, the main work content includes &amp;ldquo;Labeling and processing the original data of pictures, text, voice, etc.&amp;rdquo;. Judging whether the specific tasks and work content of each occupation will be replaced by AI is naturally also a kind of work of data annotators.&lt;/p&gt;
+&lt;p&gt;Yes, it should have been done this way, and it has been done this way for so many years. But now we have a large language model, we have GPT, and things start to change.&lt;/p&gt;
+&lt;p&gt;In the working paper of OpenAI, the author indeed hired humans to label these work contents, but they also invited another more efficient assistant, that is GPT itself. After using a complex prompt to make GPT understand the background of the labeling task, let GPT take action by itself and judge how much possibility each work content will be replaced by itself.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_3/fig_2_hu44ad0a34222e0c76eeae69f35760e5c9_90361_58932e375d34586dddf48eea1c4d0698.webp 400w,
+               /post/online_job_3/fig_2_hu44ad0a34222e0c76eeae69f35760e5c9_90361_4eba3284a0b9f55d0ecdc0bdfc156727.webp 760w,
+               /post/online_job_3/fig_2_hu44ad0a34222e0c76eeae69f35760e5c9_90361_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_3/fig_2_hu44ad0a34222e0c76eeae69f35760e5c9_90361_58932e375d34586dddf48eea1c4d0698.webp&#34;
+               width=&#34;693&#34;
+               height=&#34;303&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The result is somewhat unexpected, but it makes sense when you think about it-GPT&amp;rsquo;s labeling results are highly consistent with human labeling results, and more than 81% of the labels are exactly the same. The paper let GPT annotate twice with different prompts, and the results are also very similar, with 91.1% of the results the same between the two annotations. The paper finally chose one of GPT&amp;rsquo;s annotation results for research, and the human annotation results were only used to judge the rationality of GPT and were not used in the paper.&lt;/p&gt;
+&lt;p&gt;Yes, let GPT label the &amp;ldquo;possibility of a certain work content being replaced by GPT&amp;rdquo;. Let magic judge magic. We naturally also used this method, directly used the API of GPT-4, and labeled each type of work content for each occupation. The specific prompt is similar to this (the prompt we finally used is not exactly the same, it can be modified according to the needs):&lt;/p&gt;
+&lt;p&gt;You are a &amp;ldquo;large language model labor substitution assessor&amp;rdquo;. Large language models are deep learning models used to process and generate natural language text. The latest large language models can generate and describe the creation of images and videos based on natural language text. Against this background, you need to score each of the following tasks from the perspective of &amp;ldquo;whether the task can reduce human labor time participation under the premise of achieving the same output or the same effect with the help of a large language model&amp;rdquo;. The score ranges from 0 to 5 points, 0 means that the task cannot reduce human labor input with the help of a large language model, 1 means that it can reduce 20% human labor input, 2 means it can reduce 40% human labor input, 3 means it can reduce 60% human labor input, 4 means it can reduce 80% human labor input, 5 means it can reduce 100% human labor input, that is, the task no longer needs human labor participation. Your score represents how much labor input the large language model can save in each task. Please score carefully based on the current progress of the large language model and what you think the future development situation may be. Please return the score result of each task in the format of &amp;ldquo;id, score&amp;rdquo; for each line.&lt;/p&gt;
+&lt;p&gt;In the API, the above content is used as the background input, and then the specific work tasks and work content can be input. Multiple entries can be input at a time, but due to the input token limit, we can input about 100 at most each time for GPT to help label. Next, the API of GPT-4 will quickly return the result. Since the tasks have been broken down in detail, the labeling of each task is very accurate and robust. What&amp;rsquo;s more important is that using GPT to label, the cost is extremely low. To label 40,000 pieces of content, label 100 pieces each time, only 400 times are needed. Using the GPT-4 model, each time 100 pieces are labeled, it only costs $0.12. That is to say, a total of only $48 is needed, which is more than 300 yuan in RMB. If you use the gpt-3.5-tubo model that is not so accurate, but faster and cheaper, 40,000 pieces only need to consume $3, about 20 yuan. The performance of GPT-4 and gpt-3.5-turbo is almost no difference in such simple tasks. Human data annotators need at least 10,000 yuan to complete the annotation of 40,000 pieces of content, and a week. GPT only needs half an hour, the money for a cup of milk tea. And the results are very accurate and robust.&lt;/p&gt;
+&lt;p&gt;Next, the GPT-4 API will quickly return the results. Since the tasks have been broken down in detail, the labeling for each task is very accurate and robust.&lt;/p&gt;
+&lt;p&gt;More importantly, the cost of using GPT for labeling is incredibly low. To label 40,000 pieces of content, each time labeling 100 pieces, only requires 400 times. Using the GPT-4 model, each time 100 pieces are labeled, it only costs $0.12. That is to say, a total of only $48 is needed, which is a little over 300 yuan in RMB. If you use the less accurate but faster and cheaper gpt-3.5-turbo model, 40,000 pieces only need to cost $3, about 20 yuan. On such simple tasks, the performance of GPT-4 and gpt-3.5-turbo is almost indistinguishable.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_3/fig_3_hu011f152c06588be2a1f296542e256925_48174_004756ba54e99d8ac134877be995e914.webp 400w,
+               /post/online_job_3/fig_3_hu011f152c06588be2a1f296542e256925_48174_d170a4db5a61415c10431e9799e01604.webp 760w,
+               /post/online_job_3/fig_3_hu011f152c06588be2a1f296542e256925_48174_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_3/fig_3_hu011f152c06588be2a1f296542e256925_48174_004756ba54e99d8ac134877be995e914.webp&#34;
+               width=&#34;693&#34;
+               height=&#34;338&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;A human data labeler would need at least 10,000 yuan and a week to complete the labeling of 40,000 pieces of content. GPT only needs half an hour and the cost of a cup of milk tea. And the quality of the two is almost the same.&lt;/p&gt;
+&lt;p&gt;We must face an ironic fact -&lt;/p&gt;
+&lt;p&gt;The newly emerged profession of human labelers, who have only been around for a few years, are being replaced by the large language model GPT that they fed and trained. When completing a task of &amp;ldquo;which occupations can GPT replace&amp;rdquo;, the first to be replaced were the human data labelers who trained GPT.&lt;/p&gt;
+&lt;h2 id=&#34;through-the-results-of-work-content-labeling-we-found-the-occupations-most-easily-replaced-by-ai&#34;&gt;Through the results of &amp;ldquo;work content labeling&amp;rdquo;, we found the occupations most easily replaced by AI&lt;/h2&gt;
+&lt;p&gt;Using the results of GPT labeling, we can calculate which occupations are most easily replaced by large language models and other AI-related derivative occupations. The specific calculation process is as follows:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_3/fig_4_hu86eb92d10f27662213e9a816c4e3f06c_160190_10f23838e5c9923e4586e6444e9e2637.webp 400w,
+               /post/online_job_3/fig_4_hu86eb92d10f27662213e9a816c4e3f06c_160190_d0bdf60b46d02233ceef033d7c390658.webp 760w,
+               /post/online_job_3/fig_4_hu86eb92d10f27662213e9a816c4e3f06c_160190_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_3/fig_4_hu86eb92d10f27662213e9a816c4e3f06c_160190_10f23838e5c9923e4586e6444e9e2637.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;609&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;All the work weights (from O*net data) and substitution rates are multiplied and then summed to get the AI substitution rate of the profession, which can be understood as how much of the work content of this job can be replaced by AI. We have summarized all the labeling results on Chinese occupations and given the &amp;ldquo;AI substitution coefficient&amp;rdquo; of each profession in the Data Group+ applet (thanks to Yang Yang from the University of California, San Diego (UCSD) for providing relevant data and calculations).&lt;/p&gt;
+&lt;p&gt;The table below lists the 25 occupations with the highest and lowest AI substitution rates among the occupations that have reached a certain scale of recruitment.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_3/fig_5_hucbd4bac45bab54ed9e71fbb52d963070_467216_7306e6c004d0b590723be633e8b13861.webp 400w,
+               /post/online_job_3/fig_5_hucbd4bac45bab54ed9e71fbb52d963070_467216_70444feca1a1b6c204112f4b79e3dbde.webp 760w,
+               /post/online_job_3/fig_5_hucbd4bac45bab54ed9e71fbb52d963070_467216_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_3/fig_5_hucbd4bac45bab54ed9e71fbb52d963070_467216_7306e6c004d0b590723be633e8b13861.webp&#34;
+               width=&#34;396&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The profession with the highest AI substitution rate is translation, followed by insurance underwriting professionals and playwrights. These three occupations have over 90% of their work tasks and content exposed to the risk of AI substitution.&lt;/p&gt;
+&lt;p&gt;Next, visual communication designers, decorative artists, art editors, advertising designers, editors, these occupations related to art, video, drawing, are also over 80% replaced by AI in terms of work content. Text editors, web editors, literary writers, text journalists, these occupations highly related to text generation and modification, the content replaced is also over 75%.&lt;/p&gt;
+&lt;p&gt;Call center service personnel, front desk service personnel (i.e., personnel providing consultation, reception, check-in registration, checkout and other front desk services for guests), program hosts, secretaries&amp;hellip; these occupations also appear in the top 25.&lt;/p&gt;
+&lt;p&gt;Of course, we cannot forget the 25th ranked computer program designer, on average, programmers have 75% of their work content facing the risk of being replaced by AI.&lt;/p&gt;
+&lt;p&gt;The occupations with the lowest AI substitution rates are mainly various manufacturing-related blue-collar workers. This is not surprising, because when we let GPT play the role of &amp;ldquo;large language model replacement labor evaluator&amp;rdquo; in scoring and labeling, it naturally cannot evaluate the occupations that may be replaced by other machines. But there are still a few people outside of manufacturing workers worth noting - landscapers, cleaners, laundry masters, masseurs, manicurists, Chinese pastry chefs&amp;hellip; these occupations that don&amp;rsquo;t seem to require too high education and don&amp;rsquo;t have the highest wages, have become the hardest occupations to be replaced by AI.&lt;/p&gt;
+&lt;p&gt;Of course, the above are just some summaries, if you are interested in more information about the AI substitution risk of more occupations, you can query and explore in the Data Group applet.&lt;/p&gt;
+&lt;h2 id=&#34;exploration-behind-ai-substitution-rate-and-professional-characteristics&#34;&gt;Exploration behind AI substitution rate and professional characteristics&lt;/h2&gt;
+&lt;p&gt;In the work paper of OpenAI, researchers found a stable positive correlation - the higher the wage of the profession, the higher the possibility of being replaced by GPTs. This trend only reverses after the annual income of the profession exceeds $100,000, as shown in the figure below.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_3/fig_6_hudc0b0a9987081682f4480ff6e17548f9_46239_e6c07ba130c2dcd9787e6406650987c9.webp 400w,
+               /post/online_job_3/fig_6_hudc0b0a9987081682f4480ff6e17548f9_46239_f4a1bbab1494e1cc71110f7388e1ff95.webp 760w,
+               /post/online_job_3/fig_6_hudc0b0a9987081682f4480ff6e17548f9_46239_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_3/fig_6_hudc0b0a9987081682f4480ff6e17548f9_46239_e6c07ba130c2dcd9787e6406650987c9.webp&#34;
+               width=&#34;693&#34;
+               height=&#34;273&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;So what about China? Please see the figure below&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_3/fig_7_hu655c92353fc99b1f41229dec1049eb82_498797_48518549eb7d16aaf227e1fa960e1df5.webp 400w,
+               /post/online_job_3/fig_7_hu655c92353fc99b1f41229dec1049eb82_498797_d18015d57cfceb78374e7af71e11144c.webp 760w,
+               /post/online_job_3/fig_7_hu655c92353fc99b1f41229dec1049eb82_498797_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_3/fig_7_hu655c92353fc99b1f41229dec1049eb82_498797_48518549eb7d16aaf227e1fa960e1df5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;732&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As you can see, the phenomenon in the United States does not seem to appear in China. There is no significant positive correlation between the wage level of the profession and the AI substitution rate of the profession.&lt;/p&gt;
+&lt;p&gt;However, as mentioned in the previous article, for each profession, the current wage is only part of the content, what&amp;rsquo;s more important is the growth rate of years in the profession. Some jobs may have lower entry wages, but they have more room for growth as the years of work increase, resulting in higher total income over ten years.&lt;/p&gt;
+&lt;p&gt;So, what is the relationship between the wage growth rate of years in the profession and the AI substitution rate of each profession? See the figure below:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_3/fig_8_hu02a0e51ee5b383fb46fed62ff8b964a1_553392_5db1b8b8cdf3b40ec4bae001ceaa6d3e.webp 400w,
+               /post/online_job_3/fig_8_hu02a0e51ee5b383fb46fed62ff8b964a1_553392_d679338fa204b41af59ec9ead0a898a9.webp 760w,
+               /post/online_job_3/fig_8_hu02a0e51ee5b383fb46fed62ff8b964a1_553392_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_3/fig_8_hu02a0e51ee5b383fb46fed62ff8b964a1_553392_5db1b8b8cdf3b40ec4bae001ceaa6d3e.webp&#34;
+               width=&#34;718&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As you can see, the AI substitution rate of each profession does have a very significant relationship with the wage growth rate of each profession&amp;rsquo;s years, the significance level of the positive correlation is below 0.001. If we change the above figure into a segmented bar chart, we will see a more obvious trend. Please see the figure below:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_3/fig_9_hu03caf0001c877ec876c7db3a38df73c4_223579_228369d1aa0b56d40874607a66db9ef2.webp 400w,
+               /post/online_job_3/fig_9_hu03caf0001c877ec876c7db3a38df73c4_223579_65aeb02ea3787f77afe1dd01f83fc4fb.webp 760w,
+               /post/online_job_3/fig_9_hu03caf0001c877ec876c7db3a38df73c4_223579_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_3/fig_9_hu03caf0001c877ec876c7db3a38df73c4_223579_228369d1aa0b56d40874607a66db9ef2.webp&#34;
+               width=&#34;686&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As you can see from the above figure, the occupations with the slowest wage growth per year of employment, less than 8%, are relatively the least likely to be replaced by AI. But if a profession&amp;rsquo;s wage grows by more than 20% for each year of work, the likelihood of being replaced by AI averages over 60%.&lt;/p&gt;
+&lt;p&gt;This trend indicates a significant feature of the large language model and its related AI in this round, that is:&lt;/p&gt;
+&lt;p&gt;The experience, skills, and tips that people accumulate in an industry, on the one hand, make these occupations seem to have stronger &amp;ldquo;growth&amp;rdquo;, but on the other hand, they are the first things to be replaced by large language models.&lt;/p&gt;
+&lt;p&gt;On the contrary, those human abilities that do not require deep learning to master have become skills that will not be replaced by AI.&lt;/p&gt;
+&lt;h2 id=&#34;why-is-ai-replacing-these-why-are-we-us&#34;&gt;Why is AI replacing these? Why are we us?&lt;/h2&gt;
+&lt;p&gt;Among the various jobs that are replaced by AI, why are they the ones mentioned above?&lt;/p&gt;
+&lt;p&gt;The first possibility is that those occupations that can accumulate more experience and improve productivity faster after learning and working, have higher labor costs themselves, so people are more motivated to find AI that can replace this kind of labor, and give more investment to such AI products, so these occupations become the first batch of sacrifices.&lt;/p&gt;
+&lt;p&gt;This makes some sense, but we can also find many counterexamples, such as autonomous driving. Driving this skill, people can master it in a few hours or at most a dozen hours; on the other hand, investment in autonomous driving is one of the top in the field, but the current effect is still a long way from full-condition autonomous driving.&lt;/p&gt;
+&lt;p&gt;On the contrary, some biological and chemical skills, compound finding, protein folding, or full automation in experimental procedures, these knowledge that people need years of professional training to master, although the capital intervention can only be a drop in the bucket compared to autonomous driving, but there are already very good replacement AI.&lt;/p&gt;
+&lt;p&gt;From this point of view, the logic of higher labor prices - attracting more investment - more likely to appear replacement AI seems not entirely correct.&lt;/p&gt;
+&lt;p&gt;So, we have to consider the second possibility - the skills that humans learn knowledge, accumulate experience and tips through practice, AI has indeed achieved or even surpassed.&lt;/p&gt;
+&lt;p&gt;Yes, it&amp;rsquo;s not a single skill, nor a group of skills, but those skills that are acquired through hard learning and practice, humans are already behind AI. Those high-growth occupations, whether they are in the safe zone now or not, the appearance of replacement AI may be a matter of these few years, or even a few months.&lt;/p&gt;
+&lt;p&gt;In the end, those skills that human children have mastered even at birth, those exquisite biological instincts of humans, seem to be the hardest part for AI to imitate and replace.&lt;/p&gt;
+&lt;p&gt;And those acquired knowledge, it takes a long time to learn arithmetic, learn to write, learn to draw, learn to program, learn to make good-looking ppt, learn to read X-ray films, learn to write legal documents, learn many languages and communicate freely&amp;hellip; Humans have learned all kinds of things to be proud of, and feel that these characteristics seem to make humans philosophically different from other creatures.&lt;/p&gt;
+&lt;p&gt;But in the eyes of AI, these things are worthless.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Future of Professions: A Data-Driven Analysis of Wage Growth and Career Choices Across Cities and Industries</title>
+      <link>https://leoyang.org/post/online_job_2/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://leoyang.org/post/online_job_2/</guid>
+      <description>&lt;p&gt;In the previous article, we mapped 500 million recruitment data points from 2015 to 2022 to the standard job codes in China.&lt;/p&gt;
+&lt;p&gt;How should we interpret this vast amount of recruitment data? What phenomena can we observe from this data? In this article, we will explore these questions.&lt;/p&gt;
+&lt;h2 id=&#34;relation-between-recruitment-data-and-actual-employment-data&#34;&gt;Relation Between Recruitment Data and Actual Employment Data&lt;/h2&gt;
+&lt;p&gt;Firstly, it&amp;rsquo;s important to clarify that not all jobs can find corresponding recruitment data. For example, in the first major category, &amp;ldquo;Officials of Party Organs, State Organs, Mass Organizations, Social Organizations, and Leaders of Enterprises and Institutions,&amp;rdquo; most jobs do not recruit online. In &amp;ldquo;Clerical and Related Workers,&amp;rdquo; many positions are also only recruited through civil service or institutional exams, and hence, they do not appear on recruitment websites. Similar situations occur with police, military, and agricultural, forestry, fishing and husbandry related positions.&lt;/p&gt;
+&lt;p&gt;Therefore, the results shown by the recruitment data are closer to what we often refer to as the &amp;ldquo;working-class&amp;rdquo; category. In this category, there are 357 occupations that can find corresponding recruitment data.&lt;/p&gt;
+&lt;p&gt;So, to what extent can recruitment data relate to actual employment data?&lt;/p&gt;
+&lt;p&gt;By comparing recruitment data from 2015-2022 with the occupational population data from the seventh national census in 2020, we get the following graph.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_2/fig_1_hu39fdff55f2544964e0949dbf63fd5103_505982_b7acb885e2777b14de05eaa68e33c11f.webp 400w,
+               /post/online_job_2/fig_1_hu39fdff55f2544964e0949dbf63fd5103_505982_a9a1d6e343d4da579f18e15384ea8e44.webp 760w,
+               /post/online_job_2/fig_1_hu39fdff55f2544964e0949dbf63fd5103_505982_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_2/fig_1_hu39fdff55f2544964e0949dbf63fd5103_505982_b7acb885e2777b14de05eaa68e33c11f.webp&#34;
+               width=&#34;490&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As can be seen, positions with more recruitment are indeed the ones with more employment in the seventh census. The employment numbers for certain positions are higher than recruitment numbers, especially for metal product manufacturing workers, construction workers, etc. On the other hand, for some jobs such as news publishing, cultural arts and sports professionals, recruitment numbers are higher than employment numbers, reflecting different job tendencies for online recruitment. Blue-collar jobs rarely recruit on major recruitment websites, while white-collar jobs do the opposite.&lt;/p&gt;
+&lt;p&gt;Overall, the correlation between the recruitment data and the actual number of people employed in the industry reaches 0.57. Analyzing recruitment data will be a great tool for us to analyze the Chinese labor market.&lt;/p&gt;
+&lt;h2 id=&#34;highest-paying-professions&#34;&gt;Highest Paying Professions&lt;/h2&gt;
+&lt;p&gt;The content that people care about the most is probably the wage level for each job. Which jobs have the highest salaries? Many people might guess, influenced by mass media, that the top ranking ones should be computer-related or business-related professions.&lt;/p&gt;
+&lt;p&gt;But the reality is more complex than we imagined.&lt;/p&gt;
+&lt;p&gt;The following table lists the top ten highest paying jobs each year from 2015 to 2022. Some positions are quite rare, so we cannot guarantee absolute accuracy. Hence, this table excludes positions with fewer recruitments.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_2/fig_2_hu8f39cb022cb62464edd40f641febfb30_899171_fd7e91300dc86255892befa3c3716055.webp 400w,
+               /post/online_job_2/fig_2_hu8f39cb022cb62464edd40f641febfb30_899171_2544d9a1e7ee3fd2aa1dd5f6d986ea1f.webp 760w,
+               /post/online_job_2/fig_2_hu8f39cb022cb62464edd40f641febfb30_899171_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_2/fig_2_hu8f39cb022cb62464edd40f641febfb30_899171_fd7e91300dc86255892befa3c3716055.webp&#34;
+               width=&#34;193&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Surprisingly, many unexpected jobs appear in the table.&lt;/p&gt;
+&lt;p&gt;In the past eight years, the position that has topped the salary chart the most is — models. Models have appeared six times in the top ten list, missing out only in 2017 and 2022, and their ranking has been stable around the 4th to 5th place from 2018 to 2021.&lt;/p&gt;
+&lt;p&gt;The next three positions that frequently lead the salary charts are sonographers, futures traders, and information security engineers, who all made the list four times in eight years. Business and computer science each claim a position here. Sonographers emerge as the most stable in medical professions.&lt;/p&gt;
+&lt;p&gt;Then there are nine jobs that made the list three times in eight years. They are electronic component engineering technicians, computer software engineering technicians, data analysis and processing engineering technicians, dermatologists, accountants, writers, flight attendants, marriage consultants, and marital and family counselors.&lt;/p&gt;
+&lt;p&gt;Among these nine jobs, there are three computer-related ones, one in business, and one in medical. These three major fields have taken up five positions. Programmers finally made the list.&lt;/p&gt;
+&lt;p&gt;Here we can see that the classification of standard jobs is highly specific. The term &amp;ldquo;programmer&amp;rdquo; seems a bit too broad in definition.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;information security engineering technician&amp;rdquo; that ranks highest in the previous text, making the list four times in eight years, can be considered a type of programmer.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;data analysis and processing engineering technician&amp;rdquo; who is proficient in Python, R, and SQL could possibly be considered half a programmer.&lt;/p&gt;
+&lt;p&gt;Even for those primarily engaged in coding, in the Chinese standard occupational classification system, they are divided into two types.&lt;/p&gt;
+&lt;p&gt;One is the &amp;ldquo;computer software engineering technician&amp;rdquo; that made the list three times in eight years, coded as 2-02-10-03 in the Chinese standard occupation, meaning &amp;ldquo;engineering technicians who engage in computer software research, requirements analysis, design, testing, maintenance, and management&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Another type is called &amp;ldquo;computer programmer,&amp;rdquo; coded as 4-04-05-01 in the Chinese standard occupation, meaning &amp;ldquo;personnel who engage in computer and mobile terminal application program design and coding&amp;rdquo;. This type of job does not rank high in salary according to recruitment data, generally falling after the twentieth place.&lt;/p&gt;
+&lt;p&gt;Apart from computer science, business, and medicine, of the remaining four jobs that made the list three times, besides flight attendants, who are traditionally perceived as high paying, marriage consultants? Writers? They seem rather puzzling.&lt;/p&gt;
+&lt;p&gt;Job recruitment for marriage consultants is indeed scarce, and people might not be familiar with it. But the job with the most mapping to &amp;ldquo;writer&amp;rdquo; is not unfamiliar to people. It&amp;rsquo;s — new media content creators. &amp;ldquo;Writers,&amp;rdquo; mainly refer to new media content creation in text, and the &amp;ldquo;playwright&amp;rdquo; ranked 5th in 2022 belongs to short video script content creation. The past four years have been the highest earning years for content creators. From text to short video, one after another, salaries naturally rise with the tide.&lt;/p&gt;
+&lt;p&gt;Some readers might wonder, although a WeChat public account editor is also a content creator, how can it be considered a writer? To clear up this issue, let&amp;rsquo;s refer back to the previous article and revisit our basis for classifying jobs — not by what the job is called, but by what the job requires employees to do (which is precisely the scientific nature of standard occupational classification). Thus, the top priority of new media content creators&#39; recruitment requirements is to create high-quality, creative, and potentially viral articles that attract massive readership. And the standard occupational classification closest to this requirement is precisely &amp;ldquo;writer.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;gift-of-the-times-occupations-with-the-fastest-wage-growth-over-the-years&#34;&gt;Gift of the Times: Occupations with the Fastest Wage Growth Over the Years&lt;/h2&gt;
+&lt;p&gt;Salary level is only a static number. Many people, especially fresh graduates or prospective college students who haven&amp;rsquo;t made their career choices yet, are genuinely concerned about how salaries change over time.&lt;/p&gt;
+&lt;p&gt;So, which occupations have seen the fastest average wage growth from 2015 to 2022?&lt;/p&gt;
+&lt;p&gt;To eliminate the impact of different job experience structures on wages, we retained the data for positions that either had no experience requirements or sought fresh graduates each year, and averaged their salaries. The results are shown in the following graph.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_2/fig_3_hu62d2a85993ef5c6cc127c522c0042e60_667062_ca44537ed1ce9e0289a016deac39b502.webp 400w,
+               /post/online_job_2/fig_3_hu62d2a85993ef5c6cc127c522c0042e60_667062_e197ba8d6dda3d512d8be00ba1bb1bb8.webp 760w,
+               /post/online_job_2/fig_3_hu62d2a85993ef5c6cc127c522c0042e60_667062_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_2/fig_3_hu62d2a85993ef5c6cc127c522c0042e60_667062_ca44537ed1ce9e0289a016deac39b502.webp&#34;
+               width=&#34;314&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;It can be seen that the fastest-growing positions are generally those that originally had lower salaries and relatively low requirements for education and skills. Among them, positions such as warehouse clerks, road transport dispatchers, and storage administrators are all logistics-related. Front desk attendants, restaurant servers, and domestic helpers are typical service roles, and their wages have risen rapidly in recent years, from 2000-3000 yuan in 2015 to over 6000 yuan at present.&lt;/p&gt;
+&lt;p&gt;Pharmacists, primary school teachers, and chemical researchers are among the few professional and technical positions. The wage growth of these three positions all give a sense of &amp;ldquo;turning over a new leaf.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Even though Chemistry is considered one of the &amp;ldquo;four pits of biochemistry and materials,&amp;rdquo; and Pharmacy is relatively unpopular among medical colleges, their wage growth is quite rapid according to the data.&lt;/p&gt;
+&lt;p&gt;Interestingly, the case of &amp;ldquo;primary school teachers&amp;rdquo; stands out. After the &amp;ldquo;double reduction&amp;rdquo; policy, the recruitment of primary school teachers decreased by nearly 80% from 2021 to 2022, but their wages dramatically increased from 5800 yuan to 7200 yuan. Because, in 2022, most of the recruitment for &amp;ldquo;primary school teachers&amp;rdquo; did not come from primary schools or similar educational institutions, but from the demand of middle-class families who lost a large number of institutional training options for &amp;ldquo;private home primary school teachers.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;So, what are the occupations with the slowest wage growth?&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_2/fig_4_hu26ef344d8ab2a2e4d8e09f5753040ffa_676598_46918ee0c26e2c91fa67b74bf60df147.webp 400w,
+               /post/online_job_2/fig_4_hu26ef344d8ab2a2e4d8e09f5753040ffa_676598_ecb103386028a3efedccaef443640444.webp 760w,
+               /post/online_job_2/fig_4_hu26ef344d8ab2a2e4d8e09f5753040ffa_676598_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_2/fig_4_hu26ef344d8ab2a2e4d8e09f5753040ffa_676598_46918ee0c26e2c91fa67b74bf60df147.webp&#34;
+               width=&#34;314&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The positions with the slowest wage growth are more concentrated in high-paying jobs. High-paying jobs such as models, futures traders, and accounting professionals that appeared earlier all show up here. In recent years, the salaries of models and futures traders have declined, while the wages of accounting professionals have remained almost unchanged for many years, with only a significant increase in 2022.&lt;/p&gt;
+&lt;p&gt;In the accommodation and catering industry, although the wages of front desk attendants and restaurant servers have significantly increased, the wages of &amp;ldquo;Chinese cooks,&amp;rdquo; i.e., Chinese chefs, have remained almost unchanged. Tour guides&#39; wages have not risen in these years, especially since the outbreak of the pandemic in 2020, their wages have hardly grown. In addition, the wage growth of cost engineers, legal consultants, information system operation and maintenance engineers, and audio-visual technicians has also been slow.&lt;/p&gt;
+&lt;h2 id=&#34;personal-accumulation-wage-growth-with-years-of-service&#34;&gt;Personal Accumulation: Wage Growth with Years of Service&lt;/h2&gt;
+&lt;p&gt;Wage growth includes two dimensions over time.&lt;/p&gt;
+&lt;p&gt;The first time dimension involves different cohorts (people joining in different years) doing the same job, but due to changes in supply-demand relations and skill structures, they earn different wages in different years, representing market changes over time. This was discussed in the previous section.&lt;/p&gt;
+&lt;p&gt;The second time dimension pertains to a single cohort (people joining in the same year), where after several years on the job, due to skill growth, rich experience, team expansion, although their job category remains similar, their wages have significantly increased. This represents the return of experience.&lt;/p&gt;
+&lt;p&gt;For example, when we say some jobs get &amp;ldquo;better with age,&amp;rdquo; and others are only for the &amp;ldquo;young,&amp;rdquo; we&amp;rsquo;re making the most distinct distinction between these two types of jobs.&lt;/p&gt;
+&lt;p&gt;To best distinguish these two temporal differences, in the previous section &amp;ldquo;wage growth over time,&amp;rdquo; we used data that all required no experience. In this section, we will use annual recruitment data divided by years of service. The wage growth rate with experience is calculated based on the difference between experience and wages across years.&lt;/p&gt;
+&lt;p&gt;For example, for position A, in 2018, the average salary for recruitment positions requiring 0 years of experience on the market was 5000 yuan. In 2019, the average salary for recruitment positions requiring 1 year of experience in position A on the market was 6000 yuan.
+It&amp;rsquo;s not hard to see that the group with 0 years of experience in 2018 and the group with 1 year of experience in 2019 come from the same cohort. Therefore, 6000 ÷ 5000 = 120% is the wage growth multiple brought about by the experience of 0 to 1 year from 2018 to 2019 for the same cohort.
+We calculate the wage growth multiples brought about by the experience of 0 to 1 year for all years, including 2015 to 2016, 2016 to 2017&amp;hellip;2020 to 2021, 2021 to 2022, these 7 0 to 1 years, and then average them according to the number of recruits, to get the wage growth multiples brought about by the experience of 0 to 1 year in the past 8 years for position A.&lt;/p&gt;
+&lt;p&gt;Using the same method, we calculate the wage growth multiples from 1 to 2 years, 2 to 3 years&amp;hellip;8 to 9 years. We multiply all the wage growth multiples for each year to get the wage growth multiple for this position from 0 years of experience to 9 years of experience over a total of 10 years of work.&lt;/p&gt;
+&lt;p&gt;For example, the graph below shows the cross-year experience growth rate for all &amp;ldquo;securities investment professionals&amp;rdquo; in Beijing calculated using data from 2015 to 2022.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_2/fig_5_hu254160ac2caa14630606f38deee78be7_259296_b80fe5aa251e9b5a0183c0862fbf16a6.webp 400w,
+               /post/online_job_2/fig_5_hu254160ac2caa14630606f38deee78be7_259296_f00020ff0a1c9d4ed4017953ebae5c60.webp 760w,
+               /post/online_job_2/fig_5_hu254160ac2caa14630606f38deee78be7_259296_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_2/fig_5_hu254160ac2caa14630606f38deee78be7_259296_b80fe5aa251e9b5a0183c0862fbf16a6.webp&#34;
+               width=&#34;696&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We can see that the wages of securities investment professionals increased by 12% in the first year, and then by 40% and 58% in the second and third years, respectively. From the third to the sixth year, wages mainly increased by 96% in the fourth and fifth years, with little change in the other two years. The average wage growth rate from the sixth to ninth year of work is similar to the first three years.&lt;/p&gt;
+&lt;p&gt;From this, we can see a few features of calculating wages for different occupations by years of service using recruitment data.&lt;/p&gt;
+&lt;p&gt;Firstly, the salary for a job advertised on the market and the average existing salary for that job in the market are not the same. The high-experience positions that we can observe on the market are often those that aim to poach the most senior and excellent professionals in that position, thus offering a higher wage growth rate. There&amp;rsquo;s a saying that &amp;ldquo;the more you job-hop, the higher your salary.&amp;rdquo; This data is calculated based on a hypothetical worker who changes jobs once a year, and it does not entirely represent the situations of those who switch jobs less frequently.&lt;/p&gt;
+&lt;p&gt;Secondly, apart from cases with less than three years of experience, most jobs do not specify a particular job experience length. Generally, they will give a broad range of experience, such as 1 to 3 years, 4 to 6 years, or over 5 years. When we calculate, we use the smaller number in the required experience for that position as the minimum experience requirement. For example, a job that requires 5 to 10 years of experience will be considered to require five years of experience.&lt;/p&gt;
+&lt;p&gt;Therefore, this calculation method might result in some years having less data. For instance, six years is an unusual requirement because it&amp;rsquo;s rare for a job to require precisely &amp;ldquo;six years of experience, no more, no less.&amp;rdquo; Six is also unlikely to be the minimum experience requirement for any position, as most job postings will opt for five years instead. This would make the experience growth data for this particular year somewhat unreliable.&lt;/p&gt;
+&lt;p&gt;However, we can multiply all the wage growth multiples for each year to get the total wages for each year for this position. This number can eliminate the fluctuations of individual years. For example, let&amp;rsquo;s take &amp;ldquo;securities investment professionals&amp;rdquo; in Beijing. Suppose there is a professional who started working in 2022, then changes jobs every year, and the wage growth rate for each job switch is the same as the wage growth rate for the corresponding years of service from 2015 to 2022. This person continues to work until 2031. How much would their annual income and total income be? Please see the following chart:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_2/fig_6_hu69fd3279993b1248fc10e3b468472df5_470188_957786acf683d1bc4f71c198deb44dd1.webp 400w,
+               /post/online_job_2/fig_6_hu69fd3279993b1248fc10e3b468472df5_470188_349945057b4b1d170b227242ec6960b7.webp 760w,
+               /post/online_job_2/fig_6_hu69fd3279993b1248fc10e3b468472df5_470188_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_2/fig_6_hu69fd3279993b1248fc10e3b468472df5_470188_957786acf683d1bc4f71c198deb44dd1.webp&#34;
+               width=&#34;455&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As you can see, under such a calculation method, a securities investment professional who was earning an average salary of 11681 yuan in 2022 and changed jobs once a year would have a monthly salary as high as 123,000 yuan in 2031, with a total income over these ten years reaching as high as 6.39 million yuan.&lt;/p&gt;
+&lt;p&gt;While this figure may seem high, when we perform the same calculation for all positions, they can be compared over the long term - comparing entry-level wages, the annual changes in entry-level wages, and more importantly, the growth brought about by years of service in this profession.&lt;/p&gt;
+&lt;p&gt;The table below lists the top ten salaries over ten years for different jobs in Beijing and Shanghai. As can be seen, electronic component engineering technicians, though lagging behind models, futures traders, sonographers, and information security engineering technicians in Table 1 of this article, have become the undisputed first place in total salary over ten years in Beijing and Shanghai due to the rapid wage growth with years of service. Considering that electronic component engineering technicians are exactly the key talents needed for China to catch up in the field of chips, their top ranking in the ten-year salary is not too surprising.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;fig_7.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Of course, there might be some data in the table above that may seem difficult to understand. When you use the Data Group applet to query data, you may find that some positions show a dashed line for wage growth as years of service increase. This is because there is not enough data to calculate the wage growth over years of service for these positions, and we can only simulate it in some ways - including using the wage growth rate over the years of subcategories and major categories of occupations, using the local average wage growth rate over the years, etc.&lt;/p&gt;
+&lt;p&gt;For the sake of data integrity, we calculated the total income over ten years for each position in the applet. However, if you find that the wage growth over the years for a certain position consists of many dashed lines, then the total wage over ten years for this position may not be so reliable.&lt;/p&gt;
+&lt;h2 id=&#34;choosing-a-profession-also-means-choosing-a-city&#34;&gt;Choosing a profession also means choosing a city&lt;/h2&gt;
+&lt;p&gt;Besides temporal changes, our career choices actually have many more dimensions. The following chart shows the starting salaries and annual growth rates for each job in Beijing. If we divide the chart into four quadrants—&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_2/fig_8_hua5d15dcfdb675ea4b4e748d147367a89_420009_475a3dae69af518526f405899b80e0b9.webp 400w,
+               /post/online_job_2/fig_8_hua5d15dcfdb675ea4b4e748d147367a89_420009_cdf050a7fc2b4ec547bd49e013f462e5.webp 760w,
+               /post/online_job_2/fig_8_hua5d15dcfdb675ea4b4e748d147367a89_420009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_2/fig_8_hua5d15dcfdb675ea4b4e748d147367a89_420009_475a3dae69af518526f405899b80e0b9.webp&#34;
+               width=&#34;495&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The first quadrant in the upper right-hand corner are jobs with high starting salaries and faster growth with each additional year of experience. These are the most coveted positions.&lt;/p&gt;
+&lt;p&gt;The second quadrant in the upper left-hand corner are jobs with low starting salaries but fast annual growth. These positions require hard work in the early stages, but they have a high ceiling.&lt;/p&gt;
+&lt;p&gt;The fourth quadrant in the lower right-hand corner are jobs with high starting salaries but slow annual growth. These positions can&amp;rsquo;t increase their wages through job-hopping. They offer good returns in the early stages but have a lower ceiling compared to the jobs in the upper-left quadrant.&lt;/p&gt;
+&lt;p&gt;The third quadrant in the lower left-hand corner are jobs with both low starting salaries and low annual wage growth. These positions are relatively less competitive.&lt;/p&gt;
+&lt;p&gt;The above are situations in Beijing. What if we switch to a city with a different level of development in the internet or tech industry?&lt;/p&gt;
+&lt;p&gt;Having chosen a profession, can we find a more suitable city?&lt;/p&gt;
+&lt;p&gt;The following chart shows the average recruitment salaries in 2022 and the wage growth rates over the years for &amp;ldquo;computer program designers&amp;rdquo; in various cities. To highlight key cities, we only retained cities with a population of over 5 million and an average annual recruitment number of over 500.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_2/fig_9_huab0d1654f324593ccd9860f1cbf7e6fa_358193_0416ddc9ad335fc10ac2620592b85255.webp 400w,
+               /post/online_job_2/fig_9_huab0d1654f324593ccd9860f1cbf7e6fa_358193_5e0c1458471678ef55e05f4431dd5ae2.webp 760w,
+               /post/online_job_2/fig_9_huab0d1654f324593ccd9860f1cbf7e6fa_358193_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_2/fig_9_huab0d1654f324593ccd9860f1cbf7e6fa_358193_0416ddc9ad335fc10ac2620592b85255.webp&#34;
+               width=&#34;495&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As can be seen, Beijing, Shanghai, and other places indeed appear in the area near the upper right corner of the scatter plot, where both the starting salary and the annual wage increase are relatively high. Xi&amp;rsquo;an and Chengdu are at the top of the chart. These two cities have lower starting salaries for programmers, but they display the highest annual wage growth rate. Huizhou, Guiyang, and other places are on the far right of the chart, showing higher starting salaries but relatively limited subsequent growth. Cities in the lower-left corner of the chart are not so friendly to programmers, for example, Harbin, where both the starting salary and subsequent growth are rather limited.&lt;/p&gt;
+&lt;p&gt;If you want to explore more potential choices, you can enter the applet to explore on your own.&lt;/p&gt;
+&lt;h2 id=&#34;todays-profession-what-will-it-be-like-tomorrow&#34;&gt;Today&amp;rsquo;s profession, what will it be like tomorrow?&lt;/h2&gt;
+&lt;p&gt;Every piece of data produced by this work is derived from the aggregation and calculation of 500 million recruitment data points over the past eight years. This recruitment data mine represents the past. Some of it comes from our own choices; some from individual efforts, persistence, and accumulation; and a larger part, in fact, is a gift from the era.&lt;/p&gt;
+&lt;p&gt;So what about the future? The times are changing dramatically, and the gifts of the era may turn into tests of the era. At a time when various GPTs have already entered people&amp;rsquo;s lives, how should we look at the future of different professions?&lt;/p&gt;
+&lt;p&gt;Please look forward to the next installment of this series: Which professions are more likely to be replaced by GPT?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring 500 Million Online Job Postings: An Introduction to Data and Methods</title>
+      <link>https://leoyang.org/post/online_job_1/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://leoyang.org/post/online_job_1/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is the first article in the &amp;ldquo;Career&amp;rdquo; series of urban data groups. The theme of this series is the career development of migrant workers. We will start from the existing recruitment data and use scientific data processing methods to present the current situation to readers. The occupational income growth curves of different occupations in different cities are also combined with the recent hot spots of public opinion to estimate the occupational substitution that AI may produce.&lt;/p&gt;
+&lt;p&gt;As the first tweet in the series, I will start with the data used in this series of research and the grouping of &amp;ldquo;occupations&amp;rdquo;. I hope that after readers understand these basic information and methods, they will be more specific about the follow-up occupational salary and AI replacement rate. The data list has a more accurate understanding.&lt;/p&gt;
+&lt;h2 id=&#34;recruitment-data-of-the-same-age-as-the-internet-in-china&#34;&gt;Recruitment data of the same age as the Internet in China&lt;/h2&gt;
+&lt;p&gt;If you want to ask, among all kinds of Internet data, what type of data is easy to obtain, has a very large amount of information, and has a relatively long look-back time? My answer is - recruitment data.&lt;/p&gt;
+&lt;p&gt;Go back in time to more than 20 years ago. At that time, most ordinary families did not have their own computers, let alone the Internet, and what was the most attractive online behavior? Not &amp;ldquo;surfing the web&amp;rdquo; or &amp;ldquo;chatting in a chat room&amp;rdquo;. On September 13, 2000 , an article in &amp;ldquo;Science and Technology Daily&amp;rdquo; mentioned:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;With the rapid development of our country&amp;rsquo;s economy , the Internet is gradually accepted by the public. According to survey statistics , among the current Internet users , those who use the Internet for the purpose of job hunting account for half of the Internet population.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;On October 9, 2000, an article in &amp;ldquo;Internet Weekly&amp;rdquo; &amp;ldquo;Where to find a job in the future?&amp;rdquo; The article “Comparison of Recruitment Websites” cites a survey by CNNIC in July 2000. Among the information people obtain online, recruitment information accounts for 26.11%.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_1_hu5b7c0249b76f2297be12b856bab8da59_202872_6a3a8890002bf5bdedb6569dff990454.webp 400w,
+               /post/online_job_1/fig_1_hu5b7c0249b76f2297be12b856bab8da59_202872_5e5488caeff6a2c9557b83bb7906cd78.webp 760w,
+               /post/online_job_1/fig_1_hu5b7c0249b76f2297be12b856bab8da59_202872_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_1_hu5b7c0249b76f2297be12b856bab8da59_202872_6a3a8890002bf5bdedb6569dff990454.webp&#34;
+               width=&#34;693&#34;
+               height=&#34;470&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In 1997 , ChinaHR and Zhaopin.com were established;
+In 1999 , 51job was established.
+In 2005 , 58.com , a job-seeking website for fresh graduates (yingjiesheng), was established.
+In the mobile Internet era after 2010 , various recruitment websites and apps have sprung up like mushrooms after a spring rain. Liepin, Boss Zhipin, Lagou&amp;hellip; expand the dimension of recruitment data again.&lt;/p&gt;
+&lt;p&gt;From the high-salary offers coveted by elite school students to domestic service and short-term odd jobs for blue-collar workers, the recruitment data has accumulated not only the story of generations of workers, but also the epitome of the Chinese economy over the past two decades.&lt;/p&gt;
+&lt;p&gt;Recruitment data, which has appeared and grown together with China&amp;rsquo;s first generation of Internet users since the beginning of the millennium, is a piece of data that is almost the same age as the Chinese Internet.&lt;/p&gt;
+&lt;h2 id=&#34;recruitment-data-representativeness-problem-and-simpsons-paradox&#34;&gt;Recruitment Data: Representativeness Problem and Simpson&amp;rsquo;s Paradox&lt;/h2&gt;
+&lt;p&gt;Hiring data is also very difficult data to work with . Only through simple processing, it is difficult to present consistent, representative and valuable information.&lt;/p&gt;
+&lt;p&gt;The representativeness problem has always been a big problem for recruitment data. What kind of companies recruit online, and what kind of companies choose to recruit from other channels? All along, Internet companies, foreign companies, etc., use recruitment websites much more frequently than state-owned companies and manufacturing companies. This makes the total recruitment volume, total resume delivery volume, and average salary indicators obtained through recruitment data summary have a not small bias from the real national average. The recruitment situation of different recruitment websites also varies greatly.&lt;/p&gt;
+&lt;p&gt;For example, the following picture is a screenshot of the hot jobs of BOSS Direct Recruitment:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_2_hufbb25b31af1ca30446b02aa2b0bd1a4a_96026_9ccf7d6b6ddbbfeb648c14938bdfab10.webp 400w,
+               /post/online_job_1/fig_2_hufbb25b31af1ca30446b02aa2b0bd1a4a_96026_2809da9d96fa13d073371691995e4ff2.webp 760w,
+               /post/online_job_1/fig_2_hufbb25b31af1ca30446b02aa2b0bd1a4a_96026_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_2_hufbb25b31af1ca30446b02aa2b0bd1a4a_96026_9ccf7d6b6ddbbfeb648c14938bdfab10.webp&#34;
+               width=&#34;693&#34;
+               height=&#34;333&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The following picture is a screenshot of the hot search positions for Shanghai recruitment from 58 same cities:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_3_hu262c1a4a6962a6748aee29fd0893a5e3_129266_77c3ad23e29c8e2da14697bc37efda55.webp 400w,
+               /post/online_job_1/fig_3_hu262c1a4a6962a6748aee29fd0893a5e3_129266_0eb63e664b2c6648a49b43a2c8fc3723.webp 760w,
+               /post/online_job_1/fig_3_hu262c1a4a6962a6748aee29fd0893a5e3_129266_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_3_hu262c1a4a6962a6748aee29fd0893a5e3_129266_77c3ad23e29c8e2da14697bc37efda55.webp&#34;
+               width=&#34;693&#34;
+               height=&#34;613&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As you can see, the types and directions of recruitment information on the two websites are completely different. When we only use one or several recruitment websites, we inevitably miss a lot, and we cannot output effective conclusions.&lt;/p&gt;
+&lt;p&gt;In addition, the classification of recruitment data is extremely difficult, which also increases its use threshold. When we use various big data, we often need to match this data with the data of the National Bureau of Statistics according to the appropriate classification standards to get similar caliber data, which is convenient for us to verify the validity of the data.&lt;/p&gt;
+&lt;p&gt;But for recruitment data, although we have collected 500 million recruitment data and 1.2 billion recruitment vacancies from multiple recruitment website sources through data partners in the past eight years, if we just summarize these recruitment positions, whether it is divided by company, industry or region, it is very difficult to compare with official statistical data.&lt;/p&gt;
+&lt;p&gt;Why can&amp;rsquo;t massive data get effective conclusions?&lt;/p&gt;
+&lt;p&gt;First, the number of acquisitions, sources, and company numbers of these data over the years have great differences. As can be seen from the following figure, in 2019, the year with the highest recruitment number, the total number of recruitment vacancies for all recruitment advertisements nationwide was 340 million, but in 2022 it dropped to 34 million, a full ten times difference.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_4_hucd45ae8cca10ae44d6e13e95bbf58411_238899_6a845919d84b92d4b6df0c67d980b3a6.webp 400w,
+               /post/online_job_1/fig_4_hucd45ae8cca10ae44d6e13e95bbf58411_238899_3f3796c8260f3c5a529f8c82557a6ad2.webp 760w,
+               /post/online_job_1/fig_4_hucd45ae8cca10ae44d6e13e95bbf58411_238899_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_4_hucd45ae8cca10ae44d6e13e95bbf58411_238899_6a845919d84b92d4b6df0c67d980b3a6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;690&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;But the change in the number of recruitments on recruitment websites cannot be completely corresponded to the demand for labor by enterprises. In a booming economy, employees turn faster, there are more businesses, and companies have better expectations for the future. Even the repeated adjustments of the same recruitment information will cause the company&amp;rsquo;s recruitment number to fluctuate more than the real labor demand.&lt;/p&gt;
+&lt;p&gt;Secondly, the salary of recruitment data is also a mixed variable. The following figure shows the average annual salary from 2015 to 2022. It can be seen that the year with the lowest average recruitment salary is 2017, about 4360 yuan/month. From 2015 to 2017, China experienced a continuous decline in recruitment salaries for two years, and then it rose again.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_5_hu8c6f0ea5efc02b81227806961a2e4af4_251116_b77c515cdfb3e054f48227f74a406fe3.webp 400w,
+               /post/online_job_1/fig_5_hu8c6f0ea5efc02b81227806961a2e4af4_251116_89c58266ade1f753aea55a0d90bf8f95.webp 760w,
+               /post/online_job_1/fig_5_hu8c6f0ea5efc02b81227806961a2e4af4_251116_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_5_hu8c6f0ea5efc02b81227806961a2e4af4_251116_b77c515cdfb3e054f48227f74a406fe3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;728&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;But did the recruitment salary really fall from 2015 to 2017? Not so.&lt;/p&gt;
+&lt;p&gt;The first reason for the decline in recruitment salaries is the change in the proportion of social recruitment and fresh graduate recruitment in the recruitment structure. When the website data of the proportion of fresh graduate recruitment increases, the average salary decreases; when the data volume of social recruitment positions with many years of experience increases, the average salary will rise again.&lt;/p&gt;
+&lt;p&gt;The second reason is the sinking of recruitment websites to second- and third-tier cities, and the penetration of previously less recruited worker groups—for example, blue-collar workers, domestic services and other types of work, in recent years, they have increasingly relied on online recruitment. And the wages of this part of the work are much lower than those of programmers who have mainly recruited through the Internet before, thereby lowering the overall average wage.&lt;/p&gt;
+&lt;p&gt;The famous Simpson&amp;rsquo;s paradox tells us a result: even if the averages of the two groups are rising, the sum of the averages may decrease. In the following example, when calculated separately, the male admission rate of University A and University B is higher than that of females, but the female with a lower admission rate is more in the group with a higher admission rate, resulting in a lower male admission rate after the summary.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_6_hu1931dafab1858d7ee6869ff7e79ef15e_286926_267cc120acd8b466d5ab261d32a6c8cf.webp 400w,
+               /post/online_job_1/fig_6_hu1931dafab1858d7ee6869ff7e79ef15e_286926_38f90f0629bdba8075e2931077efedf1.webp 760w,
+               /post/online_job_1/fig_6_hu1931dafab1858d7ee6869ff7e79ef15e_286926_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_6_hu1931dafab1858d7ee6869ff7e79ef15e_286926_267cc120acd8b466d5ab261d32a6c8cf.webp&#34;
+               width=&#34;531&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Some recruitment websites use their own data to regularly publish salary reports, which are also limited by their website data structure. There are also large differences with the standard industry and occupational structure of the National Bureau of Statistics, making it difficult to compare with other recruitment websites and difficult to combine with statistical data to get a comparable caliber.&lt;/p&gt;
+&lt;h2 id=&#34;cracking-the-simpsons-paradox-how-to-group-occupations-in-a-standard-way&#34;&gt;Cracking the Simpson&amp;rsquo;s Paradox: How to Group Occupations in a Standard Way&lt;/h2&gt;
+&lt;p&gt;To classify and map the occupations, we first used the GPT4 model of ChatGPT to generate a typical recruitment advertisement.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_7_hu4bf7a961a3aeb93d41bd41f6fc7a8645_3145989_680d4445a6907b6d03ff6b567b8aec61.webp 400w,
+               /post/online_job_1/fig_7_hu4bf7a961a3aeb93d41bd41f6fc7a8645_3145989_31f05489e4da4ff29959f3871c14b0bb.webp 760w,
+               /post/online_job_1/fig_7_hu4bf7a961a3aeb93d41bd41f6fc7a8645_3145989_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_7_hu4bf7a961a3aeb93d41bd41f6fc7a8645_3145989_680d4445a6907b6d03ff6b567b8aec61.webp&#34;
+               width=&#34;220&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As you can see, the function of the position itself, as well as the required education and experience, have a great relationship with the salary of this position. Education and experience are relatively easy to separate from the text, that is, &amp;ldquo;computer-related majors, undergraduate, more than 3 years&amp;rdquo;. But how do we classify this occupation? How do we separate a Python engineer from other types of positions in order to control the inherent ability requirements of this position?&lt;/p&gt;
+&lt;p&gt;The first way is to use the job classification of the recruitment website itself. The following three screenshots are from BOSS Direct Recruitment, Zhaopin Recruitment, and 58 City, and their categories all include &amp;ldquo;Human Resources/Administration&amp;rdquo;. As you can see, there are many overlaps and differences in their occupational classifications. The &amp;ldquo;salary performance&amp;rdquo; of BOSS Direct Recruitment is divided into &amp;ldquo;salary benefits&amp;rdquo; and &amp;ldquo;performance appraisal&amp;rdquo; in Zhaopin Recruitment. In 58 City, not only are salary and performance combined into one category, but &amp;ldquo;employee relations&amp;rdquo; is also included.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_8_huaa1c93d01c29332f56d2a3fde0d8838c_78108_f0af5fbbeadf7444b95d086015d0d50a.webp 400w,
+               /post/online_job_1/fig_8_huaa1c93d01c29332f56d2a3fde0d8838c_78108_1315c487856b1070919412d3f3302980.webp 760w,
+               /post/online_job_1/fig_8_huaa1c93d01c29332f56d2a3fde0d8838c_78108_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_8_huaa1c93d01c29332f56d2a3fde0d8838c_78108_f0af5fbbeadf7444b95d086015d0d50a.webp&#34;
+               width=&#34;693&#34;
+               height=&#34;273&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_9_hu7bf1b4e3b06bd32c7b5758f05509bdd6_26701_47d6c50160a0453342fd5372d38d1a6c.webp 400w,
+               /post/online_job_1/fig_9_hu7bf1b4e3b06bd32c7b5758f05509bdd6_26701_8e3d8a8125c02139fb799eee4fc94f1d.webp 760w,
+               /post/online_job_1/fig_9_hu7bf1b4e3b06bd32c7b5758f05509bdd6_26701_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_9_hu7bf1b4e3b06bd32c7b5758f05509bdd6_26701_47d6c50160a0453342fd5372d38d1a6c.webp&#34;
+               width=&#34;693&#34;
+               height=&#34;438&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;When we click into a certain category of occupation, a certain position often &amp;ldquo;holds multiple positions&amp;rdquo;, or there is only a difference in qualifications, and there is no difference in function. The division of different recruitment data makes the use of recruitment data more difficult.&lt;/p&gt;
+&lt;p&gt;In order to make a comparison of the same caliber, we naturally need a more authoritative and standard occupational division. We used the &amp;ldquo;China Occupation Encyclopedia&amp;rdquo; as the basis for occupational division.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;China Occupation Encyclopedia&amp;rdquo; is the occupational classification used by the National Bureau of Statistics, the Ministry of Human Resources and Social Security, etc. when counting various occupations. The China Population Census, Population Dynamic Sampling Survey, etc. all use the &amp;ldquo;China Occupation Encyclopedia&amp;rdquo; as the basis for the occupational division of each surveyed worker. The latest 2022 version of the &amp;ldquo;China Occupation Encyclopedia&amp;rdquo; includes 8 major categories, 79 medium categories, 449 small categories, and 1639 detailed categories (occupations), which is the most complete and authoritative division of Chinese occupations.&lt;/p&gt;
+&lt;p&gt;For example, if we want to find the classification of &amp;ldquo;programmer&amp;rdquo; from it, we can find it through the following hierarchical table:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_10_hu60a31689b8738044d74d1c146cf9ef78_483496_2393a406e13855b85fa23058628c2eb3.webp 400w,
+               /post/online_job_1/fig_10_hu60a31689b8738044d74d1c146cf9ef78_483496_85595592d6757fe4eb6a155875f1b255.webp 760w,
+               /post/online_job_1/fig_10_hu60a31689b8738044d74d1c146cf9ef78_483496_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_10_hu60a31689b8738044d74d1c146cf9ef78_483496_2393a406e13855b85fa23058628c2eb3.webp&#34;
+               width=&#34;422&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This kind of occupational division ensures that the intersection between occupations is minimal and the union is maximal to the greatest extent. We will try to map all recruitment data to these 1639 occupations.&lt;/p&gt;
+&lt;p&gt;But how to divide and map? Just the position of &amp;ldquo;computer program designer&amp;rdquo;, the job title on the recruitment website may include a series of keywords such as JAVA, Python, Ruby, Golang, Node.js, C++&amp;hellip; This is a relatively familiar occupation for the author, and we may be able to traverse this category of occupations through keyword mapping. But for some relatively unfamiliar occupations, such as &amp;ldquo;course consultant with a monthly income of over 10,000 and a large space for promotion&amp;rdquo;, can you accurately classify him into the category of &amp;ldquo;salesperson&amp;rdquo; in the standard occupational code?&lt;/p&gt;
+&lt;p&gt;Therefore, we used a method of text learning. First, let the computer learn the specific work of each occupation, and then match it through the job description of each position, as shown in the figure below:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_11_hu7d1fbe0b50d2d1cc5b4100ff4d3a0258_384077_5dd6fe9c8da6c04232d0c5a9e4c6948b.webp 400w,
+               /post/online_job_1/fig_11_hu7d1fbe0b50d2d1cc5b4100ff4d3a0258_384077_a9f4fc601573ae47998e3da420b5ae76.webp 760w,
+               /post/online_job_1/fig_11_hu7d1fbe0b50d2d1cc5b4100ff4d3a0258_384077_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_11_hu7d1fbe0b50d2d1cc5b4100ff4d3a0258_384077_5dd6fe9c8da6c04232d0c5a9e4c6948b.webp&#34;
+               width=&#34;524&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Through preliminary annotation, the specific work of each occupation is combined with the name of the occupation to calculate the high-frequency word pairs of the occupation-function. Starting from the job function of the recruitment advertisement description, use Bayesian probability to calculate which specific occupation may correspond to, and calculate the specific classification of each occupation like a cloze.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_12_hu7e2dda60208c2c71fd272d7c4b2f78ac_18399_c198bc953dcd28b45065fa8025811873.webp 400w,
+               /post/online_job_1/fig_12_hu7e2dda60208c2c71fd272d7c4b2f78ac_18399_0b1b568b196fab2c981d532df9565c5c.webp 760w,
+               /post/online_job_1/fig_12_hu7e2dda60208c2c71fd272d7c4b2f78ac_18399_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_12_hu7e2dda60208c2c71fd272d7c4b2f78ac_18399_c198bc953dcd28b45065fa8025811873.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;169&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This method has a very high accuracy. The following is a group of examples we classified into &amp;ldquo;computer program designers&amp;rdquo;. As you can see, even if there is no keyword &amp;ldquo;programmer&amp;rdquo; in the title of the position, we may not be able to traverse various program-related keywords, but we can accurately classify this position through its job function.&lt;/p&gt;
+&lt;p&gt;Using this method, we have allocated the recruitment data of 500 million and 1.2 billion recruitment vacancies obtained from various recruitment websites, as many as 18 million occupations, to more than 1,500 standard occupations, forming a standard occupation database of various cities across the country from 2015 to 2022.&lt;/p&gt;
+&lt;h2 id=&#34;initial-glimpse-of-occupational-passwords-recruitment-data-mine-built&#34;&gt;Initial Glimpse of Occupational Passwords, Recruitment Data &amp;ldquo;Mine&amp;rdquo; Built&lt;/h2&gt;
+&lt;p&gt;With the standard occupational database, we can control the recruitment time, place, experience requirements, education requirements, and job type of each position. When we use these data again, there will be no bias problems similar to Simpson&amp;rsquo;s paradox.&lt;/p&gt;
+&lt;p&gt;For example, based on this, when we calculate the recruitment salary for each year again, we can get the following figure:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/online_job_1/fig_13_hu7d241376581a148a9e680daf6ba2c5b3_212919_c35ae4a52be7bffac9ba3def83c48ea1.webp 400w,
+               /post/online_job_1/fig_13_hu7d241376581a148a9e680daf6ba2c5b3_212919_46c8cad128a56e7c5999fbc1feda2cba.webp 760w,
+               /post/online_job_1/fig_13_hu7d241376581a148a9e680daf6ba2c5b3_212919_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/online_job_1/fig_13_hu7d241376581a148a9e680daf6ba2c5b3_212919_c35ae4a52be7bffac9ba3def83c48ea1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;723&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;At this time, we can see a steadily rising wage growth curve, without a sudden drop. The same recruitment time, place, experience requirements, education requirements, and a job, the recruitment salary in 2022 is 2385 yuan higher than in 2015.&lt;/p&gt;
+&lt;p&gt;This also means that this &amp;ldquo;gold mine&amp;rdquo; containing billions of recruitment data is no longer a chaotic open-pit wild mine, but has been built into a stable and controllable industrial-grade mine.&lt;/p&gt;
+&lt;p&gt;What needs to be done next is to mine and smelt various valuable gold information from it.&lt;/p&gt;
+&lt;h2 id=&#34;preview-of-the-next-part&#34;&gt;Preview of the next part&lt;/h2&gt;
+&lt;p&gt;In this post, we figured out how to map the positions on job advertisements to more standard occupational classifications, so as to avoid data misjudgment caused by incorrect classifications. This just completes the construction of the &amp;ldquo;recruitment data mine&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;In the second post of the series, we will enter the main part of mining (data analysis) to see how the income of practitioners in various cities and occupational categories changes with time and experience in their careers Cumulative improvement and change. For readers who want to do it themselves, we will also simultaneously update the query module of all research-related data in this series (including the AI replacement rate that everyone cares about.） The calculation of the AI replacement rate for different occupations will be introduced in detail in the third post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Labor Market</title>
+      <link>https://leoyang.org/project/labor_market/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://leoyang.org/project/labor_market/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

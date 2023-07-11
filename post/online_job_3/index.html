@@ -1,0 +1,1523 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Leo Y. Yang" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The article discusses the potential impact of large language models, specifically OpenAI&#39;s ChatGPT, on the job market. It highlights a research paper by OpenAI that suggests at least 80% of the US workforce will be affected by AI, with 10% of work being replaced by large language models. The article also presents data on the AI substitution rates for various occupations in China, indicating which professions are most likely to be replaced by AI." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://leoyang.org/post/online_job_3/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101555800-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-101555800-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu05798da5833095988f190093553a38f3_1610_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu05798da5833095988f190093553a38f3_1610_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://leoyang.org/post/online_job_3/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Leo Y. Yang" />
+  <meta property="og:url" content="https://leoyang.org/post/online_job_3/" />
+  <meta property="og:title" content="Unveiling the Impact of AI on the Job Market: Assessing the Potential Substitution of Occupations by Large Language Models in China | Leo Y. Yang" />
+  <meta property="og:description" content="The article discusses the potential impact of large language models, specifically OpenAI&#39;s ChatGPT, on the job market. It highlights a research paper by OpenAI that suggests at least 80% of the US workforce will be affected by AI, with 10% of work being replaced by large language models. The article also presents data on the AI substitution rates for various occupations in China, indicating which professions are most likely to be replaced by AI." /><meta property="og:image" content="https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-04-08T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-04-08T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://leoyang.org/post/online_job_3/"
+  },
+  "headline": "Unveiling the Impact of AI on the Job Market: Assessing the Potential Substitution of Occupations by Large Language Models in China",
+  
+  "datePublished": "2023-04-08T00:00:00Z",
+  "dateModified": "2023-04-08T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Qin Chen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Leo Y. Yang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "The article discusses the potential impact of large language models, specifically OpenAI's ChatGPT, on the job market. It highlights a research paper by OpenAI that suggests at least 80% of the US workforce will be affected by AI, with 10% of work being replaced by large language models. The article also presents data on the AI substitution rates for various occupations in China, indicating which professions are most likely to be replaced by AI."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Unveiling the Impact of AI on the Job Market: Assessing the Potential Substitution of Occupations by Large Language Models in China | Leo Y. Yang</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c6629fee73228fb7a6695c35061b1e9e" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Leo Y. Yang</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Leo Y. Yang</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Data Insights</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Unveiling the Impact of AI on the Job Market: Assessing the Potential Substitution of Occupations by Large Language Models in China</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Qin Chen</span>, <span >
+      Leo Yang</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 8, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    16 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/data-insights/">Data Insights</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="gpt-is-here-will-i-be-replaced-by-it">GPT is here, will I be replaced by it?</h2>
+<p>Readers who have followed our previous two articles will find that the recruitment data we use is up to the end of 2022.</p>
+<p>But in 2023, it seems to have entered a new era, the rapid launch of various generative AI has brought unprecedented shocks. The most representative of generative AI is OpenAI&rsquo;s large language model - ChatGPT. Many people, through personal trials, feel a deep crisis while being shocked by technology, as if their work can be easily replaced by AI. This emotion was quickly captured by various media and marketing numbers, and was amplified to the point where everyone knows it through individual interviews and literary interpretations. However, so far, serious research on the impact of generative AI (or narrowly to large models) on the job market is still rare.</p>
+<p>The most meaningful research at present is actually from OpenAI itself. OpenAI in their latest working paper &ldquo;GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models&rdquo;, discussed in depth the possible impact of AI on the labor market.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_3/fig_1_hu8eb245e76fae3d161b7943bc6e4eb517_296947_202339dba9a0f9b592ad29b5cd8ab7f1.webp 400w,
+               /post/online_job_3/fig_1_hu8eb245e76fae3d161b7943bc6e4eb517_296947_767fe614e7ff76955c9ab7b1a3fed0ac.webp 760w,
+               /post/online_job_3/fig_1_hu8eb245e76fae3d161b7943bc6e4eb517_296947_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_3/fig_1_hu8eb245e76fae3d161b7943bc6e4eb517_296947_202339dba9a0f9b592ad29b5cd8ab7f1.webp"
+               width="693"
+               height="618"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>In this article, researchers found that under the impact of the increasingly popular large language model (LLM), at least 80% of the US workforce will be affected, and 10% of their work will be replaced by LLM. Among them, 19% of the US workforce has more than 50% of the work to be replaced.</p>
+<p>Note that the above research is only limited to the US job market. So, what about China? This is a super-large but completely different labor market from the United States, and it is also facing population aging and various labor-capital contradictions; how many of the various positions in China will be replaced or even disappear due to the impact of large language models?</p>
+<p>In this article, we will use the ideas of OpenAI&rsquo;s working paper, use recruitment data from China, and use our independently designed methods to try to give a comprehensive data answer to this public concern that goes beyond emotional cognition and covers all occupations.</p>
+<h2 id="discussion-on-the-key-issue-of-ai-substitution-what-exactly-is-each-profession-doing">Discussion on the key issue of AI substitution: What exactly is each profession doing?</h2>
+<p>To analyze to what extent a position can be replaced by GPT or other derived AI models, the first thing to clarify is a key issue:</p>
+<p><strong>What exactly is each profession doing?</strong></p>
+<p>We often see in marketing numbers that AI will replace secretaries, AI will replace programmers, and so on. But this is a very vague expression. In essence, what AI replaces is not a vague professional name in public cognition, but the functions and work content contained in this profession.</p>
+<p>So, what are the functions contained in the profession? On the recruitment website, we will see &ldquo;job description&rdquo;, for example, the job description of a typical human resources department employee may include the following content:</p>
+<ol>
+<li>Recruitment of new employees, handling of employee entry procedures</li>
+<li>Arrangement and implementation of new employee entry training</li>
+<li>Attendance and salary performance calculation</li>
+<li>Maintenance and expansion of the company&rsquo;s recruitment channels, assistance in social recruitment and other recruitment activities</li>
+<li>&hellip;</li>
+</ol>
+<p>Everyone can see that each of these is a function of the human resources department. And each function includes richer work content. For example, &ldquo;arrange and carry out new employee entry training&rdquo;, which includes the following specific work content - 1, writing, preparing training materials; 2, communication, communication and arrangement of schedule; 3, speech, training, improve employee skills&hellip; and other specific work content.</p>
+<p>When the work structure of the &ldquo;human resources specialist&rdquo; profession is broken down into several or even dozens of functions and work content, it is only possible to judge how likely it is that the content of &ldquo;writing, preparing training materials&rdquo; will be impacted by AI, so as to produce specific, quantifiable, and meaningful answers.</p>
+<p>Well, then the question is, how can we get the function and work content information of each profession? In order to obtain the task decomposition information of various occupations, the Onet database is used in the OpenAI paper. Onet, the full name is Occupational Information Network, is a free online database based on standardized American occupations. This database has completed all (American) professional decompositions.</p>
+<p>So does China have a database like Onet? Unfortunately, there is currently no, and because there is a certain difference between China and the United States in the definition of occupations, the occupations in the Onet database are difficult to form an accurate mapping relationship with the standard occupations in the Chinese Occupational Dictionary.</p>
+<p>So we adopted an indirect matching method, using real recruitment data on the market as a medium, each piece of recruitment data, through the method in the previous article, simultaneously maps to the Chinese standard profession and the O*net standard profession, and then summarizes according to the Chinese standard profession, thus obtaining the work tasks and specific work content under each Chinese standard profession. After summarizing and abstracting and merging, we matched and produced a total of 1639 occupations, 19265 functions and 23534 work content.</p>
+<h2 id="who-will-judge-the-ai-substitution-unexpectedly-the-data-annotator">Who will judge the AI substitution? Unexpectedly, the &ldquo;data annotator&rdquo;</h2>
+<p>After obtaining the above data, that is, clarifying the specific work tasks and content of each occupation, according to the method of OpenAI, the next step is to label each work task and specific work content to specifically judge whether it will be replaced by AI. At this point, the data to be labeled is about tens of thousands, so how to complete this work?</p>
+<p>In the past, we needed to hire a large number of human data annotators to label the 19,265 work tasks and 23,534 types of work content, let the annotators judge the possibility of each task being replaced by AI, whether it is 30% or 70%, and then merge these annotators' work together to average, to get the possibility of each occupation being replaced by AI.</p>
+<p>Data annotators are actually a very novel occupation. They first appeared in the 2022 edition of the &ldquo;China Occupation Canon&rdquo;. The occupation code is 4-04-05-05-01. Under the category of &ldquo;Artificial Intelligence Trainers&rdquo;, the main work content includes &ldquo;Labeling and processing the original data of pictures, text, voice, etc.&rdquo;. Judging whether the specific tasks and work content of each occupation will be replaced by AI is naturally also a kind of work of data annotators.</p>
+<p>Yes, it should have been done this way, and it has been done this way for so many years. But now we have a large language model, we have GPT, and things start to change.</p>
+<p>In the working paper of OpenAI, the author indeed hired humans to label these work contents, but they also invited another more efficient assistant, that is GPT itself. After using a complex prompt to make GPT understand the background of the labeling task, let GPT take action by itself and judge how much possibility each work content will be replaced by itself.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_3/fig_2_hu44ad0a34222e0c76eeae69f35760e5c9_90361_58932e375d34586dddf48eea1c4d0698.webp 400w,
+               /post/online_job_3/fig_2_hu44ad0a34222e0c76eeae69f35760e5c9_90361_4eba3284a0b9f55d0ecdc0bdfc156727.webp 760w,
+               /post/online_job_3/fig_2_hu44ad0a34222e0c76eeae69f35760e5c9_90361_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_3/fig_2_hu44ad0a34222e0c76eeae69f35760e5c9_90361_58932e375d34586dddf48eea1c4d0698.webp"
+               width="693"
+               height="303"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>The result is somewhat unexpected, but it makes sense when you think about it-GPT&rsquo;s labeling results are highly consistent with human labeling results, and more than 81% of the labels are exactly the same. The paper let GPT annotate twice with different prompts, and the results are also very similar, with 91.1% of the results the same between the two annotations. The paper finally chose one of GPT&rsquo;s annotation results for research, and the human annotation results were only used to judge the rationality of GPT and were not used in the paper.</p>
+<p>Yes, let GPT label the &ldquo;possibility of a certain work content being replaced by GPT&rdquo;. Let magic judge magic. We naturally also used this method, directly used the API of GPT-4, and labeled each type of work content for each occupation. The specific prompt is similar to this (the prompt we finally used is not exactly the same, it can be modified according to the needs):</p>
+<p>You are a &ldquo;large language model labor substitution assessor&rdquo;. Large language models are deep learning models used to process and generate natural language text. The latest large language models can generate and describe the creation of images and videos based on natural language text. Against this background, you need to score each of the following tasks from the perspective of &ldquo;whether the task can reduce human labor time participation under the premise of achieving the same output or the same effect with the help of a large language model&rdquo;. The score ranges from 0 to 5 points, 0 means that the task cannot reduce human labor input with the help of a large language model, 1 means that it can reduce 20% human labor input, 2 means it can reduce 40% human labor input, 3 means it can reduce 60% human labor input, 4 means it can reduce 80% human labor input, 5 means it can reduce 100% human labor input, that is, the task no longer needs human labor participation. Your score represents how much labor input the large language model can save in each task. Please score carefully based on the current progress of the large language model and what you think the future development situation may be. Please return the score result of each task in the format of &ldquo;id, score&rdquo; for each line.</p>
+<p>In the API, the above content is used as the background input, and then the specific work tasks and work content can be input. Multiple entries can be input at a time, but due to the input token limit, we can input about 100 at most each time for GPT to help label. Next, the API of GPT-4 will quickly return the result. Since the tasks have been broken down in detail, the labeling of each task is very accurate and robust. What&rsquo;s more important is that using GPT to label, the cost is extremely low. To label 40,000 pieces of content, label 100 pieces each time, only 400 times are needed. Using the GPT-4 model, each time 100 pieces are labeled, it only costs $0.12. That is to say, a total of only $48 is needed, which is more than 300 yuan in RMB. If you use the gpt-3.5-tubo model that is not so accurate, but faster and cheaper, 40,000 pieces only need to consume $3, about 20 yuan. The performance of GPT-4 and gpt-3.5-turbo is almost no difference in such simple tasks. Human data annotators need at least 10,000 yuan to complete the annotation of 40,000 pieces of content, and a week. GPT only needs half an hour, the money for a cup of milk tea. And the results are very accurate and robust.</p>
+<p>Next, the GPT-4 API will quickly return the results. Since the tasks have been broken down in detail, the labeling for each task is very accurate and robust.</p>
+<p>More importantly, the cost of using GPT for labeling is incredibly low. To label 40,000 pieces of content, each time labeling 100 pieces, only requires 400 times. Using the GPT-4 model, each time 100 pieces are labeled, it only costs $0.12. That is to say, a total of only $48 is needed, which is a little over 300 yuan in RMB. If you use the less accurate but faster and cheaper gpt-3.5-turbo model, 40,000 pieces only need to cost $3, about 20 yuan. On such simple tasks, the performance of GPT-4 and gpt-3.5-turbo is almost indistinguishable.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_3/fig_3_hu011f152c06588be2a1f296542e256925_48174_004756ba54e99d8ac134877be995e914.webp 400w,
+               /post/online_job_3/fig_3_hu011f152c06588be2a1f296542e256925_48174_d170a4db5a61415c10431e9799e01604.webp 760w,
+               /post/online_job_3/fig_3_hu011f152c06588be2a1f296542e256925_48174_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_3/fig_3_hu011f152c06588be2a1f296542e256925_48174_004756ba54e99d8ac134877be995e914.webp"
+               width="693"
+               height="338"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>A human data labeler would need at least 10,000 yuan and a week to complete the labeling of 40,000 pieces of content. GPT only needs half an hour and the cost of a cup of milk tea. And the quality of the two is almost the same.</p>
+<p>We must face an ironic fact -</p>
+<p>The newly emerged profession of human labelers, who have only been around for a few years, are being replaced by the large language model GPT that they fed and trained. When completing a task of &ldquo;which occupations can GPT replace&rdquo;, the first to be replaced were the human data labelers who trained GPT.</p>
+<h2 id="through-the-results-of-work-content-labeling-we-found-the-occupations-most-easily-replaced-by-ai">Through the results of &ldquo;work content labeling&rdquo;, we found the occupations most easily replaced by AI</h2>
+<p>Using the results of GPT labeling, we can calculate which occupations are most easily replaced by large language models and other AI-related derivative occupations. The specific calculation process is as follows:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_3/fig_4_hu86eb92d10f27662213e9a816c4e3f06c_160190_10f23838e5c9923e4586e6444e9e2637.webp 400w,
+               /post/online_job_3/fig_4_hu86eb92d10f27662213e9a816c4e3f06c_160190_d0bdf60b46d02233ceef033d7c390658.webp 760w,
+               /post/online_job_3/fig_4_hu86eb92d10f27662213e9a816c4e3f06c_160190_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_3/fig_4_hu86eb92d10f27662213e9a816c4e3f06c_160190_10f23838e5c9923e4586e6444e9e2637.webp"
+               width="760"
+               height="609"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>All the work weights (from O*net data) and substitution rates are multiplied and then summed to get the AI substitution rate of the profession, which can be understood as how much of the work content of this job can be replaced by AI. We have summarized all the labeling results on Chinese occupations and given the &ldquo;AI substitution coefficient&rdquo; of each profession in the Data Group+ applet (thanks to Yang Yang from the University of California, San Diego (UCSD) for providing relevant data and calculations).</p>
+<p>The table below lists the 25 occupations with the highest and lowest AI substitution rates among the occupations that have reached a certain scale of recruitment.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_3/fig_5_hucbd4bac45bab54ed9e71fbb52d963070_467216_7306e6c004d0b590723be633e8b13861.webp 400w,
+               /post/online_job_3/fig_5_hucbd4bac45bab54ed9e71fbb52d963070_467216_70444feca1a1b6c204112f4b79e3dbde.webp 760w,
+               /post/online_job_3/fig_5_hucbd4bac45bab54ed9e71fbb52d963070_467216_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_3/fig_5_hucbd4bac45bab54ed9e71fbb52d963070_467216_7306e6c004d0b590723be633e8b13861.webp"
+               width="396"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>The profession with the highest AI substitution rate is translation, followed by insurance underwriting professionals and playwrights. These three occupations have over 90% of their work tasks and content exposed to the risk of AI substitution.</p>
+<p>Next, visual communication designers, decorative artists, art editors, advertising designers, editors, these occupations related to art, video, drawing, are also over 80% replaced by AI in terms of work content. Text editors, web editors, literary writers, text journalists, these occupations highly related to text generation and modification, the content replaced is also over 75%.</p>
+<p>Call center service personnel, front desk service personnel (i.e., personnel providing consultation, reception, check-in registration, checkout and other front desk services for guests), program hosts, secretaries&hellip; these occupations also appear in the top 25.</p>
+<p>Of course, we cannot forget the 25th ranked computer program designer, on average, programmers have 75% of their work content facing the risk of being replaced by AI.</p>
+<p>The occupations with the lowest AI substitution rates are mainly various manufacturing-related blue-collar workers. This is not surprising, because when we let GPT play the role of &ldquo;large language model replacement labor evaluator&rdquo; in scoring and labeling, it naturally cannot evaluate the occupations that may be replaced by other machines. But there are still a few people outside of manufacturing workers worth noting - landscapers, cleaners, laundry masters, masseurs, manicurists, Chinese pastry chefs&hellip; these occupations that don&rsquo;t seem to require too high education and don&rsquo;t have the highest wages, have become the hardest occupations to be replaced by AI.</p>
+<p>Of course, the above are just some summaries, if you are interested in more information about the AI substitution risk of more occupations, you can query and explore in the Data Group applet.</p>
+<h2 id="exploration-behind-ai-substitution-rate-and-professional-characteristics">Exploration behind AI substitution rate and professional characteristics</h2>
+<p>In the work paper of OpenAI, researchers found a stable positive correlation - the higher the wage of the profession, the higher the possibility of being replaced by GPTs. This trend only reverses after the annual income of the profession exceeds $100,000, as shown in the figure below.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_3/fig_6_hudc0b0a9987081682f4480ff6e17548f9_46239_e6c07ba130c2dcd9787e6406650987c9.webp 400w,
+               /post/online_job_3/fig_6_hudc0b0a9987081682f4480ff6e17548f9_46239_f4a1bbab1494e1cc71110f7388e1ff95.webp 760w,
+               /post/online_job_3/fig_6_hudc0b0a9987081682f4480ff6e17548f9_46239_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_3/fig_6_hudc0b0a9987081682f4480ff6e17548f9_46239_e6c07ba130c2dcd9787e6406650987c9.webp"
+               width="693"
+               height="273"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>So what about China? Please see the figure below</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_3/fig_7_hu655c92353fc99b1f41229dec1049eb82_498797_48518549eb7d16aaf227e1fa960e1df5.webp 400w,
+               /post/online_job_3/fig_7_hu655c92353fc99b1f41229dec1049eb82_498797_d18015d57cfceb78374e7af71e11144c.webp 760w,
+               /post/online_job_3/fig_7_hu655c92353fc99b1f41229dec1049eb82_498797_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_3/fig_7_hu655c92353fc99b1f41229dec1049eb82_498797_48518549eb7d16aaf227e1fa960e1df5.webp"
+               width="760"
+               height="732"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>As you can see, the phenomenon in the United States does not seem to appear in China. There is no significant positive correlation between the wage level of the profession and the AI substitution rate of the profession.</p>
+<p>However, as mentioned in the previous article, for each profession, the current wage is only part of the content, what&rsquo;s more important is the growth rate of years in the profession. Some jobs may have lower entry wages, but they have more room for growth as the years of work increase, resulting in higher total income over ten years.</p>
+<p>So, what is the relationship between the wage growth rate of years in the profession and the AI substitution rate of each profession? See the figure below:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_3/fig_8_hu02a0e51ee5b383fb46fed62ff8b964a1_553392_5db1b8b8cdf3b40ec4bae001ceaa6d3e.webp 400w,
+               /post/online_job_3/fig_8_hu02a0e51ee5b383fb46fed62ff8b964a1_553392_d679338fa204b41af59ec9ead0a898a9.webp 760w,
+               /post/online_job_3/fig_8_hu02a0e51ee5b383fb46fed62ff8b964a1_553392_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_3/fig_8_hu02a0e51ee5b383fb46fed62ff8b964a1_553392_5db1b8b8cdf3b40ec4bae001ceaa6d3e.webp"
+               width="718"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>As you can see, the AI substitution rate of each profession does have a very significant relationship with the wage growth rate of each profession&rsquo;s years, the significance level of the positive correlation is below 0.001. If we change the above figure into a segmented bar chart, we will see a more obvious trend. Please see the figure below:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_3/fig_9_hu03caf0001c877ec876c7db3a38df73c4_223579_228369d1aa0b56d40874607a66db9ef2.webp 400w,
+               /post/online_job_3/fig_9_hu03caf0001c877ec876c7db3a38df73c4_223579_65aeb02ea3787f77afe1dd01f83fc4fb.webp 760w,
+               /post/online_job_3/fig_9_hu03caf0001c877ec876c7db3a38df73c4_223579_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_3/fig_9_hu03caf0001c877ec876c7db3a38df73c4_223579_228369d1aa0b56d40874607a66db9ef2.webp"
+               width="686"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>As you can see from the above figure, the occupations with the slowest wage growth per year of employment, less than 8%, are relatively the least likely to be replaced by AI. But if a profession&rsquo;s wage grows by more than 20% for each year of work, the likelihood of being replaced by AI averages over 60%.</p>
+<p>This trend indicates a significant feature of the large language model and its related AI in this round, that is:</p>
+<p>The experience, skills, and tips that people accumulate in an industry, on the one hand, make these occupations seem to have stronger &ldquo;growth&rdquo;, but on the other hand, they are the first things to be replaced by large language models.</p>
+<p>On the contrary, those human abilities that do not require deep learning to master have become skills that will not be replaced by AI.</p>
+<h2 id="why-is-ai-replacing-these-why-are-we-us">Why is AI replacing these? Why are we us?</h2>
+<p>Among the various jobs that are replaced by AI, why are they the ones mentioned above?</p>
+<p>The first possibility is that those occupations that can accumulate more experience and improve productivity faster after learning and working, have higher labor costs themselves, so people are more motivated to find AI that can replace this kind of labor, and give more investment to such AI products, so these occupations become the first batch of sacrifices.</p>
+<p>This makes some sense, but we can also find many counterexamples, such as autonomous driving. Driving this skill, people can master it in a few hours or at most a dozen hours; on the other hand, investment in autonomous driving is one of the top in the field, but the current effect is still a long way from full-condition autonomous driving.</p>
+<p>On the contrary, some biological and chemical skills, compound finding, protein folding, or full automation in experimental procedures, these knowledge that people need years of professional training to master, although the capital intervention can only be a drop in the bucket compared to autonomous driving, but there are already very good replacement AI.</p>
+<p>From this point of view, the logic of higher labor prices - attracting more investment - more likely to appear replacement AI seems not entirely correct.</p>
+<p>So, we have to consider the second possibility - the skills that humans learn knowledge, accumulate experience and tips through practice, AI has indeed achieved or even surpassed.</p>
+<p>Yes, it&rsquo;s not a single skill, nor a group of skills, but those skills that are acquired through hard learning and practice, humans are already behind AI. Those high-growth occupations, whether they are in the safe zone now or not, the appearance of replacement AI may be a matter of these few years, or even a few months.</p>
+<p>In the end, those skills that human children have mastered even at birth, those exquisite biological instincts of humans, seem to be the hardest part for AI to imitate and replace.</p>
+<p>And those acquired knowledge, it takes a long time to learn arithmetic, learn to write, learn to draw, learn to program, learn to make good-looking ppt, learn to read X-ray films, learn to write legal documents, learn many languages and communicate freely&hellip; Humans have learned all kinds of things to be proud of, and feel that these characteristics seem to make humans philosophically different from other creatures.</p>
+<p>But in the eyes of AI, these things are worthless.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/labor-market/">Labor Market</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://leoyang.org/post/online_job_3/&amp;text=Unveiling%20the%20Impact%20of%20AI%20on%20the%20Job%20Market:%20Assessing%20the%20Potential%20Substitution%20of%20Occupations%20by%20Large%20Language%20Models%20in%20China" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://leoyang.org/post/online_job_3/&amp;t=Unveiling%20the%20Impact%20of%20AI%20on%20the%20Job%20Market:%20Assessing%20the%20Potential%20Substitution%20of%20Occupations%20by%20Large%20Language%20Models%20in%20China" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Unveiling%20the%20Impact%20of%20AI%20on%20the%20Job%20Market:%20Assessing%20the%20Potential%20Substitution%20of%20Occupations%20by%20Large%20Language%20Models%20in%20China&amp;body=https://leoyang.org/post/online_job_3/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://leoyang.org/post/online_job_3/&amp;title=Unveiling%20the%20Impact%20of%20AI%20on%20the%20Job%20Market:%20Assessing%20the%20Potential%20Substitution%20of%20Occupations%20by%20Large%20Language%20Models%20in%20China" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Unveiling%20the%20Impact%20of%20AI%20on%20the%20Job%20Market:%20Assessing%20the%20Potential%20Substitution%20of%20Occupations%20by%20Large%20Language%20Models%20in%20China%20https://leoyang.org/post/online_job_3/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://leoyang.org/post/online_job_3/&amp;title=Unveiling%20the%20Impact%20of%20AI%20on%20the%20Job%20Market:%20Assessing%20the%20Potential%20Substitution%20of%20Occupations%20by%20Large%20Language%20Models%20in%20China" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/online_job_2/">The Future of Professions: A Data-Driven Analysis of Wage Growth and Career Choices Across Cities and Industries</a></li>
+      
+      <li><a href="/post/online_job_1/">Exploring 500 Million Online Job Postings: An Introduction to Data and Methods</a></li>
+      
+      <li><a href="/project/labor_market/">Labor Market</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2023 Leo Y. Yang
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

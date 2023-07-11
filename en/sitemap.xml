@@ -4,9 +4,9 @@
   
   
   <url>
-    <loc>https://leoyang.org/talk/asian-perspective-seminar-series/</loc><lastmod>2023-02-24T11:00:00+00:00</lastmod></url>
+    <loc>https://leoyang.org/talk/computational-social-science-workshop/</loc><lastmod>2023-06-29T09:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/</loc><lastmod>2023-02-24T11:00:00+00:00</lastmod><xhtml:link
+    <loc>https://leoyang.org/</loc><lastmod>2023-06-29T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="zh"
       href="https://leoyang.org/zh/"
@@ -16,7 +16,7 @@
       href="https://leoyang.org/"
     /></url>
   <url>
-    <loc>https://leoyang.org/event/</loc><lastmod>2023-02-24T11:00:00+00:00</lastmod><xhtml:link
+    <loc>https://leoyang.org/event/</loc><lastmod>2023-06-29T09:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="zh"
       href="https://leoyang.org/zh/event/"
@@ -26,7 +26,7 @@
       href="https://leoyang.org/event/"
     /></url>
   <url>
-    <loc></loc><lastmod>2023-02-10T00:00:00+00:00</lastmod><xhtml:link
+    <loc></loc><lastmod>2023-04-08T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="zh"
       href=""
@@ -35,24 +35,70 @@
       hreflang="en"
       href=""
     /></url>
+  <url>
+    <loc>https://leoyang.org/categories/</loc><lastmod>2023-04-08T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/categories/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/category/data-insights/</loc><lastmod>2023-04-08T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/tag/labor-market/</loc><lastmod>2023-04-08T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc></loc><lastmod>2023-04-08T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href=""
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href=""
+    /></url>
+  <url>
+    <loc>https://leoyang.org/post/</loc><lastmod>2023-04-08T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/post/"
+    /></url>
+  <url>
+    <loc></loc><lastmod>2023-04-08T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/tags/</loc><lastmod>2023-04-08T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/tags/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/post/online_job_3/</loc><lastmod>2023-04-08T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/post/online_job_2/</loc><lastmod>2023-04-07T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/post/online_job_1/</loc><lastmod>2023-04-06T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/talk/asian-perspective-seminar-series/</loc><lastmod>2023-02-24T11:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2023-02-10T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication/building_wall/</loc><lastmod>2023-02-10T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2023-02-10T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
+    <loc>https://leoyang.org/tag/media-politics/</loc><lastmod>2023-02-10T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication_types/</loc><lastmod>2023-02-10T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
@@ -73,44 +119,6 @@
       hreflang="en"
       href="https://leoyang.org/publication/"
     /></url>
-  <url>
-    <loc>https://leoyang.org/categories/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/categories/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/category/data-think/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/tag/movie-box/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/post/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/post/"
-    /></url>
-  <url>
-    <loc></loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/tags/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/tags/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/post/spring_festival_movie_box/</loc><lastmod>2023-02-03T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication/gaslighting/</loc><lastmod>2023-01-07T00:00:00+00:00</lastmod></url>
   <url>
@@ -133,6 +141,10 @@
     <loc></loc><lastmod>2022-08-15T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication/mining_disaster/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/post/taiwan_products/</loc><lastmod>2021-11-28T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/tag/trade/</loc><lastmod>2021-11-28T00:00:00+00:00</lastmod></url>
   <url>
     <loc></loc><lastmod>2021-09-06T00:00:00+00:00</lastmod></url>
   <url>
@@ -196,25 +208,9 @@
   <url>
     <loc></loc><lastmod>2018-10-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/tag/deep-learning/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/tag/deep-learning/"
-    /></url>
+    <loc>https://leoyang.org/project/labor_market/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/project/example/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/project/example/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/project/example/"
-    /></url>
+    <loc>https://leoyang.org/project/media/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/project/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"

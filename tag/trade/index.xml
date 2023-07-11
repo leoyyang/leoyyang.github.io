@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trade | Leo Y. Yang</title>
+    <link>https://leoyang.org/tag/trade/</link>
+      <atom:link href="https://leoyang.org/tag/trade/index.xml" rel="self" type="application/rss+xml" />
+    <description>Trade</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Leo Y. Yang</copyright><lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
+      <title>Trade</title>
+      <link>https://leoyang.org/tag/trade/</link>
+    </image>
+    
+    <item>
+      <title>Preparing for Rain: An Analysis of Mainland China&#39;s Dependence on Imports of Taiwanese Products</title>
+      <link>https://leoyang.org/post/taiwan_products/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://leoyang.org/post/taiwan_products/</guid>
+      <description>&lt;p&gt;The complete and diversified supply chain has become increasingly important in the international situation in recent years. The trade war between China and the United States has lasted for nearly 2 years. Although there are signs of easing now (?), the confrontation between China and the United States in other aspects will only increase, not decrease. The most intense place of confrontation between China and the United States, and the direction that is most likely to bring uncertainty in the future, is naturally the southeast of the mainland. Don&amp;rsquo;t say that you didn&amp;rsquo;t predict it, prepare for the rain first. If the war in the southeast unfortunately breaks out, the industrial chain of mainland China will naturally be affected, especially the potential damage caused by the war and the obstruction of transportation, which will cause major impacts on enterprises that rely on the industrial chain of Taiwan. This article uses the monthly product import data of China&amp;rsquo;s imports and exports to Taiwan to analyze the scale and scope of this possible impact, and provide a possible pre-plan for mainland enterprises to prepare in advance.&lt;/p&gt;
+&lt;h2 id=&#34;import-dependence-on-taiwan-products&#34;&gt;Import Dependence on Taiwan Products&lt;/h2&gt;
+&lt;p&gt;First, we look at which products in the mainland area have a higher dependence on Taiwan. According to the quantity of goods imported from all over the world in China in the past five years, I calculated the proportion of Taiwan products. The top 10 products are as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;HS8 Product Code&lt;/th&gt;
+&lt;th&gt;HS8 Product Name&lt;/th&gt;
+&lt;th&gt;Import Taiwan Product Proportion&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;01069011&lt;/td&gt;
+&lt;td&gt;Tadpoles and froglets for pure breeding&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03028200&lt;/td&gt;
+&lt;td&gt;Fresh or frozen rays&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03028500&lt;/td&gt;
+&lt;td&gt;Fresh or ice fresh bass&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03034900&lt;/td&gt;
+&lt;td&gt;Frozen tuna&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03062110&lt;/td&gt;
+&lt;td&gt;Cultivated lobsters and crayfish&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03062210&lt;/td&gt;
+&lt;td&gt;Cultivated lobsters&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03062910&lt;/td&gt;
+&lt;td&gt;Other cultivated edible crustaceans&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03063110&lt;/td&gt;
+&lt;td&gt;Cultivated live spiny lobsters and other sea lobsters&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03063210&lt;/td&gt;
+&lt;td&gt;Cultivated live lobsters&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03063391&lt;/td&gt;
+&lt;td&gt;Live/fresh/ice fresh freshwater crabs, non-breeding&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The products with an import proportion of 100% from Taiwan are concentrated on the procurement of Taiwan&amp;rsquo;s agricultural products. Due to the mainland&amp;rsquo;s Taiwan policy, such results should not be surprising. Although the import proportion of these products in Taiwan is high, from another perspective, these products can be self-sufficient in the mainland, but they choose to purchase from Taiwan for policy reasons. These policy-oriented import purchases, especially the purchase of agricultural products, have very strong substitutability: just don&amp;rsquo;t eat tuna and crayfish for a while. Therefore, when analyzing the import proportion, we should ignore categories such as agricultural products and aquatic products, and focus on industrial raw materials, intermediate products, and finished products. These products are the imported products that may cause shocks to the supply chain.&lt;/p&gt;
+&lt;p&gt;Therefore, we remove all agricultural and pastoral products, toys, jewelry and other final consumer goods, and only consider 42 major categories of products including chemicals, electrical equipment, machines, and measurement and inspection instruments. Among these 36 major categories, there are 220 sub-categories of products, and the proportion of products imported from Taiwan in the mainland area exceeds 50%. Among them, the proportion of imported Taiwan products reached 100%:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;HS8 Product Code&lt;/th&gt;
+&lt;th&gt;HS8 Product Name&lt;/th&gt;
+&lt;th&gt;Import Taiwan Product Proportion&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;29071310&lt;/td&gt;
+&lt;td&gt;Nonylphenol&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;29394400&lt;/td&gt;
+&lt;td&gt;Ephedrine and its salts&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30032015&lt;/td&gt;
+&lt;td&gt;Neither standard dose nor retail packaged cefaclor drugs&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30042011&lt;/td&gt;
+&lt;td&gt;Cefixime drugs in dosage or retail packaging&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;37024100&lt;/td&gt;
+&lt;td&gt;Color film, unexposed, unperforated, width &amp;gt;610mm, length &amp;gt;200m&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;85211019&lt;/td&gt;
+&lt;td&gt;Other tape recorders&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;84261943&lt;/td&gt;
+&lt;td&gt;Well frame unloading bridge&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;84451329&lt;/td&gt;
+&lt;td&gt;Other cotton yarn roving machines&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;84619011&lt;/td&gt;
+&lt;td&gt;Double column (open) planer&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;84631019&lt;/td&gt;
+&lt;td&gt;Cold drawn tube rack, drawing force 300t&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Nonylphenol, which has an import ratio of 100%, is an important fine chemical raw material and intermediate. It is mainly used to produce surfactants, antioxidants, textile dyeing and finishing aids, lubricant additives, pesticide emulsifiers, resin modifiers, resin and rubber stabilizers and other fields. However, interestingly, since 2007, the Ministry of Commerce has initiated anti-dumping investigations on nonylphenol originating in Taiwan and imposed anti-dumping taxes ranging from 6% to 20%. However, as of 2019, the import of nonylphenol still highly depends on Taiwan.&lt;/p&gt;
+&lt;p&gt;So, next we need to analyze, these 220 sub-categories of products, once the war is cut off, whether our country is easy to get substitutes from other countries on the supply chain? Here we use an index that describes the degree of concentration, the Herfindahl index (HHI), to represent the dispersion of the source of a certain type of product imported by our country. Theoretically, the more suppliers on the supply chain and the more diversified the procurement, the higher the security of the supply chain.&lt;/p&gt;
+&lt;h2 id=&#34;diversity-of-the-source-of-high-import-ratio-products&#34;&gt;Diversity of the source of high import ratio products&lt;/h2&gt;
+&lt;p&gt;We calculate the diversity of the source of a certain product through the following formula. If all the import volume of a product comes from the same country or region, then the diversity of the source is equal to 1; if 2 units are imported, they come from two countries, then the diversity of the source is equal to 0.5.&lt;/p&gt;
+&lt;p&gt;Diversity of a certain imported product $$source = 1-\sum^{220}_i(\frac{Import\ volume_i}{Total\ import\ volume})^2$$&lt;/p&gt;
+&lt;p&gt;Among the 220 sub-categories, we use the diversity index less than 0.5 as the judgment standard, and screen out 81 kinds of products with high import ratio and the source is dominated by Taiwanese products. These products can be divided into the following categories:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Category&lt;/th&gt;
+&lt;th&gt;Product&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Chemical raw materials&lt;/td&gt;
+&lt;td&gt;Nonylphenol, other tungsten oxides and hydroxides, other glass fiber woven fabrics, lithium ferrophosphate, dioctyl phthalate, vinyl acetate, potassium alum, tetrahydrophthalic anhydride, polytetramethylene ether glycol, butanone, sodium silicate, stainless steel ingots, chlorides, refined copper foil, etc.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pharmaceutical raw materials&lt;/td&gt;
+&lt;td&gt;Ephedrine and its salts, Chinese medicine wine, cefotaxime drugs, etc.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Production machinery&lt;/td&gt;
+&lt;td&gt;Double column (open) planer, hot rolling tube machine, other cotton yarn roving machines, socket wrench, non-domestic automatic interlocking machine, high-precision grinding machine, rotary pneumatic hand tools, CNC drilling machine, horizontal lathe, punching machine, blowtorch, CNC grinding machine, etc.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Industrial textiles&lt;/td&gt;
+&lt;td&gt;Rubber textile fabrics, other synthetic fiber woven fabrics, polyamide deformed yarn, glass fiber strips, high-strength nylon, unbleached or bleached synthetic fiber woven fabrics, other glass fiber woven fabrics, etc.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;These products involve the supply of raw materials and important production tools for manufacturing, and will have a significant impact on the chemical, textile, pharmaceutical, and metalworking industries. Especially for raw material supply, once it is cut off, it may immediately cause a shock to the industrial chain. And these industries are the upstream industries of many final consumer goods. If they do not respond well, the impact may spread to downstream industries. But if the Southeast war does not last long and the scale is controllable, then the import of production machinery may be able to resume after a brief pause, which is relatively acceptable to the impact on the industrial chain.&lt;/p&gt;
+&lt;p&gt;However, if the war is undecided, or if local enterprises cannot resume production as soon as possible after the war, then a dilemma needs to be faced: on the one hand, the supply of Taiwan&amp;rsquo;s local products has problems, on the other hand, the United States and its allies are very likely to impose sanctions on China, including trade embargoes. Therefore, considering the possible embargo, we need to exclude the &amp;ldquo;close&amp;rdquo; allies of the United States and recalculate the diversity of the source of imported products. After we remove the Five Eyes Alliance members the United States, Japan, Australia, New Zealand, the United Kingdom, and Canada, the products that may cause impact increase from 81 to 114. The newly added products are as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Category&lt;/th&gt;
+&lt;th&gt;Product&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Chemical raw materials&lt;/td&gt;
+&lt;td&gt;Carbon dioxide, ammonia water, tetrahydrofuran, other amino resins in primary shapes, 6mm refined copper wire, refined copper clad copper plate for printed circuits, forged magnesium, manganese dioxide primary batteries&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Production machinery&lt;/td&gt;
+&lt;td&gt;Anti-corrosion board for circuit processing, gear winches, flat screen printing machines, other lathes for removing metal, knee-type milling machines, thread tapping machines, high-precision CNC surface grinders, thread rolling machines, plastic bridge molding machines, looms with a width of 30 cm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Industrial textiles&lt;/td&gt;
+&lt;td&gt;Containing 85% synthetic short fibers, other fabrics made of metal wire/metal yarn containing man-made fibers, other textiles treated with polyurethane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;possible-impact-on-chinas-industries&#34;&gt;Possible Impact on China&amp;rsquo;s Industries&lt;/h2&gt;
+&lt;p&gt;From the perspective of decision-makers, we should also consider how the affected supply chain will impact China&amp;rsquo;s macroeconomy and whether this impact can be tolerated. Based on China&amp;rsquo;s enterprise-level customs import data in 2016, we can estimate the scale of companies directly affected by these products and the potential economic impact.&lt;/p&gt;
+&lt;p&gt;In 2016, a total of 2,451 enterprises imported these 81 highly dependent products from the &amp;ldquo;Taiwan-Penghu-Kinmen Customs Zone&amp;rdquo; with a total value exceeding 1.9 billion yuan. We obtained relevant information about these companies from the industrial and commercial registration database.&lt;/p&gt;
+&lt;p&gt;According to the registered addresses of these companies, their geographical distribution is shown in the following figure:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Geographical distribution of companies highly dependent on Taiwan imports&#34; srcset=&#34;
+               /post/taiwan_products/fig_1_hu8c7efb40a7f3673ee1ba2a61e5e14f97_51378_2a71742250868e0ecc2943126b07cd14.webp 400w,
+               /post/taiwan_products/fig_1_hu8c7efb40a7f3673ee1ba2a61e5e14f97_51378_69184dcdbc0d95c3ecbdee2e5625ee79.webp 760w,
+               /post/taiwan_products/fig_1_hu8c7efb40a7f3673ee1ba2a61e5e14f97_51378_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/taiwan_products/fig_1_hu8c7efb40a7f3673ee1ba2a61e5e14f97_51378_2a71742250868e0ecc2943126b07cd14.webp&#34;
+               width=&#34;672&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;It can be seen that China&amp;rsquo;s Pearl River Delta, Yangtze River Delta, and the economic belt around Beijing have a large number of companies highly dependent on imported products from Taiwan. The distribution of these 2,451 companies roughly corresponds to the geographic distribution of China&amp;rsquo;s manufacturing industry.&lt;/p&gt;
+&lt;p&gt;Due to differences in company size, these companies have varying levels of risk tolerance in the face of the disruption of Taiwan products. We made a simple calculation based on the registered capital and import quota in 2016. Assuming that these 81 Taiwan products have no substitutes and using the value of the final products of these companies as an estimate (which is actually a significant underestimate), we can define the risk faced by companies as:&lt;/p&gt;
+&lt;p&gt;$$Risk = \frac{Value\ of\ Products\ Directly\ Affected\ by\ Taiwan\ Disruption}{Registered\ Capital}$$&lt;/p&gt;
+&lt;p&gt;In the following chart, we plot the companies for which the direct impact of Taiwan&amp;rsquo;s disruption exceeds 10% of their registered capital. Both in terms of quantity and degree of impact, the direct impact is quite limited.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Companies with direct impact exceeding 10% of registered capital if highly dependent products from Taiwan are disrupted&#34; srcset=&#34;
+               /post/taiwan_products/fig_2_hu601a098e78e0a1cceaf10c2fcdcfcf78_293810_9a2a66bb03f1d88424db4c6c7d5b47bf.webp 400w,
+               /post/taiwan_products/fig_2_hu601a098e78e0a1cceaf10c2fcdcfcf78_293810_db7c6d5a71a09f7b5c86cd1a55c78bd8.webp 760w,
+               /post/taiwan_products/fig_2_hu601a098e78e0a1cceaf10c2fcdcfcf78_293810_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://leoyang.org/post/taiwan_products/fig_2_hu601a098e78e0a1cceaf10c2fcdcfcf78_293810_9a2a66bb03f1d88424db4c6c7d5b47bf.webp&#34;
+               width=&#34;643&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Considering that some companies mainly engage in commercial trade, import and export, and warehousing logistics, the products they import are not used as intermediate goods in their own production but are directly sold. Therefore, when considering the direct impact of disruption, we exclude these companies. For the remaining companies, we provide the following warning list based on the degree of impact. These companies imported a significant value of highly dependent goods from Taiwan in 2016. If there are events in the Southeast, they may be directly affected.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Company Name&lt;/th&gt;
+&lt;th&gt;Direct Impact Index of Taiwan Disruption&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Stanley (Zhongshan) Tools Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.6905926&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dongguan Anda Supply Chain Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.5663260&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Foshan Shenyuan Electronic Materials Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.2887774&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Junzhuo Electronics (Zhongshan) Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.2819164&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Suzhou Dawei Precision Industry Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.2776237&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Xiamen Tuofu Pearl Jewelry Clothing Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.2549209&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zhuhai Yingchen Webbing Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.1821954&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Huizhou Feibo Sports Equipment Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.1480040&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dongguan Lianmao Electronic Technology Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.1422973&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Huizhou Maoda Sewing Products Co., Ltd.&lt;/td&gt;
+&lt;td&gt;0.1357252&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Disclaimer: This article provides a shallow analysis of the direct impact of events in the Southeast on mainland Chinese companies based on publicly available data. The purpose is to provide a data-based perspective and does not constitute any policy recommendations.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

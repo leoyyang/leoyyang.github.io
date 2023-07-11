@@ -1,0 +1,1618 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Leo Y. Yang" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This article discusses the process of standardizing and categorizing job positions using AI and text learning, with the aim of avoiding data misinterpretation due to incorrect classifications. The standardized job database, built from billions of recruitment data, will be used for further data analysis to understand trends in income, experience, and AI&#39;s impact on various occupations." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://leoyang.org/post/online_job_1/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101555800-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-101555800-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu05798da5833095988f190093553a38f3_1610_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu05798da5833095988f190093553a38f3_1610_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://leoyang.org/post/online_job_1/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Leo Y. Yang" />
+  <meta property="og:url" content="https://leoyang.org/post/online_job_1/" />
+  <meta property="og:title" content="Exploring 500 Million Online Job Postings: An Introduction to Data and Methods | Leo Y. Yang" />
+  <meta property="og:description" content="This article discusses the process of standardizing and categorizing job positions using AI and text learning, with the aim of avoiding data misinterpretation due to incorrect classifications. The standardized job database, built from billions of recruitment data, will be used for further data analysis to understand trends in income, experience, and AI&#39;s impact on various occupations." /><meta property="og:image" content="https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-04-06T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-04-06T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://leoyang.org/post/online_job_1/"
+  },
+  "headline": "Exploring 500 Million Online Job Postings: An Introduction to Data and Methods",
+  
+  "datePublished": "2023-04-06T00:00:00Z",
+  "dateModified": "2023-04-06T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Qin Chen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Leo Y. Yang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "This article discusses the process of standardizing and categorizing job positions using AI and text learning, with the aim of avoiding data misinterpretation due to incorrect classifications. The standardized job database, built from billions of recruitment data, will be used for further data analysis to understand trends in income, experience, and AI's impact on various occupations."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Exploring 500 Million Online Job Postings: An Introduction to Data and Methods | Leo Y. Yang</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="00b2fbefa72594d444bab560052c4d63" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Leo Y. Yang</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Leo Y. Yang</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Data Insights</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Exploring 500 Million Online Job Postings: An Introduction to Data and Methods</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Qin Chen</span>, <span >
+      Leo Yang</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 6, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    11 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/data-insights/">Data Insights</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="introduction">Introduction</h2>
+<p>This is the first article in the &ldquo;Career&rdquo; series of urban data groups. The theme of this series is the career development of migrant workers. We will start from the existing recruitment data and use scientific data processing methods to present the current situation to readers. The occupational income growth curves of different occupations in different cities are also combined with the recent hot spots of public opinion to estimate the occupational substitution that AI may produce.</p>
+<p>As the first tweet in the series, I will start with the data used in this series of research and the grouping of &ldquo;occupations&rdquo;. I hope that after readers understand these basic information and methods, they will be more specific about the follow-up occupational salary and AI replacement rate. The data list has a more accurate understanding.</p>
+<h2 id="recruitment-data-of-the-same-age-as-the-internet-in-china">Recruitment data of the same age as the Internet in China</h2>
+<p>If you want to ask, among all kinds of Internet data, what type of data is easy to obtain, has a very large amount of information, and has a relatively long look-back time? My answer is - recruitment data.</p>
+<p>Go back in time to more than 20 years ago. At that time, most ordinary families did not have their own computers, let alone the Internet, and what was the most attractive online behavior? Not &ldquo;surfing the web&rdquo; or &ldquo;chatting in a chat room&rdquo;. On September 13, 2000 , an article in &ldquo;Science and Technology Daily&rdquo; mentioned:</p>
+<p>&ldquo;With the rapid development of our country&rsquo;s economy , the Internet is gradually accepted by the public. According to survey statistics , among the current Internet users , those who use the Internet for the purpose of job hunting account for half of the Internet population.&rdquo;</p>
+<p>On October 9, 2000, an article in &ldquo;Internet Weekly&rdquo; &ldquo;Where to find a job in the future?&rdquo; The article “Comparison of Recruitment Websites” cites a survey by CNNIC in July 2000. Among the information people obtain online, recruitment information accounts for 26.11%.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_1_hu5b7c0249b76f2297be12b856bab8da59_202872_6a3a8890002bf5bdedb6569dff990454.webp 400w,
+               /post/online_job_1/fig_1_hu5b7c0249b76f2297be12b856bab8da59_202872_5e5488caeff6a2c9557b83bb7906cd78.webp 760w,
+               /post/online_job_1/fig_1_hu5b7c0249b76f2297be12b856bab8da59_202872_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_1_hu5b7c0249b76f2297be12b856bab8da59_202872_6a3a8890002bf5bdedb6569dff990454.webp"
+               width="693"
+               height="470"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>In 1997 , ChinaHR and Zhaopin.com were established;
+In 1999 , 51job was established.
+In 2005 , 58.com , a job-seeking website for fresh graduates (yingjiesheng), was established.
+In the mobile Internet era after 2010 , various recruitment websites and apps have sprung up like mushrooms after a spring rain. Liepin, Boss Zhipin, Lagou&hellip; expand the dimension of recruitment data again.</p>
+<p>From the high-salary offers coveted by elite school students to domestic service and short-term odd jobs for blue-collar workers, the recruitment data has accumulated not only the story of generations of workers, but also the epitome of the Chinese economy over the past two decades.</p>
+<p>Recruitment data, which has appeared and grown together with China&rsquo;s first generation of Internet users since the beginning of the millennium, is a piece of data that is almost the same age as the Chinese Internet.</p>
+<h2 id="recruitment-data-representativeness-problem-and-simpsons-paradox">Recruitment Data: Representativeness Problem and Simpson&rsquo;s Paradox</h2>
+<p>Hiring data is also very difficult data to work with . Only through simple processing, it is difficult to present consistent, representative and valuable information.</p>
+<p>The representativeness problem has always been a big problem for recruitment data. What kind of companies recruit online, and what kind of companies choose to recruit from other channels? All along, Internet companies, foreign companies, etc., use recruitment websites much more frequently than state-owned companies and manufacturing companies. This makes the total recruitment volume, total resume delivery volume, and average salary indicators obtained through recruitment data summary have a not small bias from the real national average. The recruitment situation of different recruitment websites also varies greatly.</p>
+<p>For example, the following picture is a screenshot of the hot jobs of BOSS Direct Recruitment:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_2_hufbb25b31af1ca30446b02aa2b0bd1a4a_96026_9ccf7d6b6ddbbfeb648c14938bdfab10.webp 400w,
+               /post/online_job_1/fig_2_hufbb25b31af1ca30446b02aa2b0bd1a4a_96026_2809da9d96fa13d073371691995e4ff2.webp 760w,
+               /post/online_job_1/fig_2_hufbb25b31af1ca30446b02aa2b0bd1a4a_96026_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_2_hufbb25b31af1ca30446b02aa2b0bd1a4a_96026_9ccf7d6b6ddbbfeb648c14938bdfab10.webp"
+               width="693"
+               height="333"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>The following picture is a screenshot of the hot search positions for Shanghai recruitment from 58 same cities:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_3_hu262c1a4a6962a6748aee29fd0893a5e3_129266_77c3ad23e29c8e2da14697bc37efda55.webp 400w,
+               /post/online_job_1/fig_3_hu262c1a4a6962a6748aee29fd0893a5e3_129266_0eb63e664b2c6648a49b43a2c8fc3723.webp 760w,
+               /post/online_job_1/fig_3_hu262c1a4a6962a6748aee29fd0893a5e3_129266_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_3_hu262c1a4a6962a6748aee29fd0893a5e3_129266_77c3ad23e29c8e2da14697bc37efda55.webp"
+               width="693"
+               height="613"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>As you can see, the types and directions of recruitment information on the two websites are completely different. When we only use one or several recruitment websites, we inevitably miss a lot, and we cannot output effective conclusions.</p>
+<p>In addition, the classification of recruitment data is extremely difficult, which also increases its use threshold. When we use various big data, we often need to match this data with the data of the National Bureau of Statistics according to the appropriate classification standards to get similar caliber data, which is convenient for us to verify the validity of the data.</p>
+<p>But for recruitment data, although we have collected 500 million recruitment data and 1.2 billion recruitment vacancies from multiple recruitment website sources through data partners in the past eight years, if we just summarize these recruitment positions, whether it is divided by company, industry or region, it is very difficult to compare with official statistical data.</p>
+<p>Why can&rsquo;t massive data get effective conclusions?</p>
+<p>First, the number of acquisitions, sources, and company numbers of these data over the years have great differences. As can be seen from the following figure, in 2019, the year with the highest recruitment number, the total number of recruitment vacancies for all recruitment advertisements nationwide was 340 million, but in 2022 it dropped to 34 million, a full ten times difference.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_4_hucd45ae8cca10ae44d6e13e95bbf58411_238899_6a845919d84b92d4b6df0c67d980b3a6.webp 400w,
+               /post/online_job_1/fig_4_hucd45ae8cca10ae44d6e13e95bbf58411_238899_3f3796c8260f3c5a529f8c82557a6ad2.webp 760w,
+               /post/online_job_1/fig_4_hucd45ae8cca10ae44d6e13e95bbf58411_238899_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_4_hucd45ae8cca10ae44d6e13e95bbf58411_238899_6a845919d84b92d4b6df0c67d980b3a6.webp"
+               width="760"
+               height="690"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>But the change in the number of recruitments on recruitment websites cannot be completely corresponded to the demand for labor by enterprises. In a booming economy, employees turn faster, there are more businesses, and companies have better expectations for the future. Even the repeated adjustments of the same recruitment information will cause the company&rsquo;s recruitment number to fluctuate more than the real labor demand.</p>
+<p>Secondly, the salary of recruitment data is also a mixed variable. The following figure shows the average annual salary from 2015 to 2022. It can be seen that the year with the lowest average recruitment salary is 2017, about 4360 yuan/month. From 2015 to 2017, China experienced a continuous decline in recruitment salaries for two years, and then it rose again.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_5_hu8c6f0ea5efc02b81227806961a2e4af4_251116_b77c515cdfb3e054f48227f74a406fe3.webp 400w,
+               /post/online_job_1/fig_5_hu8c6f0ea5efc02b81227806961a2e4af4_251116_89c58266ade1f753aea55a0d90bf8f95.webp 760w,
+               /post/online_job_1/fig_5_hu8c6f0ea5efc02b81227806961a2e4af4_251116_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_5_hu8c6f0ea5efc02b81227806961a2e4af4_251116_b77c515cdfb3e054f48227f74a406fe3.webp"
+               width="760"
+               height="728"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>But did the recruitment salary really fall from 2015 to 2017? Not so.</p>
+<p>The first reason for the decline in recruitment salaries is the change in the proportion of social recruitment and fresh graduate recruitment in the recruitment structure. When the website data of the proportion of fresh graduate recruitment increases, the average salary decreases; when the data volume of social recruitment positions with many years of experience increases, the average salary will rise again.</p>
+<p>The second reason is the sinking of recruitment websites to second- and third-tier cities, and the penetration of previously less recruited worker groups—for example, blue-collar workers, domestic services and other types of work, in recent years, they have increasingly relied on online recruitment. And the wages of this part of the work are much lower than those of programmers who have mainly recruited through the Internet before, thereby lowering the overall average wage.</p>
+<p>The famous Simpson&rsquo;s paradox tells us a result: even if the averages of the two groups are rising, the sum of the averages may decrease. In the following example, when calculated separately, the male admission rate of University A and University B is higher than that of females, but the female with a lower admission rate is more in the group with a higher admission rate, resulting in a lower male admission rate after the summary.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_6_hu1931dafab1858d7ee6869ff7e79ef15e_286926_267cc120acd8b466d5ab261d32a6c8cf.webp 400w,
+               /post/online_job_1/fig_6_hu1931dafab1858d7ee6869ff7e79ef15e_286926_38f90f0629bdba8075e2931077efedf1.webp 760w,
+               /post/online_job_1/fig_6_hu1931dafab1858d7ee6869ff7e79ef15e_286926_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_6_hu1931dafab1858d7ee6869ff7e79ef15e_286926_267cc120acd8b466d5ab261d32a6c8cf.webp"
+               width="531"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>Some recruitment websites use their own data to regularly publish salary reports, which are also limited by their website data structure. There are also large differences with the standard industry and occupational structure of the National Bureau of Statistics, making it difficult to compare with other recruitment websites and difficult to combine with statistical data to get a comparable caliber.</p>
+<h2 id="cracking-the-simpsons-paradox-how-to-group-occupations-in-a-standard-way">Cracking the Simpson&rsquo;s Paradox: How to Group Occupations in a Standard Way</h2>
+<p>To classify and map the occupations, we first used the GPT4 model of ChatGPT to generate a typical recruitment advertisement.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_7_hu4bf7a961a3aeb93d41bd41f6fc7a8645_3145989_680d4445a6907b6d03ff6b567b8aec61.webp 400w,
+               /post/online_job_1/fig_7_hu4bf7a961a3aeb93d41bd41f6fc7a8645_3145989_31f05489e4da4ff29959f3871c14b0bb.webp 760w,
+               /post/online_job_1/fig_7_hu4bf7a961a3aeb93d41bd41f6fc7a8645_3145989_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_7_hu4bf7a961a3aeb93d41bd41f6fc7a8645_3145989_680d4445a6907b6d03ff6b567b8aec61.webp"
+               width="220"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>As you can see, the function of the position itself, as well as the required education and experience, have a great relationship with the salary of this position. Education and experience are relatively easy to separate from the text, that is, &ldquo;computer-related majors, undergraduate, more than 3 years&rdquo;. But how do we classify this occupation? How do we separate a Python engineer from other types of positions in order to control the inherent ability requirements of this position?</p>
+<p>The first way is to use the job classification of the recruitment website itself. The following three screenshots are from BOSS Direct Recruitment, Zhaopin Recruitment, and 58 City, and their categories all include &ldquo;Human Resources/Administration&rdquo;. As you can see, there are many overlaps and differences in their occupational classifications. The &ldquo;salary performance&rdquo; of BOSS Direct Recruitment is divided into &ldquo;salary benefits&rdquo; and &ldquo;performance appraisal&rdquo; in Zhaopin Recruitment. In 58 City, not only are salary and performance combined into one category, but &ldquo;employee relations&rdquo; is also included.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_8_huaa1c93d01c29332f56d2a3fde0d8838c_78108_f0af5fbbeadf7444b95d086015d0d50a.webp 400w,
+               /post/online_job_1/fig_8_huaa1c93d01c29332f56d2a3fde0d8838c_78108_1315c487856b1070919412d3f3302980.webp 760w,
+               /post/online_job_1/fig_8_huaa1c93d01c29332f56d2a3fde0d8838c_78108_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_8_huaa1c93d01c29332f56d2a3fde0d8838c_78108_f0af5fbbeadf7444b95d086015d0d50a.webp"
+               width="693"
+               height="273"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_9_hu7bf1b4e3b06bd32c7b5758f05509bdd6_26701_47d6c50160a0453342fd5372d38d1a6c.webp 400w,
+               /post/online_job_1/fig_9_hu7bf1b4e3b06bd32c7b5758f05509bdd6_26701_8e3d8a8125c02139fb799eee4fc94f1d.webp 760w,
+               /post/online_job_1/fig_9_hu7bf1b4e3b06bd32c7b5758f05509bdd6_26701_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_9_hu7bf1b4e3b06bd32c7b5758f05509bdd6_26701_47d6c50160a0453342fd5372d38d1a6c.webp"
+               width="693"
+               height="438"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>When we click into a certain category of occupation, a certain position often &ldquo;holds multiple positions&rdquo;, or there is only a difference in qualifications, and there is no difference in function. The division of different recruitment data makes the use of recruitment data more difficult.</p>
+<p>In order to make a comparison of the same caliber, we naturally need a more authoritative and standard occupational division. We used the &ldquo;China Occupation Encyclopedia&rdquo; as the basis for occupational division.</p>
+<p>The &ldquo;China Occupation Encyclopedia&rdquo; is the occupational classification used by the National Bureau of Statistics, the Ministry of Human Resources and Social Security, etc. when counting various occupations. The China Population Census, Population Dynamic Sampling Survey, etc. all use the &ldquo;China Occupation Encyclopedia&rdquo; as the basis for the occupational division of each surveyed worker. The latest 2022 version of the &ldquo;China Occupation Encyclopedia&rdquo; includes 8 major categories, 79 medium categories, 449 small categories, and 1639 detailed categories (occupations), which is the most complete and authoritative division of Chinese occupations.</p>
+<p>For example, if we want to find the classification of &ldquo;programmer&rdquo; from it, we can find it through the following hierarchical table:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_10_hu60a31689b8738044d74d1c146cf9ef78_483496_2393a406e13855b85fa23058628c2eb3.webp 400w,
+               /post/online_job_1/fig_10_hu60a31689b8738044d74d1c146cf9ef78_483496_85595592d6757fe4eb6a155875f1b255.webp 760w,
+               /post/online_job_1/fig_10_hu60a31689b8738044d74d1c146cf9ef78_483496_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_10_hu60a31689b8738044d74d1c146cf9ef78_483496_2393a406e13855b85fa23058628c2eb3.webp"
+               width="422"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>This kind of occupational division ensures that the intersection between occupations is minimal and the union is maximal to the greatest extent. We will try to map all recruitment data to these 1639 occupations.</p>
+<p>But how to divide and map? Just the position of &ldquo;computer program designer&rdquo;, the job title on the recruitment website may include a series of keywords such as JAVA, Python, Ruby, Golang, Node.js, C++&hellip; This is a relatively familiar occupation for the author, and we may be able to traverse this category of occupations through keyword mapping. But for some relatively unfamiliar occupations, such as &ldquo;course consultant with a monthly income of over 10,000 and a large space for promotion&rdquo;, can you accurately classify him into the category of &ldquo;salesperson&rdquo; in the standard occupational code?</p>
+<p>Therefore, we used a method of text learning. First, let the computer learn the specific work of each occupation, and then match it through the job description of each position, as shown in the figure below:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_11_hu7d1fbe0b50d2d1cc5b4100ff4d3a0258_384077_5dd6fe9c8da6c04232d0c5a9e4c6948b.webp 400w,
+               /post/online_job_1/fig_11_hu7d1fbe0b50d2d1cc5b4100ff4d3a0258_384077_a9f4fc601573ae47998e3da420b5ae76.webp 760w,
+               /post/online_job_1/fig_11_hu7d1fbe0b50d2d1cc5b4100ff4d3a0258_384077_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_11_hu7d1fbe0b50d2d1cc5b4100ff4d3a0258_384077_5dd6fe9c8da6c04232d0c5a9e4c6948b.webp"
+               width="524"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>Through preliminary annotation, the specific work of each occupation is combined with the name of the occupation to calculate the high-frequency word pairs of the occupation-function. Starting from the job function of the recruitment advertisement description, use Bayesian probability to calculate which specific occupation may correspond to, and calculate the specific classification of each occupation like a cloze.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_12_hu7e2dda60208c2c71fd272d7c4b2f78ac_18399_c198bc953dcd28b45065fa8025811873.webp 400w,
+               /post/online_job_1/fig_12_hu7e2dda60208c2c71fd272d7c4b2f78ac_18399_0b1b568b196fab2c981d532df9565c5c.webp 760w,
+               /post/online_job_1/fig_12_hu7e2dda60208c2c71fd272d7c4b2f78ac_18399_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_12_hu7e2dda60208c2c71fd272d7c4b2f78ac_18399_c198bc953dcd28b45065fa8025811873.webp"
+               width="760"
+               height="169"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>This method has a very high accuracy. The following is a group of examples we classified into &ldquo;computer program designers&rdquo;. As you can see, even if there is no keyword &ldquo;programmer&rdquo; in the title of the position, we may not be able to traverse various program-related keywords, but we can accurately classify this position through its job function.</p>
+<p>Using this method, we have allocated the recruitment data of 500 million and 1.2 billion recruitment vacancies obtained from various recruitment websites, as many as 18 million occupations, to more than 1,500 standard occupations, forming a standard occupation database of various cities across the country from 2015 to 2022.</p>
+<h2 id="initial-glimpse-of-occupational-passwords-recruitment-data-mine-built">Initial Glimpse of Occupational Passwords, Recruitment Data &ldquo;Mine&rdquo; Built</h2>
+<p>With the standard occupational database, we can control the recruitment time, place, experience requirements, education requirements, and job type of each position. When we use these data again, there will be no bias problems similar to Simpson&rsquo;s paradox.</p>
+<p>For example, based on this, when we calculate the recruitment salary for each year again, we can get the following figure:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/online_job_1/fig_13_hu7d241376581a148a9e680daf6ba2c5b3_212919_c35ae4a52be7bffac9ba3def83c48ea1.webp 400w,
+               /post/online_job_1/fig_13_hu7d241376581a148a9e680daf6ba2c5b3_212919_46c8cad128a56e7c5999fbc1feda2cba.webp 760w,
+               /post/online_job_1/fig_13_hu7d241376581a148a9e680daf6ba2c5b3_212919_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/online_job_1/fig_13_hu7d241376581a148a9e680daf6ba2c5b3_212919_c35ae4a52be7bffac9ba3def83c48ea1.webp"
+               width="760"
+               height="723"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>At this time, we can see a steadily rising wage growth curve, without a sudden drop. The same recruitment time, place, experience requirements, education requirements, and a job, the recruitment salary in 2022 is 2385 yuan higher than in 2015.</p>
+<p>This also means that this &ldquo;gold mine&rdquo; containing billions of recruitment data is no longer a chaotic open-pit wild mine, but has been built into a stable and controllable industrial-grade mine.</p>
+<p>What needs to be done next is to mine and smelt various valuable gold information from it.</p>
+<h2 id="preview-of-the-next-part">Preview of the next part</h2>
+<p>In this post, we figured out how to map the positions on job advertisements to more standard occupational classifications, so as to avoid data misjudgment caused by incorrect classifications. This just completes the construction of the &ldquo;recruitment data mine&rdquo;.</p>
+<p>In the second post of the series, we will enter the main part of mining (data analysis) to see how the income of practitioners in various cities and occupational categories changes with time and experience in their careers Cumulative improvement and change. For readers who want to do it themselves, we will also simultaneously update the query module of all research-related data in this series (including the AI replacement rate that everyone cares about.） The calculation of the AI replacement rate for different occupations will be introduced in detail in the third post.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/labor-market/">Labor Market</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://leoyang.org/post/online_job_1/&amp;text=Exploring%20500%20Million%20Online%20Job%20Postings:%20An%20Introduction%20to%20Data%20and%20Methods" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://leoyang.org/post/online_job_1/&amp;t=Exploring%20500%20Million%20Online%20Job%20Postings:%20An%20Introduction%20to%20Data%20and%20Methods" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Exploring%20500%20Million%20Online%20Job%20Postings:%20An%20Introduction%20to%20Data%20and%20Methods&amp;body=https://leoyang.org/post/online_job_1/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://leoyang.org/post/online_job_1/&amp;title=Exploring%20500%20Million%20Online%20Job%20Postings:%20An%20Introduction%20to%20Data%20and%20Methods" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Exploring%20500%20Million%20Online%20Job%20Postings:%20An%20Introduction%20to%20Data%20and%20Methods%20https://leoyang.org/post/online_job_1/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://leoyang.org/post/online_job_1/&amp;title=Exploring%20500%20Million%20Online%20Job%20Postings:%20An%20Introduction%20to%20Data%20and%20Methods" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/online_job_3/">Unveiling the Impact of AI on the Job Market: Assessing the Potential Substitution of Occupations by Large Language Models in China</a></li>
+      
+      <li><a href="/post/online_job_2/">The Future of Professions: A Data-Driven Analysis of Wage Growth and Career Choices Across Cities and Industries</a></li>
+      
+      <li><a href="/project/labor_market/">Labor Market</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2023 Leo Y. Yang
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
