@@ -5,12 +5,56 @@
     <link>https://leoyang.org/</link>
       <atom:link href="https://leoyang.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Leo Y. Yang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Leo Y. Yang</copyright><lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Leo Y. Yang</copyright><lastBuildDate>Thu, 11 Jan 2024 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
       <title>Leo Y. Yang</title>
       <link>https://leoyang.org/</link>
     </image>
+    
+    <item>
+      <title>Chinese Historical Databases Meeting</title>
+      <link>https://leoyang.org/talk/chinese-historical-databases-meeting/</link>
+      <pubDate>Thu, 11 Jan 2024 11:00:00 +0000</pubDate>
+      <guid>https://leoyang.org/talk/chinese-historical-databases-meeting/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.  --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Practical Workshop for Graduate Students</title>
+      <link>https://leoyang.org/talk/practical-workshop-for-graduate-students/</link>
+      <pubDate>Fri, 15 Dec 2023 13:00:00 +0000</pubDate>
+      <guid>https://leoyang.org/talk/practical-workshop-for-graduate-students/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.  --&gt;
+</description>
+    </item>
     
     <item>
       <title>From Parlor to Back Alley: Tracing the Migration of Prostitution in Response to Legal Changes</title>
