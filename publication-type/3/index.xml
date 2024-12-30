@@ -5,12 +5,35 @@
     <link>https://leoyang.org/publication-type/3/</link>
       <atom:link href="https://leoyang.org/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Leo Y. Yang</copyright><lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Leo Y. Yang</copyright><lastBuildDate>Thu, 12 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
       <link>https://leoyang.org/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>Bias and Trust in LLM-Driven Screening Automation: Experimental Insights from FinTech Lending</title>
+      <link>https://leoyang.org/publication/ai_loan/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://leoyang.org/publication/ai_loan/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>Biting the Hand That Teaches: Unraveling the Economic Impact of Banning Private Tutoring in China</title>
