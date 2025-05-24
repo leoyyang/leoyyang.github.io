@@ -36,19 +36,35 @@
             width: 100%;
             max-width: 1200px;
         }
+        article.universal-wrapper {
+            padding-top: 0.25rem;
+        }
         .job-tracker-header {
             text-align: center;
         }
         .job-tracker-header h1 {
-            font-size: 2.25rem;
-            font-weight: 300;
-            line-height: 1.25;
-            margin-bottom: 1rem;
+            font-size: 1.75rem;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 0.25rem;
+        }
+        .job-tracker-header p.lead {
+            margin-bottom: 0.15rem;
+            font-size: 0.95rem;
+            opacity: 0.8;
+        }
+        .date-info-bar {
+            background: rgba(0,0,0,0.02);
+            padding: 0.2rem 0;
+            margin: 0;
+            color: rgba(0,0,0,0.6);
+            line-height: 1;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
         }
         .chart-container {
             position: relative;
             height: 500px;
-            margin: 2rem 0;
+            margin: 0.75rem 0 2rem 0;
         }
         .stats-grid {
             display: grid;
@@ -73,11 +89,7 @@
             color: rgba(0,0,0,0.54);
             margin-top: 0.5rem;
         }
-        .update-info {
-            text-align: center;
-            color: rgba(0,0,0,0.54);
-            margin: 1.5rem 0;
-        }
+
         .btn-primary {
             background: #1565c0;
             color: white;
@@ -95,24 +107,20 @@
             background: #0d47a1;
             box-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
-        .date-range-selector label {
-            font-weight: 500;
-            color: rgba(0,0,0,0.87);
-            font-size: 0.875rem;
-        }
+
         .date-range-selector input[type="date"] {
-            font-size: 0.875rem;
-            background: #fff;
+            font-size: 0.7rem;
+            background: transparent;
             color: rgba(0,0,0,0.87);
-            padding: 0.5rem 0.75rem;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            padding: 0.1rem 0.3rem;
+            border: 1px solid rgba(0,0,0,0.15);
+            border-radius: 2px;
             font-family: inherit;
-            min-width: 165px;
+            min-width: 125px;
             display: inline-block;
             box-sizing: border-box;
-            line-height: 1.5;
-            height: auto;
+            line-height: 1;
+            height: 24px;
         }
         .date-range-selector input[type="date"]::-webkit-inner-spin-button,
         .date-range-selector input[type="date"]::-webkit-calendar-picker-indicator {
@@ -143,6 +151,7 @@
             padding: 0 20px 0 20px;
             margin: 0 auto 0 auto;
         }
+
         .article-container-wide {
             max-width: 1200px;
             padding: 0 20px 0 20px;
@@ -161,12 +170,21 @@
                 opacity: 1;
             }
         }
+        @media (max-width: 600px) {
+            .date-info-bar > div {
+                gap: 1rem !important;
+            }
+            .date-range-selector input[type="date"] {
+                min-width: 120px;
+                font-size: 0.7rem;
+            }
+        }
         /* Adjust for fixed header */
         .page-body {
-            padding-top: 70px;
+            padding-top: 56px;
         }
         .job-tracker-header {
-            padding: 1rem 0 1rem 0;
+            padding: 0 0 0.2rem 0;
         }
         
         /* Dark mode support */
@@ -195,17 +213,13 @@
             opacity: 0.8;
         }
         
-        body.dark .update-info {
-            color: #f8f8f2;
+        body.dark .date-info-bar {
+            background: rgba(255,255,255,0.03);
+            color: rgba(248,248,242,0.8);
+            border-bottom-color: rgba(255,255,255,0.08);
         }
         
-        body.dark .update-info p {
-            color: #f8f8f2;
-        }
-        
-        body.dark .date-range-selector label {
-            color: #f8f8f2;
-        }
+
         
         body.dark .date-range-selector input[type="date"] {
             background: #44475a;
@@ -382,29 +396,25 @@
                 <h1>Chinese Job Market Tracker</h1>
                 <p class="lead">Daily tracking of job postings across major Chinese job platforms</p>
             </div>
-
-            <div class="article-container">
-                <div class="update-info">
-                    <p>Last updated: <span id="lastUpdate">Loading...</span></p>
-                    <div class="date-range-selector" style="margin: 1rem 0; display: flex; justify-content: center; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
-                        <div style="display: flex; align-items: center; gap: 0.5rem;">
-                            <label for="startDate">From:</label>
-                            <input type="date" id="startDate" onchange="updateDateRange()">
-                        </div>
-                        <div style="display: flex; align-items: center; gap: 0.5rem;">
-                            <label for="endDate">To:</label>
-                            <input type="date" id="endDate" onchange="updateDateRange()">
-                        </div>
+            <div class="date-info-bar">
+                <div style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; flex-wrap: nowrap; min-height: 26px;">
+                    <span style="font-size: 0.65rem; opacity: 0.8; white-space: nowrap;">Last updated: <span id="lastUpdate" style="font-weight: 500;">Loading...</span></span>
+                    <div class="date-range-selector" style="display: flex; align-items: center; gap: 0.5rem;">
+                        <input type="date" id="startDate" onchange="updateDateRange()">
+                        <span style="font-size: 0.65rem; opacity: 0.5;">→</span>
+                        <input type="date" id="endDate" onchange="updateDateRange()">
                     </div>
                 </div>
             </div>
             
-            <div class="chart-container">
-                <canvas id="jobChart"></canvas>
-            </div>
-            
-            <div class="stats-grid" id="statsGrid" style="margin-top: 2rem;">
-                <!-- Statistics cards will be populated here -->
+            <div class="article-container-wide">
+                <div class="chart-container">
+                    <canvas id="jobChart"></canvas>
+                </div>
+                
+                <div class="stats-grid" id="statsGrid" style="margin-top: 2rem;">
+                    <!-- Statistics cards will be populated here -->
+                </div>
             </div>
             
             <div class="article-container" style="margin-top: 3rem;">
