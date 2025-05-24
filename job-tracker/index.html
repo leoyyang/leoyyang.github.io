@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo">
+    <meta name="author" content="Leo Y. Yang">
+    <meta name="description" content="Chinese Job Market Tracker - Daily monitoring of job postings">
+    
+    <title>Chinese Job Market Tracker | Leo Y. Yang</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css">
+    <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    
+    <style>
+        .universal-wrapper {
+            margin: 0 auto;
+            padding: 0 1rem;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .job-tracker-header {
+            text-align: center;
+        }
+        .job-tracker-header h1 {
+            font-size: 2.25rem;
+            font-weight: 300;
+            line-height: 1.25;
+            margin-bottom: 1rem;
+        }
+        .chart-container {
+            position: relative;
+            height: 500px;
+            margin: 2rem 0;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .stat-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #1565c0;
+        }
+        .stat-label {
+            font-size: 0.875rem;
+            color: rgba(0,0,0,0.54);
+            margin-top: 0.5rem;
+        }
+        .update-info {
+            text-align: center;
+            color: rgba(0,0,0,0.54);
+            margin: 1.5rem 0;
+        }
+        .btn-primary {
+            background: #1565c0;
+            color: white;
+            border: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.025rem;
+            transition: all 0.2s ease;
+        }
+        .btn-primary:hover {
+            background: #0d47a1;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .date-range-selector label {
+            font-weight: 500;
+            color: rgba(0,0,0,0.87);
+            font-size: 0.875rem;
+        }
+        .date-range-selector input[type="date"] {
+            font-size: 0.875rem;
+            background: #fff;
+            color: rgba(0,0,0,0.87);
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: inherit;
+            min-width: 165px;
+            display: inline-block;
+            box-sizing: border-box;
+            line-height: 1.5;
+            height: auto;
+        }
+        .date-range-selector input[type="date"]::-webkit-inner-spin-button,
+        .date-range-selector input[type="date"]::-webkit-calendar-picker-indicator {
+            cursor: pointer;
+            margin-left: -1rem;
+        }
+        /* Ensure all date parts have the same color */
+        .date-range-selector input[type="date"]::-webkit-datetime-edit,
+        .date-range-selector input[type="date"]::-webkit-datetime-edit-year-field,
+        .date-range-selector input[type="date"]::-webkit-datetime-edit-month-field,
+        .date-range-selector input[type="date"]::-webkit-datetime-edit-day-field,
+        .date-range-selector input[type="date"]::-webkit-datetime-edit-text {
+            color: rgba(0,0,0,0.87) !important;
+            opacity: 1 !important;
+        }
+        .date-range-selector input[type="date"]:focus {
+            outline: none;
+            border-color: #1565c0;
+            box-shadow: 0 0 0 2px rgba(21, 101, 192, 0.1);
+        }
+
+        article {
+            animation: intro 0.3s both;
+            animation-delay: 0.15s;
+        }
+        .article-container {
+            max-width: 760px;
+            padding: 0 20px 0 20px;
+            margin: 0 auto 0 auto;
+        }
+        .article-container-wide {
+            max-width: 1200px;
+            padding: 0 20px 0 20px;
+            margin: 0 auto 0 auto;
+        }
+        .article-container > div {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 2rem;
+        }
+        @keyframes intro {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        /* Adjust for fixed header */
+        .page-body {
+            padding-top: 70px;
+        }
+        .job-tracker-header {
+            padding: 1rem 0 1rem 0;
+        }
+        
+        /* Dark mode support */
+        body.dark {
+            background-color: #282a36;
+            color: #f8f8f2;
+        }
+        
+        body.dark .job-tracker-header h1,
+        body.dark .job-tracker-header .lead {
+            color: #f8f8f2;
+        }
+        
+        body.dark .stat-card {
+            background: #44475a;
+            border: 1px solid #6272a4;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+        
+        body.dark .stat-value {
+            color: #8be9fd;
+        }
+        
+        body.dark .stat-label {
+            color: #f8f8f2;
+            opacity: 0.8;
+        }
+        
+        body.dark .update-info {
+            color: #f8f8f2;
+        }
+        
+        body.dark .update-info p {
+            color: #f8f8f2;
+        }
+        
+        body.dark .date-range-selector label {
+            color: #f8f8f2;
+        }
+        
+        body.dark .date-range-selector input[type="date"] {
+            background: #44475a;
+            color: #f8f8f2;
+            border-color: #6272a4;
+        }
+        
+        body.dark .date-range-selector input[type="date"]:focus {
+            border-color: #8be9fd;
+            box-shadow: 0 0 0 2px rgba(139, 233, 253, 0.1);
+        }
+        
+        /* Ensure all date parts have the same color in dark mode */
+        body.dark .date-range-selector input[type="date"]::-webkit-datetime-edit,
+        body.dark .date-range-selector input[type="date"]::-webkit-datetime-edit-year-field,
+        body.dark .date-range-selector input[type="date"]::-webkit-datetime-edit-month-field,
+        body.dark .date-range-selector input[type="date"]::-webkit-datetime-edit-day-field,
+        body.dark .date-range-selector input[type="date"]::-webkit-datetime-edit-text {
+            color: #f8f8f2 !important;
+            opacity: 1 !important;
+        }
+        
+
+        
+        body.dark .btn-primary {
+            background: #6272a4;
+            border-color: #6272a4;
+        }
+        
+        body.dark .btn-primary:hover {
+            background: #7983b4;
+            border-color: #7983b4;
+        }
+        
+        body.dark .article-container > div {
+            background: #44475a;
+            border: 1px solid #6272a4;
+        }
+        
+        body.dark .article-container h3 {
+            color: #f8f8f2;
+        }
+        
+        body.dark .article-container p {
+            color: #f8f8f2;
+        }
+        
+        body.dark .article-container a {
+            color: #8be9fd;
+        }
+        
+        body.dark .article-container a:hover {
+            color: #9cf9ff;
+        }
+        
+        /* Chart colors for dark mode */
+        body.dark .chart-container {
+            background: #282a36;
+        }
+    </style>
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper">
+
+    <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+
+    <aside class="search-modal" id="search">
+        <div class="container">
+            <section class="search-header">
+                <div class="row no-gutters justify-content-between mb-3">
+                    <div class="col-6">
+                        <h1>Search</h1>
+                    </div>
+                    <div class="col-6 col-search-close">
+                        <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div id="search-box">
+                    <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+                    autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+                    aria-label="Search...">
+                </div>
+            </section>
+            <section class="section-search-results">
+                <div id="search-hits">
+                </div>
+            </section>
+        </div>
+    </aside>
+
+    <div class="page-header">
+        <header class="header--fixed">
+            <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+                <div class="container-xl">
+                    <div class="d-none d-lg-inline-flex">
+                        <a class="navbar-brand" href="/">Leo Y. Yang</a>
+                    </div>
+                    
+                    <button type="button" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fas fa-bars"></i></span>
+                    </button>
+                    
+                    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+                        <a class="navbar-brand" href="/">Leo Y. Yang</a>
+                    </div>
+                    
+                    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+                        <ul class="navbar-nav d-md-inline-flex">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/"><span>Home</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#featured"><span>Publications</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#posts"><span>Data Insights</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#talks"><span>Talks</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#contact"><span>Contact</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+                        <li class="nav-item">
+                            <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+                        </li>
+                        
+                        <li class="nav-item dropdown theme-dropdown">
+                            <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+                                <i class="fas fa-moon" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item js-set-theme-light">
+                                    <span>Light</span>
+                                </a>
+                                <a href="#" class="dropdown-item js-set-theme-dark">
+                                    <span>Dark</span>
+                                </a>
+                                <a href="#" class="dropdown-item js-set-theme-auto">
+                                    <span>Automatic</span>
+                                </a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item dropdown i18n-dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                               aria-haspopup="true" aria-label="Languages">
+                                <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-item dropdown-item-active">
+                                    <span>English</span>
+                                </div>
+                                <a class="dropdown-item" href="/zh/job-tracker/">
+                                    <span>中文 (简体)</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="page-body">
+        <article class="universal-wrapper">
+            
+            <div class="job-tracker-header">
+                <h1>Chinese Job Market Tracker</h1>
+                <p class="lead">Daily tracking of job postings across major Chinese job platforms</p>
+            </div>
+
+            <div class="article-container">
+                <div class="update-info">
+                    <p>Last updated: <span id="lastUpdate">Loading...</span></p>
+                    <div class="date-range-selector" style="margin: 1rem 0; display: flex; justify-content: center; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <label for="startDate">From:</label>
+                            <input type="date" id="startDate" onchange="updateDateRange()">
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <label for="endDate">To:</label>
+                            <input type="date" id="endDate" onchange="updateDateRange()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <canvas id="jobChart"></canvas>
+            </div>
+            
+            <div class="stats-grid" id="statsGrid" style="margin-top: 2rem;">
+                <!-- Statistics cards will be populated here -->
+            </div>
+            
+            <div class="article-container" style="margin-top: 3rem;">
+                <div>
+                    <h3>Academic Cooperation</h3>
+                    <p style="margin-top: 1rem;">The data herein is collected daily from major Chinese job platforms and is strictly limited to academic use, including labor market research, economic analysis, and policy studies. The tracker provides real-time monitoring of job market dynamics across China's leading employment websites. Unauthorized commercial use or distribution is prohibited.</p>
+                    <p>If you are interested in academic cooperation or would like to access the raw data for research purposes, please contact:</p>
+                    <p><strong>Dr. Leo Y. Yang</strong><br>
+                    Hong Kong Baptist University<br>
+                    Email: <a href="mailto:leoyang@hkbu.edu.hk">leoyang@hkbu.edu.hk</a></p>
+                </div>
+            </div>
+            
+        </article>
+    </div>
+
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+    <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+
+    <script>
+        // Platform configurations
+        const platformConfig = {
+            '58': { name: '58同城', color: '#FF6B6B' },
+            'zl': { name: '智联招聘', color: '#4ECDC4' },
+            'qcwy': { name: '前程无忧', color: '#45B7D1' },
+            'boss': { name: 'BOSS直聘', color: '#96CEB4' },
+            'liepin': { name: '猎聘', color: '#DDA0DD' }
+        };
+
+        // Data will be loaded from JSON file
+        let jobData = {};
+        let filteredData = {};
+        let chart;
+
+        // Load data from JSON file
+        async function loadData() {
+            try {
+                // Add timestamp to prevent caching
+                const timestamp = new Date().getTime();
+                const response = await fetch(`/job-tracker/data/job-data.json?t=${timestamp}`);
+                jobData = await response.json();
+                return jobData;
+            } catch (error) {
+                console.error('Error loading data:', error);
+                // Return empty data on error
+                return {};
+            }
+        }
+
+        function processData() {
+            const datasets = [];
+            const allDates = new Set();
+            
+            // Use filtered data if available, otherwise use all data
+            const dataToProcess = Object.keys(filteredData).length > 0 ? filteredData : jobData;
+            
+            // Collect all dates
+            Object.values(dataToProcess).forEach(platformData => {
+                Object.keys(platformData).forEach(date => allDates.add(date));
+            });
+            
+            // Sort dates
+            const sortedDates = Array.from(allDates).sort();
+            
+            // Create datasets for each platform
+            Object.entries(dataToProcess).forEach(([platform, data]) => {
+                const config = platformConfig[platform];
+                const dataPoints = sortedDates.map(date => ({
+                    x: date,
+                    y: data[date] || null
+                }));
+                
+                datasets.push({
+                    label: config.name,
+                    data: dataPoints,
+                    borderColor: config.color,
+                    backgroundColor: config.color + '20',
+                    borderWidth: 2,
+                    tension: 0.1
+                });
+            });
+            
+            return { datasets, dates: sortedDates };
+        }
+
+        function updateChart() {
+            const { datasets } = processData();
+            
+            const ctx = document.getElementById('jobChart').getContext('2d');
+            
+            if (chart) {
+                chart.destroy();
+            }
+            
+            // Check if dark mode is active
+            const isDarkMode = document.body.classList.contains('dark');
+            const textColor = isDarkMode ? '#f8f8f2' : '#666';
+            const gridColor = isDarkMode ? 'rgba(248, 248, 242, 0.1)' : 'rgba(0, 0, 0, 0.1)';
+            
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: { datasets },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    animation: {
+                        duration: 500,
+                        easing: 'linear',
+                        delay: (ctx) => ctx.index * 20 // progressive draw from left to right
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Job Postings Trend',
+                            font: { size: 18 },
+                            color: textColor
+                        },
+                        legend: {
+                            display: true,
+                            position: 'top',
+                            labels: {
+                                color: textColor
+                            }
+                        },
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false
+                        }
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: {
+                                parser: 'yyyy-MM-dd',
+                                unit: 'day',
+                                tooltipFormat: 'yyyy-MM-dd',
+                                displayFormats: {
+                                    day: 'yyyy-MM-dd',
+                                    week: 'yyyy-MM-dd',
+                                    month: 'yyyy-MM-dd'
+                                }
+                            },
+                            title: {
+                                display: true,
+                                text: 'Date',
+                                color: textColor
+                            },
+                            ticks: {
+                                source: 'data',
+                                autoSkip: false,
+                                color: textColor
+                            },
+                            grid: {
+                                color: gridColor
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Number of Job Postings',
+                                color: textColor
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    if (value >= 1000000) {
+                                        return (value / 1000000).toFixed(1) + 'M';
+                                    } else if (value >= 1000) {
+                                        return (value / 1000).toFixed(0) + 'K';
+                                    }
+                                    return value.toLocaleString();
+                                },
+                                color: textColor
+                            },
+                            grid: {
+                                color: gridColor
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateStats() {
+            const statsGrid = document.getElementById('statsGrid');
+            statsGrid.innerHTML = '';
+            
+            const dataToProcess = Object.keys(filteredData).length > 0 ? filteredData : jobData;
+            
+            Object.entries(dataToProcess).forEach(([platform, data]) => {
+                const config = platformConfig[platform];
+                const dates = Object.keys(data).sort();
+                const latestValue = data[dates[dates.length - 1]];
+                
+                const statCard = document.createElement('div');
+                statCard.className = 'stat-card';
+                statCard.innerHTML = `
+                    <div class="stat-value">${latestValue.toLocaleString()}</div>
+                    <div class="stat-label">${config.name}</div>
+                `;
+                statsGrid.appendChild(statCard);
+            });
+        }
+
+        function updateLastUpdate() {
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleString();
+        }
+
+        function filterDataByDateRange(startDate, endDate) {
+            filteredData = {};
+            
+            Object.entries(jobData).forEach(([platform, dates]) => {
+                filteredData[platform] = {};
+                Object.entries(dates).forEach(([date, value]) => {
+                    if ((!startDate || date >= startDate) && (!endDate || date <= endDate)) {
+                        filteredData[platform][date] = value;
+                    }
+                });
+                
+                // Remove platform if no data in range
+                if (Object.keys(filteredData[platform]).length === 0) {
+                    delete filteredData[platform];
+                }
+            });
+        }
+
+        function updateDateRange() {
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            
+            if (!startDate || !endDate) {
+                return;
+            }
+            
+            if (startDate > endDate) {
+                alert('Start date must be before end date');
+                return;
+            }
+            
+            // Check 90-day limit
+            const start = new Date(startDate);
+            const end = new Date(endDate);
+            const diffTime = Math.abs(end - start);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            
+            if (diffDays > 90) {
+                alert('Date range cannot exceed 90 days. Please select a shorter range.');
+                
+                // Adjust to 90 days from start date
+                const maxEnd = new Date(start);
+                maxEnd.setDate(maxEnd.getDate() + 89);
+                const maxEndStr = maxEnd.toISOString().split('T')[0];
+                
+                // Find the closest available date
+                const allDates = new Set();
+                Object.values(jobData).forEach(platformData => {
+                    Object.keys(platformData).forEach(date => allDates.add(date));
+                });
+                const sortedDates = Array.from(allDates).sort();
+                const adjustedEndDate = sortedDates.reverse().find(date => date <= maxEndStr) || endDate;
+                
+                document.getElementById('endDate').value = adjustedEndDate;
+                filterDataByDateRange(startDate, adjustedEndDate);
+            } else {
+                filterDataByDateRange(startDate, endDate);
+            }
+            
+            // Update all visualizations
+            updateChart();
+            updateStats();
+        }
+
+        function resetDateRange() {
+            // Reset to default 30-day range
+            const allDates = new Set();
+            Object.values(jobData).forEach(platformData => {
+                Object.keys(platformData).forEach(date => allDates.add(date));
+            });
+            
+            const sortedDates = Array.from(allDates).sort();
+            if (sortedDates.length > 0) {
+                const endDate = sortedDates[sortedDates.length - 1];
+                const endDateObj = new Date(endDate);
+                const startDateObj = new Date(endDateObj);
+                startDateObj.setDate(startDateObj.getDate() - 29); // 30 days including today
+                
+                const startDateStr = startDateObj.toISOString().split('T')[0];
+                const defaultStartDate = sortedDates.find(date => date >= startDateStr) || sortedDates[0];
+                
+                document.getElementById('startDate').value = defaultStartDate;
+                document.getElementById('endDate').value = endDate;
+                
+                filterDataByDateRange(defaultStartDate, endDate);
+                
+                // Update all visualizations
+                updateChart();
+                updateStats();
+            }
+        }
+
+        function setInitialDateRange() {
+            // Get all dates from data
+            const allDates = new Set();
+            Object.values(jobData).forEach(platformData => {
+                Object.keys(platformData).forEach(date => allDates.add(date));
+            });
+            
+            const sortedDates = Array.from(allDates).sort();
+            if (sortedDates.length > 0) {
+                // Set the date inputs to show available range
+                document.getElementById('startDate').min = sortedDates[0];
+                document.getElementById('startDate').max = sortedDates[sortedDates.length - 1];
+                document.getElementById('endDate').min = sortedDates[0];
+                document.getElementById('endDate').max = sortedDates[sortedDates.length - 1];
+                
+                // Set default to last 30 days
+                const endDate = sortedDates[sortedDates.length - 1];
+                const endDateObj = new Date(endDate);
+                const startDateObj = new Date(endDateObj);
+                startDateObj.setDate(startDateObj.getDate() - 29); // 30 days including today
+                
+                // Find the closest available start date
+                const startDateStr = startDateObj.toISOString().split('T')[0];
+                const defaultStartDate = sortedDates.find(date => date >= startDateStr) || sortedDates[0];
+                
+                document.getElementById('startDate').value = defaultStartDate;
+                document.getElementById('endDate').value = endDate;
+                
+                // Apply the default filter
+                filterDataByDateRange(defaultStartDate, endDate);
+            }
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', async function() {
+            // Load data first
+            await loadData();
+            
+            // Set initial date range options and apply default 30-day filter
+            setInitialDateRange();
+            
+            // Then update all visualizations with filtered data
+            updateChart();
+            updateStats();
+            updateLastUpdate();
+            
+            // Listen for theme changes
+            const observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                        // Theme has changed, update chart
+                        updateChart();
+                    }
+                });
+            });
+            
+            // Observe body element for class changes
+            observer.observe(document.body, {
+                attributes: true,
+                attributeFilter: ['class']
+            });
+        });
+    </script>
+</body>
+</html> 
