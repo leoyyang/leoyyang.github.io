@@ -279,7 +279,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.1b5b7abda8af491266b5722ee1d0a0fb.css" />
+  <link rel="stylesheet" href="/css/wowchemy.a7dbd1cb3149df4dbcd05cc4a9862924.css" />
 
   
 
@@ -1795,14 +1795,12 @@ function processData() {
     const allDates = new Set();
     
     const dataToProcess = Object.keys(filteredData).length > 0 ? filteredData : jobData;
-    console.log('Data to process:', dataToProcess);
     
     Object.values(dataToProcess).forEach(platformData => {
         Object.keys(platformData).forEach(date => allDates.add(date));
     });
     
     const sortedDates = Array.from(allDates).sort();
-    console.log('Sorted dates:', sortedDates);
     
     Object.entries(dataToProcess).forEach(([platform, data]) => {
         const config = platformConfig[platform];
@@ -1823,7 +1821,6 @@ function processData() {
         }
     });
     
-    console.log('Datasets:', datasets);
     return { datasets, dates: sortedDates };
 }
 
@@ -1871,11 +1868,13 @@ function updateChart() {
                 x: {
                     type: 'time',
                     time: {
-                        parser: 'YYYY-MM-DD',
+                        parser: 'yyyy-MM-dd',
                         unit: 'day',
-                        tooltipFormat: 'YYYY-MM-DD',
+                        tooltipFormat: 'yyyy-MM-dd',
                         displayFormats: {
-                            day: 'MM-DD'
+                            day: 'yyyy-MM-dd',
+                            week: 'yyyy-MM-dd',
+                            month: 'yyyy-MM-dd'
                         }
                     },
                     title: {
@@ -1884,10 +1883,9 @@ function updateChart() {
                         color: textColor
                     },
                     ticks: {
-                        color: textColor,
                         source: 'data',
-                        autoSkip: true,
-                        maxTicksLimit: 10
+                        autoSkip: false,
+                        color: textColor
                     },
                     grid: {
                         color: gridColor
@@ -1926,27 +1924,56 @@ function setDefaultDateRange() {
                 }
             });
         });
-        
-        console.log('Filtered data:', filteredData);
     }
 }
 
 
-document.addEventListener('DOMContentLoaded', async function() {
-    console.log('DOM loaded, initializing chart...');
-    await loadData();
-    console.log('Data loaded:', jobData);
-    setDefaultDateRange();
-    updateChart();
+async function initializeChart() {
+    try {
+        console.log('Initializing chart...');
+        
+        
+        const canvas = document.getElementById('jobChart');
+        if (!canvas) {
+            console.error('Canvas element not found!');
+            return;
+        }
+        console.log('Canvas found:', canvas);
+        
+        
+        await loadData();
+        console.log('Data loaded:', Object.keys(jobData).length, 'platforms');
+        
+        if (Object.keys(jobData).length === 0) {
+            console.error('No data loaded!');
+            return;
+        }
+        
+        
+        setDefaultDateRange();
+        console.log('Date range set, filtered data:', Object.keys(filteredData).length, 'platforms');
+        
+        
+        updateChart();
+        console.log('Chart updated');
+        
+    } catch (error) {
+        console.error('Error initializing chart:', error);
+    }
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded');
+    
+    setTimeout(initializeChart, 100);
 });
 
 
-window.addEventListener('load', async function() {
+window.addEventListener('load', function() {
     if (Object.keys(jobData).length === 0) {
-        console.log('Retrying data load...');
-        await loadData();
-        setDefaultDateRange();
-        updateChart();
+        console.log('Backup initialization');
+        setTimeout(initializeChart, 500);
     }
 });
 </script>
@@ -1961,8 +1988,6 @@ window.addEventListener('load', async function() {
     max-width: 1200px;
     margin: 0 auto;
 }
-
-
 
 .chart-container {
     position: relative;
@@ -2000,8 +2025,6 @@ window.addEventListener('load', async function() {
     background: #282a36;
     color: #f8f8f2;
 }
-
-
 
 .dark .see-more-section .btn-primary {
     background-color: #0d47a1;
