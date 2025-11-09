@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI | Leo Y. Yang</title>
+    <link>https://leoyang.org/tag/ai/</link>
+      <atom:link href="https://leoyang.org/tag/ai/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Leo Y. Yang</copyright><lastBuildDate>Tue, 04 Nov 2025 08:30:00 +0800</lastBuildDate>
+    <image>
+      <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
+      <title>AI</title>
+      <link>https://leoyang.org/tag/ai/</link>
+    </image>
+    
+    <item>
+      <title>AI &#43; Social Science Workshop (AIECON 2025)</title>
+      <link>https://leoyang.org/talk/ai-social-science-workshop-aiecon-2025/</link>
+      <pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate>
+      <guid>https://leoyang.org/talk/ai-social-science-workshop-aiecon-2025/</guid>
+      <description>&lt;p&gt;I joined the &lt;strong&gt;tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong&gt;
+to exchange ideas on how generative AI reshapes empirical research in the social sciences.
+Hosted by the School of Economics and Management at Wuhan University, the workshop
+convened Raymond Duch, Lijia Wei, Lian Xue, Peiran Jiao, and other colleagues for a full day
+of methodological training and research dialogue.&lt;/p&gt;
+&lt;h2 id=&#34;session-highlights&#34;&gt;Session highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;08:30-10:00 - Frontier methods overview.&lt;/strong&gt; Raymond Duch outlined how LLMs can act
+as experimental subjects, pollsters, and market analysts, followed by Lijia Wei&amp;rsquo;s evidence on
+the Matching-LLM framework for forecasting public opinion.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10:20-11:50 - Research methods training.&lt;/strong&gt; Lian Xue discussed belief updating with
+medical AI explanations, and Peiran Jiao linked employee voice data from Glassdoor to
+firm valuation models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;11:50-12:35 - My presentation.&lt;/strong&gt; I presented &lt;em&gt;Predictive Power, Bias, and Trust:
+Evaluating LLM-Driven Screening in FinTech Lending&lt;/em&gt;, showing how model governance and
+human oversight mitigate screening bias.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;14:00-16:00 - Roundtable discussion.&lt;/strong&gt; Speakers stayed on for a closed-door session to
+trade implementation lessons on building trustworthy AI workflows for social-science data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These conversations fed directly into my ongoing AIECON collaborations on data-centric AI,
+regulation, and human-centered evaluation of large language models.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

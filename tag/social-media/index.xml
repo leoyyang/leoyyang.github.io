@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>social media | Leo Y. Yang</title>
+    <link>https://leoyang.org/tag/social-media/</link>
+      <atom:link href="https://leoyang.org/tag/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <description>social media</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Leo Y. Yang</copyright><lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
+      <title>social media</title>
+      <link>https://leoyang.org/tag/social-media/</link>
+    </image>
+    
+    <item>
+      <title>High-Frequency Social Media Data Seminar (JNU)</title>
+      <link>https://leoyang.org/talk/high-frequency-social-media-data-seminar-jnu/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0800</pubDate>
+      <guid>https://leoyang.org/talk/high-frequency-social-media-data-seminar-jnu/</guid>
+      <description>&lt;p&gt;Invited by the &lt;strong&gt;Jinan University Social Survey Center&lt;/strong&gt;, I delivered Lecture 55 in the
+&amp;ldquo;Social Survey &amp;amp; Application&amp;rdquo; series on the policy shock created by Weibo&amp;rsquo;s April 2022 IP
+disclosure requirement. The project tracks 200 news accounts and the top comment chains
+around each post to observe how geography-linked identity cues steer civic debate.&lt;/p&gt;
+&lt;h2 id=&#34;research-overview&#34;&gt;Research overview&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data engineering.&lt;/strong&gt; I detailed the pipeline we built to capture pre/post policy posts,
+scrape reply trees, and annotate user locations while protecting user privacy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Behavioral impact.&lt;/strong&gt; Comparing domestic and overseas commenters reveals divergent
+participation patterns once location tags become visible, alongside a measurable drop in
+hostile replies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implications for moderators.&lt;/strong&gt; Location transparency changes how online communities
+interpret credibility and allegiances, so we discussed how to pair machine flags with human
+review to keep deliberation open while curbing abuse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We closed with a Q&amp;amp;A on fielding API-rate constraints, validating location cues, and extending
+the design to other high-frequency social platforms.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

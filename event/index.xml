@@ -5,12 +5,66 @@
     <link>https://leoyang.org/event/</link>
       <atom:link href="https://leoyang.org/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Leo Y. Yang</copyright><lastBuildDate>Thu, 11 Jan 2024 11:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Leo Y. Yang</copyright><lastBuildDate>Tue, 04 Nov 2025 08:30:00 +0800</lastBuildDate>
     <image>
       <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://leoyang.org/event/</link>
     </image>
+    
+    <item>
+      <title>AI &#43; Social Science Workshop (AIECON 2025)</title>
+      <link>https://leoyang.org/talk/ai-social-science-workshop-aiecon-2025/</link>
+      <pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate>
+      <guid>https://leoyang.org/talk/ai-social-science-workshop-aiecon-2025/</guid>
+      <description>&lt;p&gt;I joined the &lt;strong&gt;tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong&gt;
+to exchange ideas on how generative AI reshapes empirical research in the social sciences.
+Hosted by the School of Economics and Management at Wuhan University, the workshop
+convened Raymond Duch, Lijia Wei, Lian Xue, Peiran Jiao, and other colleagues for a full day
+of methodological training and research dialogue.&lt;/p&gt;
+&lt;h2 id=&#34;session-highlights&#34;&gt;Session highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;08:30-10:00 - Frontier methods overview.&lt;/strong&gt; Raymond Duch outlined how LLMs can act
+as experimental subjects, pollsters, and market analysts, followed by Lijia Wei&amp;rsquo;s evidence on
+the Matching-LLM framework for forecasting public opinion.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10:20-11:50 - Research methods training.&lt;/strong&gt; Lian Xue discussed belief updating with
+medical AI explanations, and Peiran Jiao linked employee voice data from Glassdoor to
+firm valuation models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;11:50-12:35 - My presentation.&lt;/strong&gt; I presented &lt;em&gt;Predictive Power, Bias, and Trust:
+Evaluating LLM-Driven Screening in FinTech Lending&lt;/em&gt;, showing how model governance and
+human oversight mitigate screening bias.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;14:00-16:00 - Roundtable discussion.&lt;/strong&gt; Speakers stayed on for a closed-door session to
+trade implementation lessons on building trustworthy AI workflows for social-science data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These conversations fed directly into my ongoing AIECON collaborations on data-centric AI,
+regulation, and human-centered evaluation of large language models.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>High-Frequency Social Media Data Seminar (JNU)</title>
+      <link>https://leoyang.org/talk/high-frequency-social-media-data-seminar-jnu/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0800</pubDate>
+      <guid>https://leoyang.org/talk/high-frequency-social-media-data-seminar-jnu/</guid>
+      <description>&lt;p&gt;Invited by the &lt;strong&gt;Jinan University Social Survey Center&lt;/strong&gt;, I delivered Lecture 55 in the
+&amp;ldquo;Social Survey &amp;amp; Application&amp;rdquo; series on the policy shock created by Weibo&amp;rsquo;s April 2022 IP
+disclosure requirement. The project tracks 200 news accounts and the top comment chains
+around each post to observe how geography-linked identity cues steer civic debate.&lt;/p&gt;
+&lt;h2 id=&#34;research-overview&#34;&gt;Research overview&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data engineering.&lt;/strong&gt; I detailed the pipeline we built to capture pre/post policy posts,
+scrape reply trees, and annotate user locations while protecting user privacy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Behavioral impact.&lt;/strong&gt; Comparing domestic and overseas commenters reveals divergent
+participation patterns once location tags become visible, alongside a measurable drop in
+hostile replies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implications for moderators.&lt;/strong&gt; Location transparency changes how online communities
+interpret credibility and allegiances, so we discussed how to pair machine flags with human
+review to keep deliberation open while curbing abuse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We closed with a Q&amp;amp;A on fielding API-rate constraints, validating location cues, and extending
+the design to other high-frequency social platforms.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Chinese Historical Databases Meeting</title>
