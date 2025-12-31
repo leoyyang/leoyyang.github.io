@@ -1,0 +1,55 @@
+name: Update Job Data
+
+on:
+  schedule:
+    # 00:30 Asia/Shanghai = 16:30 UTC (previous day)
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update job data
+        id: update
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_SUBJECT_FILTER: "\u722c\u866b\u76d1\u63a7"
+          EMAIL_SEARCH_DAYS: "3"
+        run: |
+          python .github/scripts/update_job_data_from_gmail.py
+
+      - name: Commit and push
+        env:
+          PAGES_BRANCH: master
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: |
+          if git diff --quiet -- job-tracker/data/job-data.json; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add job-tracker/data/job-data.json
+          msg="Update job data"
+          if [ -n "${{ steps.update.outputs.update_date }}" ]; then
+            msg="Update job data ${{ steps.update.outputs.update_date }}"
+          fi
+          git commit -m "$msg"
+          if [ -n "${PAGES_TOKEN}" ]; then
+            git remote set-url origin "https://x-access-token:${PAGES_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          fi
+          git push origin "HEAD:${PAGES_BRANCH}"
