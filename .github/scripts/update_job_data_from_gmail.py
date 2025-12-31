@@ -8,6 +8,7 @@ import re
 import sys
 from datetime import datetime, timedelta, timezone
 from email.header import decode_header
+from email.message import Message
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Dict, Optional, Tuple
@@ -49,7 +50,7 @@ def parse_message_date(value: Optional[str]) -> datetime:
     return parsed.astimezone(timezone.utc)
 
 
-def extract_payload_text(msg: email.message.Message) -> str:
+def extract_payload_text(msg: Message) -> str:
     if msg.is_multipart():
         text_parts = []
         html_parts = []
