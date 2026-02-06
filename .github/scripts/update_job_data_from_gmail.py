@@ -11,7 +11,7 @@ from email.header import decode_header
 from email.message import Message
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from typing import Dict, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 
 REPO_ROOT = Path(os.environ.get("GITHUB_WORKSPACE", Path.cwd()))
 DATA_FILE = REPO_ROOT / "job-tracker/data/job-data.json"
@@ -157,14 +157,15 @@ def apply_updates(
     return changed, updated_dates
 
 
-def find_latest_message(mail: imaplib.IMAP4_SSL) -> Optional[email.message.Message]:
+def find_recent_messages(mail: imaplib.IMAP4_SSL, max_count: int = 3) -> List[email.message.Message]:
+    """Return up to *max_count* matching messages, newest first."""
     since = (datetime.now(timezone.utc) - timedelta(days=EMAIL_SEARCH_DAYS)).strftime("%d-%b-%Y")
     status, data = mail.search(None, "SINCE", since)
     if status != "OK":
         raise RuntimeError("IMAP search failed")
     message_ids = data[0].split()
     if not message_ids:
-        return None
+        return []
 
     candidates = []
     for message_id in message_ids:
@@ -188,21 +189,23 @@ def find_latest_message(mail: imaplib.IMAP4_SSL) -> Optional[email.message.Messa
         candidates.append((received_at, message_id))
 
     if not candidates:
-        return None
+        return []
 
-    _, latest_id = max(candidates, key=lambda item: item[0])
-    status, msg_data = mail.fetch(latest_id, "(RFC822)")
-    if status != "OK" or not msg_data:
-        raise RuntimeError("IMAP fetch failed")
-
-    raw_email = None
-    for item in msg_data:
-        if isinstance(item, tuple):
-            raw_email = item[1]
-            break
-    if not raw_email:
-        raise RuntimeError("Email content missing")
-    return email.message_from_bytes(raw_email)
+    # Sort newest first, take up to max_count
+    candidates.sort(key=lambda item: item[0], reverse=True)
+    messages = []
+    for _, msg_id in candidates[:max_count]:
+        status, msg_data = mail.fetch(msg_id, "(RFC822)")
+        if status != "OK" or not msg_data:
+            continue
+        raw_email = None
+        for item in msg_data:
+            if isinstance(item, tuple):
+                raw_email = item[1]
+                break
+        if raw_email:
+            messages.append(email.message_from_bytes(raw_email))
+    return messages
 
 
 def write_github_output(name: str, value: str) -> None:
@@ -227,31 +230,45 @@ def main() -> int:
     mail.select(EMAIL_FOLDER, readonly=True)
 
     try:
-        message = find_latest_message(mail)
+        messages = find_recent_messages(mail, max_count=3)
     finally:
         mail.close()
         mail.logout()
 
-    if not message:
+    if not messages:
         print("No matching email found in the recent window.")
         return 0
 
-    body = extract_payload_text(message)
-    updates = extract_json(body)
-    if not updates:
-        print("No JSON payload found in the email body.")
-        return 1
-
     existing = load_existing_data()
-    changed, updated_dates = apply_updates(existing, updates)
-    if not changed:
+    all_updated_dates: set = set()
+    any_changed = False
+
+    for i, message in enumerate(messages):
+        subject = decode_mime_header(message.get("Subject"))
+        print(f"Checking email {i + 1}/{len(messages)}: {subject}")
+
+        body = extract_payload_text(message)
+        updates = extract_json(body)
+        if not updates:
+            print("  No JSON payload, skipping.")
+            continue
+
+        changed, updated_dates = apply_updates(existing, updates)
+        if changed:
+            any_changed = True
+            all_updated_dates.update(updated_dates)
+            print(f"  New data found for: {', '.join(sorted(updated_dates))}")
+        else:
+            print("  Data already up to date, skipping.")
+
+    if not any_changed:
         print("No changes needed in job-data.json.")
         return 0
 
     save_data(existing)
-    if updated_dates:
-        write_github_output("update_date", max(updated_dates))
-    print("job-data.json updated.")
+    if all_updated_dates:
+        write_github_output("update_date", max(all_updated_dates))
+    print(f"job-data.json updated with dates: {', '.join(sorted(all_updated_dates))}")
     return 0
 
 
