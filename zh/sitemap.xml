@@ -4,15 +4,7 @@
   
   
   <url>
-    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /></url>
+    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/zh/tag/academic/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
@@ -66,15 +58,7 @@
       href="https://leoyang.org/zh/"
     /></url>
   <url>
-    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /></url>
+    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/zh/publication-type/2/</loc><lastmod>2020-09-10T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
@@ -192,16 +176,4 @@
       href="https://leoyang.org/zh/admin/"
     /></url>
   <url>
-    <loc></loc><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /></url></urlset>
+    <loc></loc></url></urlset>

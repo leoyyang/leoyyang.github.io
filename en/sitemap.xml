@@ -4,15 +4,7 @@
   
   
   <url>
-    <loc></loc><lastmod>2026-02-17T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
+    <loc></loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
   <url>
@@ -28,19 +20,7 @@
       href="https://leoyang.org/"
     /></url>
   <url>
-    <loc></loc><lastmod>2026-02-17T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
+    <loc></loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication_types/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
@@ -78,7 +58,7 @@
   <url>
     <loc>https://leoyang.org/tag/ai/</loc><lastmod>2025-11-04T08:30:00+08:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/talk/ai-social-science-workshop/</loc><lastmod>2025-11-04T08:30:00+08:00</lastmod></url>
+    <loc>https://leoyang.org/talk/ai--social-science-workshop/</loc><lastmod>2025-11-04T08:30:00+08:00</lastmod></url>
   <url>
     <loc></loc><lastmod>2025-11-04T08:30:00+08:00</lastmod></url>
   <url>
@@ -294,26 +274,6 @@
       href="https://leoyang.org/admin/"
     /></url>
   <url>
-    <loc></loc><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url>
+    <loc></loc></url>
   <url>
-    <loc></loc><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href=""
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href=""
-    /></url></urlset>
+    <loc></loc></url></urlset>
