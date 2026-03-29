@@ -5,12 +5,42 @@
     <link>https://leoyang.org/</link>
       <atom:link href="https://leoyang.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Leo Y. Yang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Thu, 09 Apr 2026 14:00:00 +0800</lastBuildDate>
     <image>
       <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
       <title>Leo Y. Yang</title>
       <link>https://leoyang.org/</link>
     </image>
+    
+    <item>
+      <title>AI and Social Science Interdisciplinary Seminar</title>
+      <link>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</link>
+      <pubDate>Thu, 09 Apr 2026 14:00:00 +0800</pubDate>
+      <guid>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</guid>
+      <description>&lt;p&gt;Invited by &lt;strong&gt;Xi Weng&lt;/strong&gt; at the &lt;strong&gt;Guanghua School of Management, Peking University&lt;/strong&gt;, I presented
+at the &amp;ldquo;AI and Social Science&amp;rdquo; interdisciplinary seminar series.&lt;/p&gt;
+&lt;h2 id=&#34;talk-scaling-reproducibility&#34;&gt;Talk: Scaling Reproducibility&lt;/h2&gt;
+&lt;p&gt;Computational reproducibility is central to scientific credibility, yet verifying published
+results at scale remains costly. I introduced an AI-assisted workflow for automated full-paper
+replication — retrieving materials, reconstructing environments, executing code, and matching
+outputs to point estimates reported in regression tables.&lt;/p&gt;
+&lt;p&gt;Key findings from the study:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Universe definition.&lt;/strong&gt; We define a universe of all empirical and quantitative papers from
+the three top political science journals (2010–2025) and measure stated data availability
+using automated extraction.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Replication at scale.&lt;/strong&gt; For a stratified sample of 384 studies, we apply the workflow to
+conduct full-paper replication, totaling 3,382 empirical models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impact of mandates.&lt;/strong&gt; Journal verification requirements, combined with data archiving
+mandates, drive reproducibility: the full-paper reproducibility rate rises from 29.6% before
+DA-RT adoption to 79.8% after, and conditional on accessible replication packages, 94.4%
+of papers are fully reproducible (237/251).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IV diagnostics.&lt;/strong&gt; As a secondary application, we apply standardized IV diagnostics to 92
+studies (215 specifications), illustrating how automated execution enables systematic
+reanalysis across heterogeneous empirical settings.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Scaling Reproducibility: An AI-Assisted Workflow for Large-Scale Reanalysis</title>

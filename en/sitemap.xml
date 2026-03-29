@@ -4,13 +4,15 @@
   
   
   <url>
-    <loc></loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
+    <loc></loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
+    <loc>https://leoyang.org/tag/ai/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/tag/genai/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
+    <loc>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod><xhtml:link
+    <loc></loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="zh"
       href="https://leoyang.org/zh/"
@@ -19,6 +21,34 @@
       hreflang="en"
       href="https://leoyang.org/"
     /></url>
+  <url>
+    <loc>https://leoyang.org/event/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/event/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/event/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/tag/seminar/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/tag/social-science/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/tags/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/tags/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/tag/genai/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
   <url>
     <loc></loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
   <url>
@@ -44,43 +74,15 @@
   <url>
     <loc>https://leoyang.org/publication/ai_reproducibility/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/tags/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/tags/"
-    /></url>
-  <url>
     <loc></loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/tag/ai/</loc><lastmod>2025-11-04T08:30:00+08:00</lastmod></url>
-  <url>
     <loc>https://leoyang.org/talk/ai--social-science-workshop/</loc><lastmod>2025-11-04T08:30:00+08:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2025-11-04T08:30:00+08:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/event/</loc><lastmod>2025-11-04T08:30:00+08:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/event/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/event/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/tag/social-science/</loc><lastmod>2025-11-04T08:30:00+08:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/tag/workshop/</loc><lastmod>2025-11-04T08:30:00+08:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/tag/data/</loc><lastmod>2025-10-22T00:00:00+08:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/talk/high-frequency-social-media-data-seminar/</loc><lastmod>2025-10-22T00:00:00+08:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/tag/seminar/</loc><lastmod>2025-10-22T00:00:00+08:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/tag/social-media/</loc><lastmod>2025-10-22T00:00:00+08:00</lastmod></url>
   <url>
