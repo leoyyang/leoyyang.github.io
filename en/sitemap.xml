@@ -4,15 +4,13 @@
   
   
   <url>
-    <loc></loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
+    <loc></loc><lastmod>2026-04-19T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/tag/ai/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
+    <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2026-04-19T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
+    <loc>https://leoyang.org/tag/china/</loc><lastmod>2026-04-19T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod><xhtml:link
+    <loc>https://leoyang.org/</loc><lastmod>2026-04-19T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="zh"
       href="https://leoyang.org/zh/"
@@ -21,6 +19,50 @@
       hreflang="en"
       href="https://leoyang.org/"
     /></url>
+  <url>
+    <loc></loc><lastmod>2026-04-19T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/tag/media/</loc><lastmod>2026-04-19T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/publication/mining_disaster/</loc><lastmod>2026-04-19T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/tag/political-economy/</loc><lastmod>2026-04-19T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/publication_types/</loc><lastmod>2026-04-19T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/publication_types/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/publication_types/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/publication/</loc><lastmod>2026-04-19T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/publication/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/publication/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/tags/</loc><lastmod>2026-04-19T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://leoyang.org/zh/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://leoyang.org/tags/"
+    /></url>
+  <url>
+    <loc>https://leoyang.org/tag/ai/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
+  <url>
+    <loc>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
+  <url>
+    <loc></loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/event/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod><xhtml:link
       rel="alternate"
@@ -36,41 +78,7 @@
   <url>
     <loc>https://leoyang.org/tag/social-science/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod></url>
   <url>
-    <loc>https://leoyang.org/tags/</loc><lastmod>2026-04-09T14:00:00+08:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/tags/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/publication-type/3/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://leoyang.org/tag/genai/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/publication_types/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/publication_types/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/publication_types/"
-    /></url>
-  <url>
-    <loc>https://leoyang.org/publication/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="zh"
-      href="https://leoyang.org/zh/publication/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://leoyang.org/publication/"
-    /></url>
   <url>
     <loc>https://leoyang.org/publication/ai_reproducibility/</loc><lastmod>2026-02-17T00:00:00+00:00</lastmod></url>
   <url>
@@ -85,8 +93,6 @@
     <loc>https://leoyang.org/talk/high-frequency-social-media-data-seminar/</loc><lastmod>2025-10-22T00:00:00+08:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/tag/social-media/</loc><lastmod>2025-10-22T00:00:00+08:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/tag/media/</loc><lastmod>2025-07-05T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/publication/building_wall/</loc><lastmod>2025-07-05T00:00:00+00:00</lastmod></url>
   <url>
@@ -181,8 +187,6 @@
     <loc>https://leoyang.org/publication/media_factions/</loc><lastmod>2022-08-15T00:00:00+00:00</lastmod></url>
   <url>
     <loc></loc><lastmod>2022-08-15T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://leoyang.org/publication/mining_disaster/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://leoyang.org/post/taiwan_products/</loc><lastmod>2021-11-28T00:00:00+00:00</lastmod></url>
   <url>
