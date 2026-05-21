@@ -1,89 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>workshop | Leo Y. Yang</title>
-    <link>https://leoyang.org/tag/workshop/</link>
-      <atom:link href="https://leoyang.org/tag/workshop/index.xml" rel="self" type="application/rss+xml" />
-    <description>workshop</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Tue, 04 Nov 2025 08:30:00 +0800</lastBuildDate>
-    <image>
-      <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
-      <title>workshop</title>
-      <link>https://leoyang.org/tag/workshop/</link>
-    </image>
-    
-    <item>
-      <title>AI &#43; Social Science Workshop</title>
-      <link>https://leoyang.org/talk/ai--social-science-workshop/</link>
-      <pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate>
-      <guid>https://leoyang.org/talk/ai--social-science-workshop/</guid>
-      <description>&lt;p&gt;I joined the &lt;strong&gt;tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>workshop | Leo Y. Yang</title><link>https://leoyang.org/tag/workshop/</link><atom:link href="https://leoyang.org/tag/workshop/index.xml" rel="self" type="application/rss+xml"/><description>workshop</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Tue, 04 Nov 2025 08:30:00 +0800</lastBuildDate><image><url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url><title>workshop</title><link>https://leoyang.org/tag/workshop/</link></image><item><title>AI + Social Science Workshop</title><link>https://leoyang.org/talk/ai-social-science-workshop/</link><pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate><guid>https://leoyang.org/talk/ai-social-science-workshop/</guid><description>&lt;p>I joined the &lt;strong>tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong>
 to exchange ideas on how generative AI reshapes empirical research in the social sciences.
 Hosted by the School of Economics and Management at Wuhan University, the workshop
 convened Raymond Duch, Lijia Wei, Lian Xue, Peiran Jiao, and other colleagues for a full day
-of methodological training and research dialogue.&lt;/p&gt;
-&lt;h2 id=&#34;session-highlights&#34;&gt;Session highlights&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;08:30-10:00 - Frontier methods overview.&lt;/strong&gt; Raymond Duch outlined how LLMs can act
+of methodological training and research dialogue.&lt;/p>
+&lt;h2 id="session-highlights">Session highlights&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>08:30-10:00 - Frontier methods overview.&lt;/strong> Raymond Duch outlined how LLMs can act
 as experimental subjects, pollsters, and market analysts, followed by Lijia Wei&amp;rsquo;s evidence on
-the Matching-LLM framework for forecasting public opinion.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;10:20-11:50 - Research methods training.&lt;/strong&gt; Lian Xue discussed belief updating with
+the Matching-LLM framework for forecasting public opinion.&lt;/li>
+&lt;li>&lt;strong>10:20-11:50 - Research methods training.&lt;/strong> Lian Xue discussed belief updating with
 medical AI explanations, and Peiran Jiao linked employee voice data from Glassdoor to
-firm valuation models.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;11:50-12:35 - My presentation.&lt;/strong&gt; I presented &lt;em&gt;Predictive Power, Bias, and Trust:
-Evaluating LLM-Driven Screening in FinTech Lending&lt;/em&gt;, showing how model governance and
-human oversight mitigate screening bias.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;14:00-16:00 - Roundtable discussion.&lt;/strong&gt; Speakers stayed on for a closed-door session to
-trade implementation lessons on building trustworthy AI workflows for social-science data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These conversations fed directly into my ongoing AIECON collaborations on data-centric AI,
-regulation, and human-centered evaluation of large language models.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Practical Workshop for Graduate Students</title>
-      <link>https://leoyang.org/talk/practical-workshop-for-graduate-students/</link>
-      <pubDate>Fri, 15 Dec 2023 13:00:00 +0000</pubDate>
-      <guid>https://leoyang.org/talk/practical-workshop-for-graduate-students/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
+firm valuation models.&lt;/li>
+&lt;li>&lt;strong>11:50-12:35 - My presentation.&lt;/strong> I presented &lt;em>Predictive Power, Bias, and Trust:
+Evaluating LLM-Driven Screening in FinTech Lending&lt;/em>, showing how model governance and
+human oversight mitigate screening bias.&lt;/li>
+&lt;li>&lt;strong>14:00-16:00 - Roundtable discussion.&lt;/strong> Speakers stayed on for a closed-door session to
+trade implementation lessons on building trustworthy AI workflows for social-science data.&lt;/li>
+&lt;/ul>
+&lt;p>These conversations fed directly into my ongoing AIECON collaborations on data-centric AI,
+regulation, and human-centered evaluation of large language models.&lt;/p></description></item><item><title>Practical Workshop for Graduate Students</title><link>https://leoyang.org/talk/practical-workshop-for-graduate-students/</link><pubDate>Fri, 15 Dec 2023 13:00:00 +0000</pubDate><guid>https://leoyang.org/talk/practical-workshop-for-graduate-students/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
 Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.  --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Computational Social Science Workshop</title>
-      <link>https://leoyang.org/talk/computational-social-science-workshop/</link>
-      <pubDate>Thu, 29 Jun 2023 09:00:00 +0000</pubDate>
-      <guid>https://leoyang.org/talk/computational-social-science-workshop/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Computational Social Science Workshop</title><link>https://leoyang.org/talk/computational-social-science-workshop/</link><pubDate>Thu, 29 Jun 2023 09:00:00 +0000</pubDate><guid>https://leoyang.org/talk/computational-social-science-workshop/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
 Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.  --&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item></channel></rss>

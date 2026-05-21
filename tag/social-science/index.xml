@@ -1,75 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>social science | Leo Y. Yang</title>
-    <link>https://leoyang.org/tag/social-science/</link>
-      <atom:link href="https://leoyang.org/tag/social-science/index.xml" rel="self" type="application/rss+xml" />
-    <description>social science</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Thu, 09 Apr 2026 14:00:00 +0800</lastBuildDate>
-    <image>
-      <url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url>
-      <title>social science</title>
-      <link>https://leoyang.org/tag/social-science/</link>
-    </image>
-    
-    <item>
-      <title>AI and Social Science Interdisciplinary Seminar</title>
-      <link>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</link>
-      <pubDate>Thu, 09 Apr 2026 14:00:00 +0800</pubDate>
-      <guid>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</guid>
-      <description>&lt;p&gt;Invited by &lt;strong&gt;Xi Weng&lt;/strong&gt; at the &lt;strong&gt;Guanghua School of Management, Peking University&lt;/strong&gt;, I presented
-at the &amp;ldquo;AI and Social Science&amp;rdquo; interdisciplinary seminar series.&lt;/p&gt;
-&lt;h2 id=&#34;talk-scaling-reproducibility&#34;&gt;Talk: Scaling Reproducibility&lt;/h2&gt;
-&lt;p&gt;Computational reproducibility is central to scientific credibility, yet verifying published
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>social science | Leo Y. Yang</title><link>https://leoyang.org/tag/social-science/</link><atom:link href="https://leoyang.org/tag/social-science/index.xml" rel="self" type="application/rss+xml"/><description>social science</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Thu, 09 Apr 2026 14:00:00 +0800</lastBuildDate><image><url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url><title>social science</title><link>https://leoyang.org/tag/social-science/</link></image><item><title>AI and Social Science Interdisciplinary Seminar</title><link>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</link><pubDate>Thu, 09 Apr 2026 14:00:00 +0800</pubDate><guid>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</guid><description>&lt;p>Invited by &lt;strong>Xi Weng&lt;/strong> at the &lt;strong>Guanghua School of Management, Peking University&lt;/strong>, I presented
+at the &amp;ldquo;AI and Social Science&amp;rdquo; interdisciplinary seminar series.&lt;/p>
+&lt;h2 id="talk-scaling-reproducibility">Talk: Scaling Reproducibility&lt;/h2>
+&lt;p>Computational reproducibility is central to scientific credibility, yet verifying published
 results at scale remains costly. I introduced an AI-assisted workflow for automated full-paper
 replication — retrieving materials, reconstructing environments, executing code, and matching
-outputs to point estimates reported in regression tables.&lt;/p&gt;
-&lt;p&gt;Key findings from the study:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Universe definition.&lt;/strong&gt; We define a universe of all empirical and quantitative papers from
+outputs to point estimates reported in regression tables.&lt;/p>
+&lt;p>Key findings from the study:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Universe definition.&lt;/strong> We define a universe of all empirical and quantitative papers from
 the three top political science journals (2010–2025) and measure stated data availability
-using automated extraction.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Replication at scale.&lt;/strong&gt; For a stratified sample of 384 studies, we apply the workflow to
-conduct full-paper replication, totaling 3,382 empirical models.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Impact of mandates.&lt;/strong&gt; Journal verification requirements, combined with data archiving
+using automated extraction.&lt;/li>
+&lt;li>&lt;strong>Replication at scale.&lt;/strong> For a stratified sample of 384 studies, we apply the workflow to
+conduct full-paper replication, totaling 3,382 empirical models.&lt;/li>
+&lt;li>&lt;strong>Impact of mandates.&lt;/strong> Journal verification requirements, combined with data archiving
 mandates, drive reproducibility: the full-paper reproducibility rate rises from 29.6% before
 DA-RT adoption to 79.8% after, and conditional on accessible replication packages, 94.4%
-of papers are fully reproducible (237/251).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;IV diagnostics.&lt;/strong&gt; As a secondary application, we apply standardized IV diagnostics to 92
+of papers are fully reproducible (237/251).&lt;/li>
+&lt;li>&lt;strong>IV diagnostics.&lt;/strong> As a secondary application, we apply standardized IV diagnostics to 92
 studies (215 specifications), illustrating how automated execution enables systematic
-reanalysis across heterogeneous empirical settings.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AI &#43; Social Science Workshop</title>
-      <link>https://leoyang.org/talk/ai--social-science-workshop/</link>
-      <pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate>
-      <guid>https://leoyang.org/talk/ai--social-science-workshop/</guid>
-      <description>&lt;p&gt;I joined the &lt;strong&gt;tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong&gt;
+reanalysis across heterogeneous empirical settings.&lt;/li>
+&lt;/ul></description></item><item><title>AI + Social Science Workshop</title><link>https://leoyang.org/talk/ai-social-science-workshop/</link><pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate><guid>https://leoyang.org/talk/ai-social-science-workshop/</guid><description>&lt;p>I joined the &lt;strong>tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong>
 to exchange ideas on how generative AI reshapes empirical research in the social sciences.
 Hosted by the School of Economics and Management at Wuhan University, the workshop
 convened Raymond Duch, Lijia Wei, Lian Xue, Peiran Jiao, and other colleagues for a full day
-of methodological training and research dialogue.&lt;/p&gt;
-&lt;h2 id=&#34;session-highlights&#34;&gt;Session highlights&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;08:30-10:00 - Frontier methods overview.&lt;/strong&gt; Raymond Duch outlined how LLMs can act
+of methodological training and research dialogue.&lt;/p>
+&lt;h2 id="session-highlights">Session highlights&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>08:30-10:00 - Frontier methods overview.&lt;/strong> Raymond Duch outlined how LLMs can act
 as experimental subjects, pollsters, and market analysts, followed by Lijia Wei&amp;rsquo;s evidence on
-the Matching-LLM framework for forecasting public opinion.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;10:20-11:50 - Research methods training.&lt;/strong&gt; Lian Xue discussed belief updating with
+the Matching-LLM framework for forecasting public opinion.&lt;/li>
+&lt;li>&lt;strong>10:20-11:50 - Research methods training.&lt;/strong> Lian Xue discussed belief updating with
 medical AI explanations, and Peiran Jiao linked employee voice data from Glassdoor to
-firm valuation models.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;11:50-12:35 - My presentation.&lt;/strong&gt; I presented &lt;em&gt;Predictive Power, Bias, and Trust:
-Evaluating LLM-Driven Screening in FinTech Lending&lt;/em&gt;, showing how model governance and
-human oversight mitigate screening bias.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;14:00-16:00 - Roundtable discussion.&lt;/strong&gt; Speakers stayed on for a closed-door session to
-trade implementation lessons on building trustworthy AI workflows for social-science data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These conversations fed directly into my ongoing AIECON collaborations on data-centric AI,
-regulation, and human-centered evaluation of large language models.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+firm valuation models.&lt;/li>
+&lt;li>&lt;strong>11:50-12:35 - My presentation.&lt;/strong> I presented &lt;em>Predictive Power, Bias, and Trust:
+Evaluating LLM-Driven Screening in FinTech Lending&lt;/em>, showing how model governance and
+human oversight mitigate screening bias.&lt;/li>
+&lt;li>&lt;strong>14:00-16:00 - Roundtable discussion.&lt;/strong> Speakers stayed on for a closed-door session to
+trade implementation lessons on building trustworthy AI workflows for social-science data.&lt;/li>
+&lt;/ul>
+&lt;p>These conversations fed directly into my ongoing AIECON collaborations on data-centric AI,
+regulation, and human-centered evaluation of large language models.&lt;/p></description></item></channel></rss>
