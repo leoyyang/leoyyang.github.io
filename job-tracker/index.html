@@ -462,7 +462,6 @@
             '58': { name: 'Platform A', color: '#FF6B6B' },
             'zl': { name: 'Platform B', color: '#4ECDC4' },
             'qcwy': { name: 'Platform C', color: '#45B7D1' },
-            'boss': { name: 'Platform D', color: '#96CEB4' },
             'liepin': { name: 'Platform E', color: '#DDA0DD' }
         };
 
@@ -504,6 +503,7 @@
             // Create datasets for each platform
             Object.entries(dataToProcess).forEach(([platform, data]) => {
                 const config = platformConfig[platform];
+                if (!config) return; // skip platforms not shown (e.g. BOSS Zhipin)
                 const dataPoints = sortedDates.map(date => ({
                     x: date,
                     y: data[date] || null
@@ -627,6 +627,7 @@
             
             Object.entries(dataToProcess).forEach(([platform, data]) => {
                 const config = platformConfig[platform];
+                if (!config) return; // skip platforms not shown (e.g. BOSS Zhipin)
                 const dates = Object.keys(data).sort();
                 const latestValue = data[dates[dates.length - 1]];
                 
