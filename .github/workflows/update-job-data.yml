@@ -5,6 +5,11 @@ on:
     # 00:30 Asia/Shanghai = 16:30 UTC (previous day)
     - cron: "30 16 * * *"
   workflow_dispatch:
+    inputs:
+      search_days:
+        description: "How many days back to scan the mailbox (use a large value for a one-off backfill)"
+        required: false
+        default: "3"
 
 permissions:
   contents: write
@@ -28,7 +33,7 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           EMAIL_SUBJECT_FILTER: "\u722c\u866b\u76d1\u63a7"
-          EMAIL_SEARCH_DAYS: "3"
+          EMAIL_SEARCH_DAYS: ${{ github.event.inputs.search_days || '3' }}
         run: |
           python .github/scripts/update_job_data_from_gmail.py
 

@@ -157,44 +157,91 @@ def apply_updates(
     return changed, updated_dates
 
 
-def find_recent_messages(mail: imaplib.IMAP4_SSL, max_count: int = 3) -> List[email.message.Message]:
-    """Return up to *max_count* matching messages, newest first."""
-    since = (datetime.now(timezone.utc) - timedelta(days=EMAIL_SEARCH_DAYS)).strftime("%d-%b-%Y")
-    status, data = mail.search(None, "SINCE", since)
-    if status != "OK":
-        raise RuntimeError("IMAP search failed")
-    message_ids = data[0].split()
-    if not message_ids:
-        return []
+def folders_to_search(mail: imaplib.IMAP4_SSL) -> List[str]:
+    """Determine which mailboxes to search.
 
-    candidates = []
-    for message_id in message_ids:
-        status, header_data = mail.fetch(
-            message_id, "(BODY.PEEK[HEADER.FIELDS (SUBJECT DATE)])"
-        )
-        if status != "OK" or not header_data:
+    The monitoring emails do not reliably stay in INBOX: some are auto-archived
+    (only in "All Mail") and some get flagged as spam (only in Spam). Detect the
+    Gmail special folders by their IMAP special-use flags (\\All, \\Junk) so this
+    works regardless of the account's display language, and always include INBOX.
+    """
+    folders: List[str] = []
+    special: Dict[str, str] = {}
+    status, boxes = mail.list()
+    if status == "OK" and boxes:
+        for raw in boxes:
+            line = raw.decode(errors="replace") if isinstance(raw, bytes) else str(raw)
+            match = re.search(r'"([^"]*)"\s*$', line)
+            name = match.group(1) if match else line.split()[-1]
+            if "\\All" in line:
+                special["all"] = name
+            elif "\\Junk" in line:
+                special["junk"] = name
+    for key in ("all", "junk"):
+        if special.get(key):
+            folders.append(special[key])
+    folders.append(EMAIL_FOLDER)  # INBOX (or configured default) as a fallback
+    seen: set = set()
+    return [f for f in folders if not (f in seen or seen.add(f))]
+
+
+def find_recent_messages(mail: imaplib.IMAP4_SSL, max_count: Optional[int] = None) -> List[email.message.Message]:
+    """Return matching messages received within the search window.
+
+    Searches every relevant folder, de-duplicates by Message-ID (a message can
+    carry both the INBOX and All Mail labels), and returns messages sorted newest
+    first. If *max_count* is given, only that many newest messages are returned.
+    """
+    since = (datetime.now(timezone.utc) - timedelta(days=EMAIL_SEARCH_DAYS)).strftime("%d-%b-%Y")
+
+    candidates = []  # (received_at, folder, message_id)
+    seen_msgids: set = set()
+    for folder in folders_to_search(mail):
+        status, _ = mail.select(f'"{folder}"', readonly=True)
+        if status != "OK":
             continue
-        header_bytes = None
-        for item in header_data:
-            if isinstance(item, tuple):
-                header_bytes = item[1]
-                break
-        if not header_bytes:
+        status, data = mail.search(None, "SINCE", since)
+        if status != "OK" or not data or not data[0]:
             continue
-        header_msg = email.message_from_bytes(header_bytes)
-        subject = decode_mime_header(header_msg.get("Subject"))
-        if EMAIL_SUBJECT_FILTER and EMAIL_SUBJECT_FILTER not in subject:
-            continue
-        received_at = parse_message_date(header_msg.get("Date"))
-        candidates.append((received_at, message_id))
+        for message_id in data[0].split():
+            status, header_data = mail.fetch(
+                message_id, "(BODY.PEEK[HEADER.FIELDS (SUBJECT DATE MESSAGE-ID)])"
+            )
+            if status != "OK" or not header_data:
+                continue
+            header_bytes = None
+            for item in header_data:
+                if isinstance(item, tuple):
+                    header_bytes = item[1]
+                    break
+            if not header_bytes:
+                continue
+            header_msg = email.message_from_bytes(header_bytes)
+            subject = decode_mime_header(header_msg.get("Subject"))
+            if EMAIL_SUBJECT_FILTER and EMAIL_SUBJECT_FILTER not in subject:
+                continue
+            msgid = (header_msg.get("Message-ID") or "").strip()
+            dedup_key = msgid or f"{folder}:{message_id.decode() if isinstance(message_id, bytes) else message_id}"
+            if dedup_key in seen_msgids:
+                continue
+            seen_msgids.add(dedup_key)
+            received_at = parse_message_date(header_msg.get("Date"))
+            candidates.append((received_at, folder, message_id))
 
     if not candidates:
         return []
 
-    # Sort newest first, take up to max_count
+    # Newest first
     candidates.sort(key=lambda item: item[0], reverse=True)
+    if max_count is not None:
+        candidates = candidates[:max_count]
+
     messages = []
-    for _, msg_id in candidates[:max_count]:
+    for _, folder, msg_id in candidates:
+        # Re-select the folder this id belongs to before fetching the body.
+        status, _ = mail.select(f'"{folder}"', readonly=True)
+        if status != "OK":
+            continue
         status, msg_data = mail.fetch(msg_id, "(RFC822)")
         if status != "OK" or not msg_data:
             continue
@@ -227,12 +274,14 @@ def main() -> int:
 
     mail = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
     mail.login(EMAIL_USER, EMAIL_PASSWORD)
-    mail.select(EMAIL_FOLDER, readonly=True)
 
     try:
-        messages = find_recent_messages(mail, max_count=3)
+        messages = find_recent_messages(mail, max_count=None)
     finally:
-        mail.close()
+        try:
+            mail.close()
+        except Exception:
+            pass
         mail.logout()
 
     if not messages:
