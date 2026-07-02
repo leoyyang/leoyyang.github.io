@@ -105,7 +105,7 @@ def extract_json(text):
 def list_folders(mail):
     print("=== FOLDERS ===")
     status, boxes = mail.list()
-    all_mail = None
+    special = {"all": None, "junk": None, "trash": None}
     names = []
     if status == "OK":
         for raw in boxes:
@@ -116,8 +116,12 @@ def list_folders(mail):
             name = m.group(1) if m else line.split()[-1]
             names.append(name)
             if "\\All" in line:
-                all_mail = name
-    return names, all_mail
+                special["all"] = name
+            if "\\Junk" in line:
+                special["junk"] = name
+            if "\\Trash" in line:
+                special["trash"] = name
+    return names, special
 
 
 def scan_folder(mail, folder):
@@ -164,13 +168,14 @@ def main():
     mail = imaplib.IMAP4_SSL(IMAP_HOST, IMAP_PORT)
     mail.login(USER, PASSWORD)
 
-    names, all_mail = list_folders(mail)
-    print(f"\nAll Mail folder detected: {all_mail!r}\n")
+    names, special = list_folders(mail)
+    print(f"\nSpecial folders detected: {special}\n")
 
-    # Prefer All Mail (covers inbox + archived + labeled); fall back to INBOX.
+    # All Mail covers inbox + archived + labeled; also check Junk and Trash.
     targets = []
-    if all_mail:
-        targets.append(all_mail)
+    for key in ("all", "junk", "trash"):
+        if special.get(key):
+            targets.append(special[key])
     targets.append("INBOX")
     # de-dup preserving order
     seen = set()
