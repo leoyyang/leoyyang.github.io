@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent &amp; Upcoming Talks | Leo Y. Yang</title><link>https://leoyang.org/event/</link><atom:link href="https://leoyang.org/event/index.xml" rel="self" type="application/rss+xml"/><description>Recent &amp; Upcoming Talks</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Thu, 09 Apr 2026 14:00:00 +0800</lastBuildDate><image><url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url><title>Recent &amp; Upcoming Talks</title><link>https://leoyang.org/event/</link></image><item><title>AI and Social Science Interdisciplinary Seminar</title><link>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</link><pubDate>Thu, 09 Apr 2026 14:00:00 +0800</pubDate><guid>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</guid><description>&lt;p>Invited by &lt;strong>Xi Weng&lt;/strong> at the &lt;strong>Guanghua School of Management, Peking University&lt;/strong>, I presented
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent &amp; Upcoming Talks | Leo Y. Yang</title><link>https://leoyang.org/event/</link><atom:link href="https://leoyang.org/event/index.xml" rel="self" type="application/rss+xml"/><description>Recent &amp; Upcoming Talks</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Thu, 09 Apr 2026 14:00:00 +0800</lastBuildDate><image><url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url><title>Recent &amp; Upcoming Talks</title><link>https://leoyang.org/event/</link></image><item><title>AI and Social Science Interdisciplinary Seminar</title><link>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</link><pubDate>Thu, 09 Apr 2026 14:00:00 +0800</pubDate><guid>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</guid><description>&lt;p>Invited by &lt;strong>Xi Weng&lt;/strong> at the &lt;strong>Guanghua School of Management, Peking University&lt;/strong>, I presented
 at the &amp;ldquo;AI and Social Science&amp;rdquo; interdisciplinary seminar series.&lt;/p>
 &lt;h2 id="talk-scaling-reproducibility">Talk: Scaling Reproducibility&lt;/h2>
 &lt;p>Computational reproducibility is central to scientific credibility, yet verifying published
@@ -19,7 +19,7 @@ of papers are fully reproducible (237/251).&lt;/li>
 &lt;li>&lt;strong>IV diagnostics.&lt;/strong> As a secondary application, we apply standardized IV diagnostics to 92
 studies (215 specifications), illustrating how automated execution enables systematic
 reanalysis across heterogeneous empirical settings.&lt;/li>
-&lt;/ul></description></item><item><title>AI + Social Science Workshop</title><link>https://leoyang.org/talk/ai-social-science-workshop/</link><pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate><guid>https://leoyang.org/talk/ai-social-science-workshop/</guid><description>&lt;p>I joined the &lt;strong>tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong>
+&lt;/ul></description></item><item><title>AI + Social Science Workshop</title><link>https://leoyang.org/talk/ai--social-science-workshop/</link><pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate><guid>https://leoyang.org/talk/ai--social-science-workshop/</guid><description>&lt;p>I joined the &lt;strong>tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong>
 to exchange ideas on how generative AI reshapes empirical research in the social sciences.
 Hosted by the School of Economics and Management at Wuhan University, the workshop
 convened Raymond Duch, Lijia Wei, Lian Xue, Peiran Jiao, and other colleagues for a full day
@@ -55,7 +55,8 @@ interpret credibility and allegiances, so we discussed how to pair machine flags
 review to keep deliberation open while curbing abuse.&lt;/li>
 &lt;/ul>
 &lt;p>We closed with a Q&amp;amp;A on fielding API-rate constraints, validating location cues, and extending
-the design to other high-frequency social platforms.&lt;/p></description></item><item><title>Chinese Historical Databases Meeting</title><link>https://leoyang.org/talk/chinese-historical-databases-meeting/</link><pubDate>Thu, 11 Jan 2024 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/chinese-historical-databases-meeting/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+the design to other high-frequency social platforms.&lt;/p></description></item><item><title>Chinese Historical Databases Meeting</title><link>https://leoyang.org/talk/chinese-historical-databases-meeting/</link><pubDate>Thu, 11 Jan 2024 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/chinese-historical-databases-meeting/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -64,7 +65,8 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Practical Workshop for Graduate Students</title><link>https://leoyang.org/talk/practical-workshop-for-graduate-students/</link><pubDate>Fri, 15 Dec 2023 13:00:00 +0000</pubDate><guid>https://leoyang.org/talk/practical-workshop-for-graduate-students/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Practical Workshop for Graduate Students</title><link>https://leoyang.org/talk/practical-workshop-for-graduate-students/</link><pubDate>Fri, 15 Dec 2023 13:00:00 +0000</pubDate><guid>https://leoyang.org/talk/practical-workshop-for-graduate-students/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -73,7 +75,8 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Computational Social Science Workshop</title><link>https://leoyang.org/talk/computational-social-science-workshop/</link><pubDate>Thu, 29 Jun 2023 09:00:00 +0000</pubDate><guid>https://leoyang.org/talk/computational-social-science-workshop/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Computational Social Science Workshop</title><link>https://leoyang.org/talk/computational-social-science-workshop/</link><pubDate>Thu, 29 Jun 2023 09:00:00 +0000</pubDate><guid>https://leoyang.org/talk/computational-social-science-workshop/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -82,7 +85,8 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Asian Perspective Seminar Series</title><link>https://leoyang.org/talk/asian-perspective-seminar-series/</link><pubDate>Fri, 24 Feb 2023 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/asian-perspective-seminar-series/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Asian Perspective Seminar Series</title><link>https://leoyang.org/talk/asian-perspective-seminar-series/</link><pubDate>Fri, 24 Feb 2023 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/asian-perspective-seminar-series/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -91,7 +95,8 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>SDSI Data Science Lab</title><link>https://leoyang.org/talk/sdsi-data-science-lab/</link><pubDate>Sun, 16 Feb 2020 13:00:00 +0000</pubDate><guid>https://leoyang.org/talk/sdsi-data-science-lab/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>SDSI Data Science Lab</title><link>https://leoyang.org/talk/sdsi-data-science-lab/</link><pubDate>Sun, 16 Feb 2020 13:00:00 +0000</pubDate><guid>https://leoyang.org/talk/sdsi-data-science-lab/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -100,7 +105,8 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Asian Meeting of the Econometric Society</title><link>https://leoyang.org/talk/asian-meeting-of-the-econometric-society/</link><pubDate>Sat, 01 Jun 2019 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/asian-meeting-of-the-econometric-society/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Asian Meeting of the Econometric Society</title><link>https://leoyang.org/talk/asian-meeting-of-the-econometric-society/</link><pubDate>Sat, 01 Jun 2019 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/asian-meeting-of-the-econometric-society/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>

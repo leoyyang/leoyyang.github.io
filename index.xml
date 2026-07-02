@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leo Y. Yang</title><link>https://leoyang.org/</link><atom:link href="https://leoyang.org/index.xml" rel="self" type="application/rss+xml"/><description>Leo Y. Yang</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url><title>Leo Y. Yang</title><link>https://leoyang.org/</link></image><item><title>Interpretable Discriminative Text Representations via Agreement and Label Disentanglement</title><link>https://leoyang.org/publication/interpretable_text/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/interpretable_text/</guid><description/></item><item><title>Outside the Magistrate's Shadow: Media Beyond Local Authority and Cadre Promotion in China</title><link>https://leoyang.org/publication/mining_disaster/</link><pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/mining_disaster/</guid><description/></item><item><title>AI and Social Science Interdisciplinary Seminar</title><link>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</link><pubDate>Thu, 09 Apr 2026 14:00:00 +0800</pubDate><guid>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</guid><description>&lt;p>Invited by &lt;strong>Xi Weng&lt;/strong> at the &lt;strong>Guanghua School of Management, Peking University&lt;/strong>, I presented
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leo Y. Yang</title><link>https://leoyang.org/</link><atom:link href="https://leoyang.org/index.xml" rel="self" type="application/rss+xml"/><description>Leo Y. Yang</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://leoyang.org/media/icon_hu05798da5833095988f190093553a38f3_1610_512x512_fill_lanczos_center_3.png</url><title>Leo Y. Yang</title><link>https://leoyang.org/</link></image><item><title>Interpretable Discriminative Text Representations via Agreement and Label Disentanglement</title><link>https://leoyang.org/publication/interpretable_text/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/interpretable_text/</guid><description/></item><item><title>Outside the Magistrate's Shadow: Media Beyond Local Authority and Cadre Promotion in China</title><link>https://leoyang.org/publication/mining_disaster/</link><pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/mining_disaster/</guid><description/></item><item><title>AI and Social Science Interdisciplinary Seminar</title><link>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</link><pubDate>Thu, 09 Apr 2026 14:00:00 +0800</pubDate><guid>https://leoyang.org/talk/ai-and-social-science-interdisciplinary-seminar/</guid><description>&lt;p>Invited by &lt;strong>Xi Weng&lt;/strong> at the &lt;strong>Guanghua School of Management, Peking University&lt;/strong>, I presented
 at the &amp;ldquo;AI and Social Science&amp;rdquo; interdisciplinary seminar series.&lt;/p>
 &lt;h2 id="talk-scaling-reproducibility">Talk: Scaling Reproducibility&lt;/h2>
 &lt;p>Computational reproducibility is central to scientific credibility, yet verifying published
@@ -19,7 +19,8 @@ of papers are fully reproducible (237/251).&lt;/li>
 &lt;li>&lt;strong>IV diagnostics.&lt;/strong> As a secondary application, we apply standardized IV diagnostics to 92
 studies (215 specifications), illustrating how automated execution enables systematic
 reanalysis across heterogeneous empirical settings.&lt;/li>
-&lt;/ul></description></item><item><title>Scaling Reproducibility: An AI-Assisted Workflow for Large-Scale Reanalysis</title><link>https://leoyang.org/publication/ai_reproducibility/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/ai_reproducibility/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;/ul></description></item><item><title>Scaling Reproducibility: An AI-Assisted Workflow for Large-Scale Reanalysis</title><link>https://leoyang.org/publication/ai_reproducibility/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/ai_reproducibility/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -29,7 +30,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>AI + Social Science Workshop</title><link>https://leoyang.org/talk/ai-social-science-workshop/</link><pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate><guid>https://leoyang.org/talk/ai-social-science-workshop/</guid><description>&lt;p>I joined the &lt;strong>tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong>
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>AI + Social Science Workshop</title><link>https://leoyang.org/talk/ai--social-science-workshop/</link><pubDate>Tue, 04 Nov 2025 08:30:00 +0800</pubDate><guid>https://leoyang.org/talk/ai--social-science-workshop/</guid><description>&lt;p>I joined the &lt;strong>tenth Luojia EMS Frontier Methods Bootcamp &amp;amp; AI + Social Science Workshop&lt;/strong>
 to exchange ideas on how generative AI reshapes empirical research in the social sciences.
 Hosted by the School of Economics and Management at Wuhan University, the workshop
 convened Raymond Duch, Lijia Wei, Lian Xue, Peiran Jiao, and other colleagues for a full day
@@ -65,7 +66,8 @@ interpret credibility and allegiances, so we discussed how to pair machine flags
 review to keep deliberation open while curbing abuse.&lt;/li>
 &lt;/ul>
 &lt;p>We closed with a Q&amp;amp;A on fielding API-rate constraints, validating location cues, and extending
-the design to other high-frequency social platforms.&lt;/p></description></item><item><title>User Location Disclosure Fails to Deter Overseas Criticism but Amplifies Regional Divisions on Chinese Social Media</title><link>https://leoyang.org/publication/building_wall/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/building_wall/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+the design to other high-frequency social platforms.&lt;/p></description></item><item><title>User Location Disclosure Fails to Deter Overseas Criticism but Amplifies Regional Divisions on Chinese Social Media</title><link>https://leoyang.org/publication/building_wall/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/building_wall/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -75,7 +77,8 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Biting the Hand That Teaches: Unraveling the Economic Impact of Banning Private Tutoring in China</title><link>https://leoyang.org/publication/biting_hand/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/biting_hand/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Biting the Hand That Teaches: Unraveling the Economic Impact of Banning Private Tutoring in China</title><link>https://leoyang.org/publication/biting_hand/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/biting_hand/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -85,7 +88,8 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Robot Adoption and Corporate Pollution Emissions: Evidence from China</title><link>https://leoyang.org/publication/robot_emission/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/robot_emission/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Robot Adoption and Corporate Pollution Emissions: Evidence from China</title><link>https://leoyang.org/publication/robot_emission/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/robot_emission/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -95,7 +99,8 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Bias and Trust in LLM-Driven Screening Automation: Experimental Insights from FinTech Lending</title><link>https://leoyang.org/publication/ai_loan/</link><pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/ai_loan/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Bias and Trust in LLM-Driven Screening Automation: Experimental Insights from FinTech Lending</title><link>https://leoyang.org/publication/ai_loan/</link><pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/ai_loan/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -105,7 +110,8 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Chinese Historical Databases Meeting</title><link>https://leoyang.org/talk/chinese-historical-databases-meeting/</link><pubDate>Thu, 11 Jan 2024 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/chinese-historical-databases-meeting/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Chinese Historical Databases Meeting</title><link>https://leoyang.org/talk/chinese-historical-databases-meeting/</link><pubDate>Thu, 11 Jan 2024 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/chinese-historical-databases-meeting/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -114,7 +120,8 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Practical Workshop for Graduate Students</title><link>https://leoyang.org/talk/practical-workshop-for-graduate-students/</link><pubDate>Fri, 15 Dec 2023 13:00:00 +0000</pubDate><guid>https://leoyang.org/talk/practical-workshop-for-graduate-students/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Practical Workshop for Graduate Students</title><link>https://leoyang.org/talk/practical-workshop-for-graduate-students/</link><pubDate>Fri, 15 Dec 2023 13:00:00 +0000</pubDate><guid>https://leoyang.org/talk/practical-workshop-for-graduate-students/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -123,7 +130,8 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>From Visibility to Shadows: The Impact of Police Discretion on Prostitution in Response to Legal Changes</title><link>https://leoyang.org/publication/prostitution/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/prostitution/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>From Visibility to Shadows: The Impact of Police Discretion on Prostitution in Response to Legal Changes</title><link>https://leoyang.org/publication/prostitution/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/prostitution/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -133,7 +141,8 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Computational Social Science Workshop</title><link>https://leoyang.org/talk/computational-social-science-workshop/</link><pubDate>Thu, 29 Jun 2023 09:00:00 +0000</pubDate><guid>https://leoyang.org/talk/computational-social-science-workshop/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Computational Social Science Workshop</title><link>https://leoyang.org/talk/computational-social-science-workshop/</link><pubDate>Thu, 29 Jun 2023 09:00:00 +0000</pubDate><guid>https://leoyang.org/talk/computational-social-science-workshop/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -181,7 +190,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>So we adopted an indirect matching method, using real recruitment data on the market as a medium, each piece of recruitment data, through the method in the previous article, simultaneously maps to the Chinese standard profession and the O*net standard profession, and then summarizes according to the Chinese standard profession, thus obtaining the work tasks and specific work content under each Chinese standard profession. After summarizing and abstracting and merging, we matched and produced a total of 1639 occupations, 19265 functions and 23534 work content.&lt;/p>
 &lt;h2 id="who-will-judge-the-ai-substitution-unexpectedly-the-data-annotator">Who will judge the AI substitution? Unexpectedly, the &amp;ldquo;data annotator&amp;rdquo;&lt;/h2>
 &lt;p>After obtaining the above data, that is, clarifying the specific work tasks and content of each occupation, according to the method of OpenAI, the next step is to label each work task and specific work content to specifically judge whether it will be replaced by AI. At this point, the data to be labeled is about tens of thousands, so how to complete this work?&lt;/p>
-&lt;p>In the past, we needed to hire a large number of human data annotators to label the 19,265 work tasks and 23,534 types of work content, let the annotators judge the possibility of each task being replaced by AI, whether it is 30% or 70%, and then merge these annotators' work together to average, to get the possibility of each occupation being replaced by AI.&lt;/p>
+&lt;p>In the past, we needed to hire a large number of human data annotators to label the 19,265 work tasks and 23,534 types of work content, let the annotators judge the possibility of each task being replaced by AI, whether it is 30% or 70%, and then merge these annotators&amp;rsquo; work together to average, to get the possibility of each occupation being replaced by AI.&lt;/p>
 &lt;p>Data annotators are actually a very novel occupation. They first appeared in the 2022 edition of the &amp;ldquo;China Occupation Canon&amp;rdquo;. The occupation code is 4-04-05-05-01. Under the category of &amp;ldquo;Artificial Intelligence Trainers&amp;rdquo;, the main work content includes &amp;ldquo;Labeling and processing the original data of pictures, text, voice, etc.&amp;rdquo;. Judging whether the specific tasks and work content of each occupation will be replaced by AI is naturally also a kind of work of data annotators.&lt;/p>
 &lt;p>Yes, it should have been done this way, and it has been done this way for so many years. But now we have a large language model, we have GPT, and things start to change.&lt;/p>
 &lt;p>In the working paper of OpenAI, the author indeed hired humans to label these work contents, but they also invited another more efficient assistant, that is GPT itself. After using a complex prompt to make GPT understand the background of the labeling task, let GPT take action by itself and judge how much possibility each work content will be replaced by itself.&lt;/p>
@@ -381,7 +390,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>Another type is called &amp;ldquo;computer programmer,&amp;rdquo; coded as 4-04-05-01 in the Chinese standard occupation, meaning &amp;ldquo;personnel who engage in computer and mobile terminal application program design and coding&amp;rdquo;. This type of job does not rank high in salary according to recruitment data, generally falling after the twentieth place.&lt;/p>
 &lt;p>Apart from computer science, business, and medicine, of the remaining four jobs that made the list three times, besides flight attendants, who are traditionally perceived as high paying, marriage consultants? Writers? They seem rather puzzling.&lt;/p>
 &lt;p>Job recruitment for marriage consultants is indeed scarce, and people might not be familiar with it. But the job with the most mapping to &amp;ldquo;writer&amp;rdquo; is not unfamiliar to people. It&amp;rsquo;s — new media content creators. &amp;ldquo;Writers,&amp;rdquo; mainly refer to new media content creation in text, and the &amp;ldquo;playwright&amp;rdquo; ranked 5th in 2022 belongs to short video script content creation. The past four years have been the highest earning years for content creators. From text to short video, one after another, salaries naturally rise with the tide.&lt;/p>
-&lt;p>Some readers might wonder, although a WeChat public account editor is also a content creator, how can it be considered a writer? To clear up this issue, let&amp;rsquo;s refer back to the previous article and revisit our basis for classifying jobs — not by what the job is called, but by what the job requires employees to do (which is precisely the scientific nature of standard occupational classification). Thus, the top priority of new media content creators' recruitment requirements is to create high-quality, creative, and potentially viral articles that attract massive readership. And the standard occupational classification closest to this requirement is precisely &amp;ldquo;writer.&amp;rdquo;&lt;/p>
+&lt;p>Some readers might wonder, although a WeChat public account editor is also a content creator, how can it be considered a writer? To clear up this issue, let&amp;rsquo;s refer back to the previous article and revisit our basis for classifying jobs — not by what the job is called, but by what the job requires employees to do (which is precisely the scientific nature of standard occupational classification). Thus, the top priority of new media content creators&amp;rsquo; recruitment requirements is to create high-quality, creative, and potentially viral articles that attract massive readership. And the standard occupational classification closest to this requirement is precisely &amp;ldquo;writer.&amp;rdquo;&lt;/p>
 &lt;h2 id="gift-of-the-times-occupations-with-the-fastest-wage-growth-over-the-years">Gift of the Times: Occupations with the Fastest Wage Growth Over the Years&lt;/h2>
 &lt;p>Salary level is only a static number. Many people, especially fresh graduates or prospective college students who haven&amp;rsquo;t made their career choices yet, are genuinely concerned about how salaries change over time.&lt;/p>
 &lt;p>So, which occupations have seen the fastest average wage growth from 2015 to 2022?&lt;/p>
@@ -418,7 +427,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>The positions with the slowest wage growth are more concentrated in high-paying jobs. High-paying jobs such as models, futures traders, and accounting professionals that appeared earlier all show up here. In recent years, the salaries of models and futures traders have declined, while the wages of accounting professionals have remained almost unchanged for many years, with only a significant increase in 2022.&lt;/p>
-&lt;p>In the accommodation and catering industry, although the wages of front desk attendants and restaurant servers have significantly increased, the wages of &amp;ldquo;Chinese cooks,&amp;rdquo; i.e., Chinese chefs, have remained almost unchanged. Tour guides' wages have not risen in these years, especially since the outbreak of the pandemic in 2020, their wages have hardly grown. In addition, the wage growth of cost engineers, legal consultants, information system operation and maintenance engineers, and audio-visual technicians has also been slow.&lt;/p>
+&lt;p>In the accommodation and catering industry, although the wages of front desk attendants and restaurant servers have significantly increased, the wages of &amp;ldquo;Chinese cooks,&amp;rdquo; i.e., Chinese chefs, have remained almost unchanged. Tour guides&amp;rsquo; wages have not risen in these years, especially since the outbreak of the pandemic in 2020, their wages have hardly grown. In addition, the wage growth of cost engineers, legal consultants, information system operation and maintenance engineers, and audio-visual technicians has also been slow.&lt;/p>
 &lt;h2 id="personal-accumulation-wage-growth-with-years-of-service">Personal Accumulation: Wage Growth with Years of Service&lt;/h2>
 &lt;p>Wage growth includes two dimensions over time.&lt;/p>
 &lt;p>The first time dimension involves different cohorts (people joining in different years) doing the same job, but due to changes in supply-demand relations and skill structures, they earn different wages in different years, representing market changes over time. This was discussed in the previous section.&lt;/p>
@@ -735,7 +744,8 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>What needs to be done next is to mine and smelt various valuable gold information from it.&lt;/p>
 &lt;h2 id="preview-of-the-next-part">Preview of the next part&lt;/h2>
 &lt;p>In this post, we figured out how to map the positions on job advertisements to more standard occupational classifications, so as to avoid data misjudgment caused by incorrect classifications. This just completes the construction of the &amp;ldquo;recruitment data mine&amp;rdquo;.&lt;/p>
-&lt;p>In the second post of the series, we will enter the main part of mining (data analysis) to see how the income of practitioners in various cities and occupational categories changes with time and experience in their careers Cumulative improvement and change. For readers who want to do it themselves, we will also simultaneously update the query module of all research-related data in this series (including the AI replacement rate that everyone cares about.） The calculation of the AI replacement rate for different occupations will be introduced in detail in the third post.&lt;/p></description></item><item><title>Asian Perspective Seminar Series</title><link>https://leoyang.org/talk/asian-perspective-seminar-series/</link><pubDate>Fri, 24 Feb 2023 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/asian-perspective-seminar-series/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;p>In the second post of the series, we will enter the main part of mining (data analysis) to see how the income of practitioners in various cities and occupational categories changes with time and experience in their careers Cumulative improvement and change. For readers who want to do it themselves, we will also simultaneously update the query module of all research-related data in this series (including the AI replacement rate that everyone cares about.） The calculation of the AI replacement rate for different occupations will be introduced in detail in the third post.&lt;/p></description></item><item><title>Asian Perspective Seminar Series</title><link>https://leoyang.org/talk/asian-perspective-seminar-series/</link><pubDate>Fri, 24 Feb 2023 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/asian-perspective-seminar-series/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -744,7 +754,8 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Gaslighting: Comment Moderation on Chinese Social Media</title><link>https://leoyang.org/publication/gaslighting/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/gaslighting/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Gaslighting: Comment Moderation on Chinese Social Media</title><link>https://leoyang.org/publication/gaslighting/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/gaslighting/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -754,7 +765,8 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Do Winners Spread More Words? Factional Competition and Local Media Reports on Negative News in Autocracy</title><link>https://leoyang.org/publication/media_factions/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/media_factions/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Do Winners Spread More Words? Factional Competition and Local Media Reports on Negative News in Autocracy</title><link>https://leoyang.org/publication/media_factions/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/media_factions/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -1032,7 +1044,8 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>Disclaimer: This article provides a shallow analysis of the direct impact of events in the Southeast on mainland Chinese companies based on publicly available data. The purpose is to provide a data-based perspective and does not constitute any policy recommendations.&lt;/p></description></item><item><title>From Hu to Xi: A Corpus-Based Approach to Understanding Policy Diffusion in China</title><link>https://leoyang.org/publication/policy_diffusion/</link><pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/policy_diffusion/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;p>Disclaimer: This article provides a shallow analysis of the direct impact of events in the Southeast on mainland Chinese companies based on publicly available data. The purpose is to provide a data-based perspective and does not constitute any policy recommendations.&lt;/p></description></item><item><title>From Hu to Xi: A Corpus-Based Approach to Understanding Policy Diffusion in China</title><link>https://leoyang.org/publication/policy_diffusion/</link><pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/policy_diffusion/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -1042,7 +1055,8 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>SDSI Data Science Lab</title><link>https://leoyang.org/talk/sdsi-data-science-lab/</link><pubDate>Sun, 16 Feb 2020 13:00:00 +0000</pubDate><guid>https://leoyang.org/talk/sdsi-data-science-lab/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>SDSI Data Science Lab</title><link>https://leoyang.org/talk/sdsi-data-science-lab/</link><pubDate>Sun, 16 Feb 2020 13:00:00 +0000</pubDate><guid>https://leoyang.org/talk/sdsi-data-science-lab/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -1051,7 +1065,8 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Asian Meeting of the Econometric Society</title><link>https://leoyang.org/talk/asian-meeting-of-the-econometric-society/</link><pubDate>Sat, 01 Jun 2019 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/asian-meeting-of-the-econometric-society/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Asian Meeting of the Econometric Society</title><link>https://leoyang.org/talk/asian-meeting-of-the-econometric-society/</link><pubDate>Sat, 01 Jun 2019 11:00:00 +0000</pubDate><guid>https://leoyang.org/talk/asian-meeting-of-the-econometric-society/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -1087,11 +1102,10 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
 &lt;h2 id="code-highlighting">Code Highlighting&lt;/h2>
 &lt;p>Inline code: &lt;code>variable&lt;/code>&lt;/p>
 &lt;p>Code block:&lt;/p>
-&lt;pre>&lt;code class="language-python">porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-print(&amp;quot;Eating...&amp;quot;)
-&lt;/code>&lt;/pre>
-&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">porridge&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="n">porridge&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Eating...&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
 &lt;h2 id="math">Math&lt;/h2>
 &lt;p>In-line math: $x + y = z$&lt;/p>
 &lt;p>Block math:&lt;/p>
@@ -1101,16 +1115,15 @@ $$&lt;/p>
 &lt;hr>
 &lt;h2 id="fragments">Fragments&lt;/h2>
 &lt;p>Make content appear incrementally&lt;/p>
-&lt;pre>&lt;code>{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code>&lt;/pre>
-&lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">{{% fragment %}} One {{% /fragment %}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% fragment %}} Three {{% /fragment %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
 &lt;span class="fragment " >
 One
 &lt;/span>
 &lt;span class="fragment " >
-**Two**
+&lt;strong>Two&lt;/strong>
 &lt;/span>
 &lt;span class="fragment " >
 Three
@@ -1124,12 +1137,11 @@ Three
 &lt;hr>
 &lt;h2 id="speaker-notes">Speaker Notes&lt;/h2>
 &lt;p>Add speaker notes to your presentation&lt;/p>
-&lt;pre>&lt;code class="language-markdown">{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code>&lt;/pre>
-&lt;p>Press the &lt;code>S&lt;/code> key to view the speaker notes!&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{% speaker_note %}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Only the speaker can read these notes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Press &lt;span class="sb">`S`&lt;/span> key to view
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% /speaker_note %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press the &lt;code>S&lt;/code> key to view the speaker notes!&lt;/p>
 &lt;aside class="notes">
 &lt;ul>
 &lt;li>Only the speaker can read these notes&lt;/li>
@@ -1158,24 +1170,23 @@ data-background-image="/media/boards.jpg"
 >
 &lt;h2 id="custom-slide">Custom Slide&lt;/h2>
 &lt;p>Customize the slide style and background&lt;/p>
-&lt;pre>&lt;code class="language-markdown">{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code>&lt;/pre>
-&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-image&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;/media/boards.jpg&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-color&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;#0000FF&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;my-style&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
 &lt;h2 id="custom-css-example">Custom CSS Example&lt;/h2>
 &lt;p>Let&amp;rsquo;s make headers navy colored.&lt;/p>
 &lt;p>Create &lt;code>assets/css/reveal_custom.css&lt;/code> with:&lt;/p>
-&lt;pre>&lt;code class="language-css">.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-color: navy;
-}
-&lt;/code>&lt;/pre>
-&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h1&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h2&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h3&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">navy&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
 &lt;h1 id="questions">Questions?&lt;/h1>
 &lt;p>&lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/discussions" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>The Consumption of China’s E-Commerce: Evidence from JD’s Festival Sales</title><link>https://leoyang.org/publication/consumption_of_china/</link><pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/consumption_of_china/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>The Consumption of China’s E-Commerce: Evidence from JD’s Festival Sales</title><link>https://leoyang.org/publication/consumption_of_china/</link><pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate><guid>https://leoyang.org/publication/consumption_of_china/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
