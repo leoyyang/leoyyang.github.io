@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent &amp; Upcoming Talks | Leo Y. Yang</title><link>https://leoyang.org/event/</link><atom:link href="https://leoyang.org/event/index.xml" rel="self" type="application/rss+xml"/><description>Recent &amp; Upcoming Talks</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0800</lastBuildDate><image><url>https://leoyang.org/media/icon_hu1afc443df676fe28c2fec97c6a27b0a3_20555_512x512_fill_lanczos_center_3.png</url><title>Recent &amp; Upcoming Talks</title><link>https://leoyang.org/event/</link></image><item><title>HKBU-SUSTech Joint Summer Workshop on Information Systems</title><link>https://leoyang.org/talk/hkbu-sustech-joint-summer-workshop-on-information-systems/</link><pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate><guid>https://leoyang.org/talk/hkbu-sustech-joint-summer-workshop-on-information-systems/</guid><description>&lt;p>Invited to the &lt;strong>HKBU-SUSTech Joint Summer Workshop on Information Systems 2026&lt;/strong> (theme:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent &amp; Upcoming Talks | Leo Y. Yang</title><link>https://leoyang.org/event/</link><atom:link href="https://leoyang.org/event/index.xml" rel="self" type="application/rss+xml"/><description>Recent &amp; Upcoming Talks</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2026 Leo Y. Yang</copyright><lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0800</lastBuildDate><image><url>https://leoyang.org/media/icon_hu1afc443df676fe28c2fec97c6a27b0a3_20555_512x512_fill_lanczos_center_3.png</url><title>Recent &amp; Upcoming Talks</title><link>https://leoyang.org/event/</link></image><item><title>Scaling Reproducibility (LLMSS 2026, accepted)</title><link>https://leoyang.org/talk/scaling-reproducibility-llmss-2026-accepted/</link><pubDate>Wed, 14 Oct 2026 00:00:00 +0800</pubDate><guid>https://leoyang.org/talk/scaling-reproducibility-llmss-2026-accepted/</guid><description>&lt;p>My paper &lt;em>&amp;ldquo;Scaling Reproducibility: An AI-Assisted Workflow for Large-Scale Replication and
+Reanalysis&amp;rdquo;&lt;/em> has been &lt;strong>accepted for presentation&lt;/strong> at the &lt;strong>First Annual Conference on AI
+(Artificial Intelligence), Large Language Models, and the Social Sciences (LLMSS 2026)&lt;/strong>, to be
+held &lt;strong>14–16 October 2026 at City University of Hong Kong&lt;/strong>. The paper appears in a thematic
+panel session, with a dedicated discussant and time for questions and discussion; the detailed
+panel programme and presentation slot will be circulated in September.&lt;/p>
+&lt;h2 id="talk-scaling-reproducibility">Talk: Scaling Reproducibility&lt;/h2>
+&lt;p>Computational reproducibility — the ability to regenerate a study&amp;rsquo;s published numbers from its
+own code and data — is central to scientific credibility, yet verifying results at scale remains
+costly. The paper introduces an AI-assisted (artificial-intelligence-assisted) workflow for
+automated full-paper replication: it retrieves replication materials, reconstructs the computing
+environment, executes the original code, and matches the outputs to the point estimates reported
+in published regression tables.&lt;/p>
+&lt;p>Key findings from the study:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Universe definition.&lt;/strong> We define a universe of all empirical and quantitative papers from
+the three top political science journals (2010–2025) and measure stated data availability using
+automated extraction.&lt;/li>
+&lt;li>&lt;strong>Replication at scale.&lt;/strong> For a stratified sample of 384 studies, we apply the workflow to
+conduct full-paper replication, totaling 3,382 empirical models.&lt;/li>
+&lt;li>&lt;strong>Impact of mandates.&lt;/strong> Journal verification requirements, combined with data-archiving
+mandates, drive reproducibility: the full-paper reproducibility rate rises from 29.6% before
+DA-RT (Data Access and Research Transparency, a 2014 replication-transparency standard adopted
+across political science journals) adoption to 79.8% after, and — conditional on accessible
+replication packages — 94.4% of papers are fully reproducible (237 of 251).&lt;/li>
+&lt;li>&lt;strong>Instrumental-variable diagnostics.&lt;/strong> As a secondary application, we apply standardized
+instrumental-variable (IV, a method for estimating causal effects using an external source of
+variation) diagnostics to 92 studies (215 specifications), illustrating how automated execution
+enables systematic reanalysis across heterogeneous empirical settings.&lt;/li>
+&lt;/ul>
+&lt;h2 id="about-the-conference">About the conference&lt;/h2>
+&lt;p>LLMSS 2026 is organised by City University of Hong Kong&amp;rsquo;s Computational Social Sciences Lab, the
+University of Oxford&amp;rsquo;s Nuffield College &lt;em>Talking to Machines&lt;/em> Initiative, and Peking University&amp;rsquo;s
+Analytics Lab for Global Risk Politics, with support from the European Political Science
+Association. Keynote speakers include &lt;strong>Issa Dahabreh&lt;/strong> (Harvard University), &lt;strong>Scott Hale&lt;/strong>
+(Oxford Internet Institute), &lt;strong>Meng Tianguang&lt;/strong> (Tsinghua University), and &lt;strong>Jonathan Zhu&lt;/strong> (City
+University of Hong Kong).&lt;/p>
+&lt;p>A day of pre-conference hands-on workshops (Tuesday, 13 October) covers topics such as
+AI (Artificial Intelligence) public-opinion polling, digital twins, the Silicon Jury, and
+prediction-powered inference. Accepted papers will be included in the open-access conference
+proceedings.&lt;/p></description></item><item><title>HKBU-SUSTech Joint Summer Workshop on Information Systems</title><link>https://leoyang.org/talk/hkbu-sustech-joint-summer-workshop-on-information-systems/</link><pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate><guid>https://leoyang.org/talk/hkbu-sustech-joint-summer-workshop-on-information-systems/</guid><description>&lt;p>Invited to the &lt;strong>HKBU-SUSTech Joint Summer Workshop on Information Systems 2026&lt;/strong> (theme:
 &lt;em>Future Forward: AI-Driven Business Research&lt;/em>), hosted at Hong Kong Baptist University, I will
 present our accepted paper, &lt;em>&amp;ldquo;Interpretable Discriminative Text Representations via Agreement
 and Label Disentanglement,&amp;rdquo;&lt;/em> — joint work with Tong Wang and Yiqing Xu.&lt;/p>
