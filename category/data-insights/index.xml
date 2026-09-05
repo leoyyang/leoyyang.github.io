@@ -324,7 +324,14 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="fig_7.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/online_job_2/fig_7_hu3401cb4de267d1e3a5fb5ccf58ebb487_190707_02cfe630ef7f3b450ca983856307d845.webp 400w,
+/post/online_job_2/fig_7_hu3401cb4de267d1e3a5fb5ccf58ebb487_190707_06f4d441edb80ddc57573a32703ff22f.webp 760w,
+/post/online_job_2/fig_7_hu3401cb4de267d1e3a5fb5ccf58ebb487_190707_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://leoyang.org/post/online_job_2/fig_7_hu3401cb4de267d1e3a5fb5ccf58ebb487_190707_02cfe630ef7f3b450ca983856307d845.webp"
+width="369"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>Of course, there might be some data in the table above that may seem difficult to understand. When you use the Data Group applet to query data, you may find that some positions show a dashed line for wage growth as years of service increase. This is because there is not enough data to calculate the wage growth over years of service for these positions, and we can only simulate it in some ways - including using the wage growth rate over the years of subcategories and major categories of occupations, using the local average wage growth rate over the years, etc.&lt;/p>

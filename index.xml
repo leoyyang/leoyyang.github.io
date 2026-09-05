@@ -538,7 +538,14 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="fig_7.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/online_job_2/fig_7_hu3401cb4de267d1e3a5fb5ccf58ebb487_190707_02cfe630ef7f3b450ca983856307d845.webp 400w,
+/post/online_job_2/fig_7_hu3401cb4de267d1e3a5fb5ccf58ebb487_190707_06f4d441edb80ddc57573a32703ff22f.webp 760w,
+/post/online_job_2/fig_7_hu3401cb4de267d1e3a5fb5ccf58ebb487_190707_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://leoyang.org/post/online_job_2/fig_7_hu3401cb4de267d1e3a5fb5ccf58ebb487_190707_02cfe630ef7f3b450ca983856307d845.webp"
+width="369"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>Of course, there might be some data in the table above that may seem difficult to understand. When you use the Data Group applet to query data, you may find that some positions show a dashed line for wage growth as years of service increase. This is because there is not enough data to calculate the wage growth over years of service for these positions, and we can only simulate it in some ways - including using the wage growth rate over the years of subcategories and major categories of occupations, using the local average wage growth rate over the years, etc.&lt;/p>
@@ -1257,4 +1264,4 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Labor Market</title><link>https://leoyang.org/project/labor_market/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://leoyang.org/project/labor_market/</guid><description/></item><item><title>Media Politics</title><link>https://leoyang.org/project/media/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://leoyang.org/project/media/</guid><description/></item><item><title/><link>https://leoyang.org/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://leoyang.org/admin/config.yml</guid><description/></item></channel></rss>
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Labor Market</title><link>https://leoyang.org/project/labor_market/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://leoyang.org/project/labor_market/</guid><description/></item><item><title>Media Politics</title><link>https://leoyang.org/project/media/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://leoyang.org/project/media/</guid><description/></item><item><title/><link>https://leoyang.org/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://leoyang.org/admin/config.yml</guid><description/></item><item><title>Chinese Job Market Tracker</title><link>https://leoyang.org/job-tracker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://leoyang.org/job-tracker/</guid><description/></item></channel></rss>
