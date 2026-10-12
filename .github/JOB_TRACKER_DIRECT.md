@@ -13,12 +13,13 @@ invalid counts, date gaps and conflicting historical values. Identical retries
 are safe. Each accepted aggregate has an immutable receipt under
 `job-tracker/data/ingestion/YYYY-MM-DD.json` with its SHA-256.
 
-An existing authorized management host produces and submits the aggregate.
+An existing authorized management host produces and submits the previous day's
+aggregate at 00:15 Beijing time, after the midnight boundary.
 The workflow is the only automated writer of website data, uses the existing
 `PAGES_TOKEN` for publication, and serializes updates. The old Gmail Secrets are
 no longer referenced by this workflow; no replacement credentials are required.
 
-The scheduled run at 15:17 Beijing time only checks that yesterday's data is
+The scheduled run at 03:17 Beijing time only checks that yesterday's data is
 present. Missing data fails visibly instead of reporting an empty successful run.
 External dispatch success alone does not prove publication: the producer checks
 the Action result, the live receipt hash, and all five live counts.
