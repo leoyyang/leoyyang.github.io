@@ -1,0 +1,25 @@
+{
+  "backfill_period": {
+    "from": "2026-08-04",
+    "through": "2026-10-11",
+    "complete_days": 69,
+    "timezone": "Asia/Shanghai"
+  },
+  "recalculated_on": "2026-10-12",
+  "source_type": "current_database_recalculation",
+  "source_label": "Recalculated from the current database; not archived email snapshots",
+  "method": "Exact document counts by recorded collection timestamp for each Asia/Shanghai calendar day, using the original daily-report rule. No additional distinct-vacancy deduplication is applied by the report.",
+  "observations_added": 345,
+  "coverage": "Five existing series; 69 complete days per series. The page displays four of those series.",
+  "verification": "All five series match the existing 2026-08-02 and 2026-08-03 observations. The 2026-08-03 values also match the last received daily-report email.",
+  "missing_observations_in_backfill": 0,
+  "zeros": "A zero is a successful exact count of records currently stored for that day, not a substituted missing value.",
+  "current_day": "2026-10-12 was unfinished at extraction and is excluded from this backfill.",
+  "limitations": [
+    "Counts are a reconstruction from records present at query time, not proof of complete market capture or unique vacancies.",
+    "The unfinished current day is excluded.",
+    "Changes, deletions, or corrections after the original report date can change historical counts; reconstructed values are not archived email snapshots."
+  ],
+  "previous_data_preserved": true,
+  "data_sha256_after_backfill": "9827b5cb7aad08712a4fa4e11dc8f215893cb11dbe648c54dd1ce2d2aa52cc36"
+}
