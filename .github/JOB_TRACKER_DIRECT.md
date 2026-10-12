@@ -18,8 +18,9 @@ The recruitment server produces and submits the previous day's aggregate at
 an already-current website makes these runs harmless no-ops. The former management
 host relay is disabled and is not needed at runtime.
 The workflow is the only automated writer of website data, uses the existing
-`PAGES_TOKEN` for publication, and serializes updates. The old Gmail Secrets are
-no longer referenced by this workflow. The server uses a dedicated fine-grained
+`PAGES_TOKEN` for publication, and serializes updates. The retired Gmail parser
+and its repository Secrets (`GMAIL_USER`, `GMAIL_APP_PASSWORD`) have been removed.
+The server uses a dedicated fine-grained
 token scoped to this repository's Actions read/write permission plus required
 Metadata read access, with no Contents write permission. Its expiry is 2027-10-12.
 GitHub scopes this permission to a repository, not to one specific workflow.
