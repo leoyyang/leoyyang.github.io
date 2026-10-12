@@ -1,60 +1,60 @@
 name: Update Job Data
+run-name: "Job tracker · ${{ inputs.report_date || 'freshness check' }}"
 
 on:
   schedule:
-    # 00:30 Asia/Shanghai = 16:30 UTC (previous day)
-    - cron: "30 16 * * *"
+    # Read-only freshness check at 15:17 Asia/Shanghai.
+    - cron: "17 7 * * *"
   workflow_dispatch:
     inputs:
-      search_days:
-        description: "How many days back to scan the mailbox (use a large value for a one-off backfill)"
-        required: false
-        default: "3"
+      report_date:
+        description: "Completed Asia/Shanghai date, YYYY-MM-DD"
+        required: true
+        type: string
+      aggregate:
+        description: "Validated daily aggregate JSON (schema v1)"
+        required: true
+        type: string
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: job-tracker-daily-data
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
     steps:
-      - name: Checkout repository
+      - name: Checkout publication branch
         uses: actions/checkout@v4
-
+        with:
+          ref: master
+          token: ${{ secrets.PAGES_TOKEN }}
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: Update job data
+      - name: Check data freshness
+        if: github.event_name == 'schedule'
+        run: python .github/scripts/update_job_data_direct.py --check-freshness
+      - name: Validate and import daily aggregate
+        if: github.event_name == 'workflow_dispatch'
         id: update
+        run: python .github/scripts/update_job_data_direct.py
+      - name: Commit and publish accepted data
+        if: github.event_name == 'workflow_dispatch'
         env:
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          EMAIL_SUBJECT_FILTER: "\u722c\u866b\u76d1\u63a7"
-          EMAIL_SEARCH_DAYS: ${{ github.event.inputs.search_days || '3' }}
+          REPORT_DATE: ${{ steps.update.outputs.update_date }}
         run: |
-          python .github/scripts/update_job_data_from_gmail.py
-
-      - name: Commit and push
-        env:
-          PAGES_BRANCH: master
-          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
-        run: |
-          if git diff --quiet -- job-tracker/data/job-data.json; then
-            echo "No changes to commit"
+          if git diff --quiet -- job-tracker/data/job-data.json && [ -z "$(git ls-files --others --exclude-standard job-tracker/data/ingestion)" ]; then
+            echo "Identical aggregate already published"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add job-tracker/data/job-data.json
-          msg="Update job data"
-          if [ -n "${{ steps.update.outputs.update_date }}" ]; then
-            msg="Update job data ${{ steps.update.outputs.update_date }}"
-          fi
-          git commit -m "$msg"
-          if [ -n "${PAGES_TOKEN}" ]; then
-            git remote set-url origin "https://x-access-token:${PAGES_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          fi
-          git push origin "HEAD:${PAGES_BRANCH}"
+          git add job-tracker/data/job-data.json job-tracker/data/ingestion
+          git commit -m "Update job data ${REPORT_DATE} from daily aggregate"
+          git push origin HEAD:master
