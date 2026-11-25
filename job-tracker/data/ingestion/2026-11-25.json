@@ -1,0 +1,20 @@
+{
+  "aggregate_sha256": "12ffc7fe2186c09b1bc1fb3e92f3fa1260ea94bcde308734f53102380c8ea970",
+  "aggregate": {
+    "complete": true,
+    "counts": {
+      "58": 101967,
+      "boss": 0,
+      "liepin": 712493,
+      "qcwy": 40439,
+      "zl": 162695
+    },
+    "generated_at": "2026-11-25T16:15:06.338223+00:00",
+    "method": "stored-records-by-crawl-time-v1",
+    "period_end": "2026-11-26T00:00:00+08:00",
+    "period_start": "2026-11-25T00:00:00+08:00",
+    "report_date": "2026-11-25",
+    "schema_version": 1,
+    "timezone": "Asia/Shanghai"
+  }
+}
